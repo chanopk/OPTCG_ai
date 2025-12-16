@@ -1,0 +1,2265 @@
+[
+  {
+    "productId": 666518,
+    "name": "Trafalgar Law",
+    "cleanName": "Trafalgar Law",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666518_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666518/one-piece-card-game-the-azure-seas-seven-trafalgar-law",
+    "modifiedOn": "2025-12-02T17:02:42.353",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-001"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate:Main] [Once Per Turn] Select 2 of your {Supernovas} or {Heart Pirates} type Characters. Swap the base power of the selected Characters with each other during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Red"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Heart Pirates;Supernovas;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Slash"
+      }
+    ]
+  },
+  {
+    "productId": 666519,
+    "name": "Trafalgar Law (Alternate Art)",
+    "cleanName": "Trafalgar Law Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666519_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666519/one-piece-card-game-the-azure-seas-seven-trafalgar-law-alternate-art",
+    "modifiedOn": "2025-12-02T17:14:37.093",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-001"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate:Main] [Once Per Turn] Select 2 of your {Supernovas} or {Heart Pirates} type Characters. Swap the base power of the selected Characters with each other during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Red"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Heart Pirates;Supernovas;The Seven Warlords of the Sea"
+      }
+    ]
+  },
+  {
+    "productId": 666520,
+    "name": "Monkey.D.Luffy",
+    "cleanName": "MonkeyDLuffy",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666520_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666520/one-piece-card-game-the-azure-seas-seven-monkeydluffy",
+    "modifiedOn": "2025-12-02T17:12:39.947",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-013"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Red"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "1"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "0"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Straw Hat Crew;Supernovas"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "1000"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 666521,
+    "name": "Monkey.D.Luffy (Alternate Art)",
+    "cleanName": "MonkeyDLuffy Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666521_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666521/one-piece-card-game-the-azure-seas-seven-monkeydluffy-alternate-art",
+    "modifiedOn": "2025-12-02T17:13:28.843",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-013"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Red"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "1"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "0"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Straw Hat Crew;Supernovas"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "1000"
+      }
+    ]
+  },
+  {
+    "productId": 666524,
+    "name": "Dracule Mihawk",
+    "cleanName": "Dracule Mihawk",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666524_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666524/one-piece-card-game-the-azure-seas-seven-dracule-mihawk",
+    "modifiedOn": "2025-12-02T17:33:01.953",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-020"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "If your opponent's Leader has the \"Slash\" attribute, this leader gains +1000 power.\r\n<br> [Activate:Main] [Once Per Turn] <strong>You may rest 1 of your cards:</strong> If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play character cards during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Slash"
+      }
+    ]
+  },
+  {
+    "productId": 666525,
+    "name": "Dracule Mihawk (Alternate Art)",
+    "cleanName": "Dracule Mihawk Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666525_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666525/one-piece-card-game-the-azure-seas-seven-dracule-mihawk-alternate-art",
+    "modifiedOn": "2025-12-02T17:34:04.053",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-020"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "If your opponent's Leader has the \"Slash\" attribute, this leader gains +1000 power.\r\n<br> [Activate:Main] [Once Per Turn] <strong>You may rest 1 of your cards:</strong> If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play character cards during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Slash"
+      }
+    ]
+  },
+  {
+    "productId": 666526,
+    "name": "Perona",
+    "cleanName": "Perona",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666526_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666526/one-piece-card-game-the-azure-seas-seven-perona",
+    "modifiedOn": "2025-12-02T17:37:03.803",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-033"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> Play up to 1 green Character card with a cost of 5 or less from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "6000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Thriller Bark Pirates;Muggy Kingdom"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "1000"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666527,
+    "name": "Perona (Alternate Art)",
+    "cleanName": "Perona Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666527_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666527/one-piece-card-game-the-azure-seas-seven-perona-alternate-art",
+    "modifiedOn": "2025-12-02T17:37:58.62",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-033"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> Play up to 1 green Character card with a cost of 5 or less from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "6000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Thriller Bark Pirates;Muggy Kingdom"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "1000"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666528,
+    "name": "Donquixhote Doflamingo",
+    "cleanName": "Donquixhote Doflamingo",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666528_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666528/one-piece-card-game-the-azure-seas-seven-donquixhote-doflamingo",
+    "modifiedOn": "2025-12-02T17:40:57.173",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-060"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Your Opponent's Attack] [Once Per Turn] <strong> DON!! -1:</strong> Select your Leader or 1 of your {Donquixote Pirates} type Characters. Change the attack target to the selected card."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Donquixote Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666529,
+    "name": "Donquixhote Doflamingo (Alternate Art)",
+    "cleanName": "Donquixhote Doflamingo Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666529_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666529/one-piece-card-game-the-azure-seas-seven-donquixhote-doflamingo-alternate-art",
+    "modifiedOn": "2025-12-02T17:41:54.083",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-060"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Your Opponent's Attack] [Once Per Turn] <strong> DON!! -1:</strong> Select your Leader or 1 of your {Donquixote Pirates} type Characters. Change the attack target to the selected card."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Donquixote Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666530,
+    "name": "Sugar",
+    "cleanName": "Sugar",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666530_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666530/one-piece-card-game-the-azure-seas-seven-sugar",
+    "modifiedOn": "2025-12-02T17:44:43.003",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-063"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>[On K.O.] If your opponent has 6 or more DON!! cards on their field, play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "1000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Donquixote Pirates"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "1000"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666532,
+    "name": "Megalo (Alternate Art)",
+    "cleanName": "Megalo Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666532_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666532/one-piece-card-game-the-azure-seas-seven-megalo-alternate-art",
+    "modifiedOn": "2025-12-02T17:59:18.05",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-018"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] <strong>You may rest this Character:</strong> K.O. up to 1 of your opponent's rested Characters with 8000 power or less."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "4000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Animal;Fish-Man Island"
+      },
+      {
+        "name": "Counterplus",
+        "displayName": "Counter+",
+        "value": "2000"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Wisdom"
+      }
+    ]
+  },
+  {
+    "productId": 666534,
+    "name": "Jinbe",
+    "cleanName": "Jinbe",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666534_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666534/one-piece-card-game-the-azure-seas-seven-jinbe",
+    "modifiedOn": "2025-12-02T18:43:39.153",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-015"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Blocker]\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> If your Leader has the {Fish-Man} or {Merfolk} type, play up to 1 green Character card with a cost of 6 or less from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "7"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "8000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Fish-Man;The Sun Pirates;Fish-Man Island"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 666535,
+    "name": "Eleclaw",
+    "cleanName": "Eleclaw",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666535_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666535/one-piece-card-game-the-azure-seas-seven-eleclaw",
+    "modifiedOn": "2025-12-02T18:48:33.73",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-019"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Main] <strong>You may rest 1 of your cards:</strong> If your Leader has the {Minks} type, give up to 1 of your opponent's Characters -3 cost during this turn. <br>[Counter] Up to 1 of your {Minks} type Leader or Character cards gains +3000 power during this battle."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Green"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Event"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "1"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Minks"
+      }
+    ]
+  },
+  {
+    "productId": 666537,
+    "name": "Issho (Alternate Art)",
+    "cleanName": "Issho Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666537_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666537/one-piece-card-game-the-azure-seas-seven-issho-alternate-art",
+    "modifiedOn": "2025-12-02T18:59:48.047",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-022"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] <strong>You may trash 2 cards from your hand:</strong> If your opponent has 6 or more cards in their hand, your opponent places 2 cards from their hand at the bottom of their deck in any order. \r\n<br>[DON!!×1] [When Attacking] <strong>You may trash 1 card from your hand:</strong> Give up to 1 of your opponent's Characters-2000 power during this turn."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "7000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Navy;Dressrosa"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Slash"
+      }
+    ]
+  },
+  {
+    "productId": 666539,
+    "name": "Kaido",
+    "cleanName": "Kaido",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666539_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666539/one-piece-card-game-the-azure-seas-seven-kaido",
+    "modifiedOn": "2025-12-02T19:05:06.407",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-030"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. \r\n<br>[On Play] <strong>DON!! -2:</strong> If your Leader has the {Animal Kingdom Pirates} type, this Character gains Rush during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 7 or less."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "7"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Animal Kingdom Pirates;The Four Emperors"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 666540,
+    "name": "King (Alternate Art)",
+    "cleanName": "King Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666540_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666540/one-piece-card-game-the-azure-seas-seven-king-alternate-art",
+    "modifiedOn": "2025-12-02T19:15:13.717",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-031"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. \r\n<br>[Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your, DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "6"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "7000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Animal Kingdom Pirates;Lunarian"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666572,
+    "name": "Gecko Moria - OP14-080",
+    "cleanName": "Gecko Moria OP14 080",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666572_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666572/one-piece-card-game-the-azure-seas-seven-gecko-moria-op14-080",
+    "modifiedOn": "2025-12-03T14:21:00.367",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-080"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your {Thriller Bark Pirates} type Characters:</strong> Your Leader and all of your Characters gain +1000 power during this turn.\r\n<br>[When Attacking] <strong>You may trash 3 cards from your hand:</strong> Add up to 1 card from the top of your deck to the top of your Life cards."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black;Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea;Thriller Bark Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666573,
+    "name": "Gecko Moria - OP14-080 (Alternate Art)",
+    "cleanName": "Gecko Moria OP14 080 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666573_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666573/one-piece-card-game-the-azure-seas-seven-gecko-moria-op14-080-alternate-art",
+    "modifiedOn": "2025-12-03T14:21:57.5",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-080"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your {Thriller Bark Pirates} type Characters:</strong> Your Leader and all of your Characters gain +1000 power during this turn.\r\n<br>[When Attacking] <strong>You may trash 3 cards from your hand:</strong> Add up to 1 card from the top of your deck to the top of your Life cards."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black;Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea;Thriller Bark Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666574,
+    "name": "Gecko Moria - OP14-104",
+    "cleanName": "Gecko Moria OP14 104",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666574_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666574/one-piece-card-game-the-azure-seas-seven-gecko-moria-op14-104",
+    "modifiedOn": "2025-12-03T14:26:51.37",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-104"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Select up to 1 {Thriller Bark Pirates} type Character with a cost of 4 or less from your trash and play it or add it to the top of your Life cards face-up.\r\n<br>[Trigger] Play up to 1 Character card with a cost of 4 or less from your trash."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "8"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea;Thriller Bark Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666575,
+    "name": "Gecko Moria - OP14-104 (Alternate Art)",
+    "cleanName": "Gecko Moria OP14 104 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666575_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666575/one-piece-card-game-the-azure-seas-seven-gecko-moria-op14-104-alternate-art",
+    "modifiedOn": "2025-12-03T14:28:13.843",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-104"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Select up to 1 {Thriller Bark Pirates} type Character with a cost of 4 or less from your trash and play it or add it to the top of your Life cards face-up.\r\n<br>[Trigger] Play up to 1 Character card with a cost of 4 or less from your trash."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "8"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "The Seven Warlords of the Sea;Thriller Bark Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666761,
+    "name": "Crocodile - OP14-079",
+    "cleanName": "Crocodile OP14 079",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666761_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666761/one-piece-card-game-the-azure-seas-seven-crocodile-op14-079",
+    "modifiedOn": "2025-12-03T20:44:11.663",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-079"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "All of your opponent's Characters cannot be removed from the field by your effects.\r\n<br>[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your Characters with a type including \"Baroque Works\":</strong> Give up to 1 of your opponent's Characters -10 cost during this turn. Then, you may trash 2 cards from the top of your deck."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Baroque Works;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666762,
+    "name": "Crocodile - OP14-079 (Alternate Art)",
+    "cleanName": "Crocodile OP14 079 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666762_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666762/one-piece-card-game-the-azure-seas-seven-crocodile-op14-079-alternate-art",
+    "modifiedOn": "2025-12-03T20:45:10.89",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-079"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "All of your opponent's Characters cannot be removed from the field by your effects.\r\n<br>[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your Characters with a type including \"Baroque Works\":</strong> Give up to 1 of your opponent's Characters -10 cost during this turn. Then, you may trash 2 cards from the top of your deck."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Baroque Works;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 666912,
+    "name": "Ms. All Sunday",
+    "cleanName": "Ms All Sunday",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666912_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666912/one-piece-card-game-the-azure-seas-seven-ms-all-sunday",
+    "modifiedOn": "2025-12-05T12:46:32.61",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-084"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] If your Leader's type includes \"Baroque Works\", play up to 1 Character card with a type including \"Baroque Works\" and a cost of 4 or less and up to 1 Character card with a type including \"Baroque Works\" and a cost of 1 from your trash."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "7"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "8000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Baroque Works"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 666913,
+    "name": "Ms. All Sunday (Alternate Art)",
+    "cleanName": "Ms All Sunday Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/666913_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/666913/one-piece-card-game-the-azure-seas-seven-ms-all-sunday-alternate-art",
+    "modifiedOn": "2025-12-05T12:47:45.31",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-084"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] If your Leader's type includes \"Baroque Works\", play up to 1 Character card with a type including \"Baroque Works\" and a cost of 4 or less and up to 1 Character card with a type including \"Baroque Works\" and a cost of 1 from your trash."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Black"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "7"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "8000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Baroque Works"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 668333,
+    "name": "Boa Hancock - OP14-041",
+    "cleanName": "Boa Hancock OP14 041",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668333_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668333/one-piece-card-game-the-azure-seas-seven-boa-hancock-op14-041",
+    "modifiedOn": "2025-12-08T16:25:59.363",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-041"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Opponent's Turn] When you play a Character, draw 1 card.\r\n<br>[DON!!x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d add up to 1 card from the top of your opponent's Life cards to the owner's hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue;Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Kuja Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 668335,
+    "name": "Boa Hancock - OP14-041 (Alternate Art)",
+    "cleanName": "Boa Hancock OP14 041 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668335_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668335/one-piece-card-game-the-azure-seas-seven-boa-hancock-op14-041-alternate-art",
+    "modifiedOn": "2025-12-08T16:25:23.14",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-041"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Opponent's Turn] When you play a Character, draw 1 card.\r\n<br>[DON!!x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d add up to 1 card from the top of your opponent's Life cards to the owner's hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue;Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "4"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Kuja Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 668342,
+    "name": "Boa Hancock - OP14-112",
+    "cleanName": "Boa Hancock OP14 112",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668342_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668342/one-piece-card-game-the-azure-seas-seven-boa-hancock-op14-112",
+    "modifiedOn": "2025-12-08T16:37:55.33",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-112"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.\r\n<br>[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "9"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Kuja Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 668343,
+    "name": "Boa Hancock - OP14-112 (Alternate Art)",
+    "cleanName": "Boa Hancock OP14 112 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668343_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668343/one-piece-card-game-the-azure-seas-seven-boa-hancock-op14-112-alternate-art",
+    "modifiedOn": "2025-12-08T16:40:21.023",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-112"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.\r\n<br>[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Yellow"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "9"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Kuja Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 668420,
+    "name": "Stealth Black",
+    "cleanName": "Stealth Black",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668420_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668420/one-piece-card-game-the-azure-seas-seven-stealth-black",
+    "modifiedOn": "2025-12-09T12:43:57.12",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "C"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-041"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Main] If your Leader is [Sanji] and you have 4 or more DON!! cards on your field, play up to 1 [Sanji] with 6000 power or less from your hand or trash.\r\n<br>[Trigger] Draw 2 cards and trash 1 card from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Purple"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Event"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "3"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Straw Hat Crew"
+      }
+    ]
+  },
+  {
+    "productId": 668528,
+    "name": "Boa Hancock - EB04-027",
+    "cleanName": "Boa Hancock EB04 027",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668528_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668528/one-piece-card-game-the-azure-seas-seven-boa-hancock-eb04-027",
+    "modifiedOn": "2025-12-10T18:02:11.437",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-027"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[On Play] Draw 2 cards and trash 1 card from your hand.\r\n<br>[Trigger] Play up to 1 Character card with 5000 power or less and a [Trigger] from your hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "7000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Kuja Pirates;The Seven Warlords of the Sea"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Special"
+      }
+    ]
+  },
+  {
+    "productId": 668529,
+    "name": "Chaka & Pell",
+    "cleanName": "Chaka and Pell",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668529_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668529/one-piece-card-game-the-azure-seas-seven-chaka-and-pell",
+    "modifiedOn": "2025-12-10T18:05:37.983",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "R"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "EB04-023"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Double Attack] <em>(This card deals 2 damage.)</em>\r\n<br>[On Play] <strong>You may give your active Leader -5000 power during this turn:</strong> Draw 2 cards."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "8"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "9000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Alabasta"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Slash"
+      }
+    ]
+  },
+  {
+    "productId": 668568,
+    "name": "Jinbe - OP14-040",
+    "cleanName": "Jinbe OP14 040",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668568_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668568/one-piece-card-game-the-azure-seas-seven-jinbe-op14-040",
+    "modifiedOn": "2025-12-11T12:46:58.173",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-040"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate: Main] <strong>You may trash 1 card from your hand:</strong> Give up to 2 rested DON!! cards to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Fish-Man;The Seven Warlords of the Sea;The Sun Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 668569,
+    "name": "Jinbe - OP14-040 (Alternate Art)",
+    "cleanName": "Jinbe OP14 040 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668569_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668569/one-piece-card-game-the-azure-seas-seven-jinbe-op14-040-alternate-art",
+    "modifiedOn": "2025-12-11T12:48:38.593",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "L"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-040"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "[Activate: Main] <strong>You may trash 1 card from your hand:</strong> Give up to 2 rested DON!! cards to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Leader"
+      },
+      {
+        "name": "Life",
+        "displayName": "Life",
+        "value": "5"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "5000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Fish-Man;The Seven Warlords of the Sea;The Sun Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 668570,
+    "name": "Jinbe - OP14-049",
+    "cleanName": "Jinbe OP14 049",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668570_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668570/one-piece-card-game-the-azure-seas-seven-jinbe-op14-049",
+    "modifiedOn": "2025-12-11T12:52:06.897",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-049"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn.\r\n<br>[On Play] <strong>You may rest 2 of your DON!! cards:</strong> Draw 2 cards and return up to 1 Character with a cost of 7 or less to the owner's hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "8"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Fish-Man;The Seven Warlords of the Sea;The Sun Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  },
+  {
+    "productId": 668571,
+    "name": "Jinbe - OP14-049 (Alternate Art)",
+    "cleanName": "Jinbe OP14 049 Alternate Art",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/668571_200w.jpg",
+    "categoryId": 68,
+    "groupId": 24537,
+    "url": "https://www.tcgplayer.com/product/668571/one-piece-card-game-the-azure-seas-seven-jinbe-op14-049-alternate-art",
+    "modifiedOn": "2025-12-11T12:53:02.037",
+    "imageCount": 0,
+    "presaleInfo": {
+      "isPresale": true,
+      "releasedOn": "2026-01-16T00:00:00",
+      "note": "This product is a Presale item with an estimated shipping date of 1/16/2026. Please keep in mind card details, including rarity and card name, may change up until release date as information is updated."
+    },
+    "extendedData": [
+      {
+        "name": "Rarity",
+        "displayName": "Rarity",
+        "value": "SR"
+      },
+      {
+        "name": "Number",
+        "displayName": "Number",
+        "value": "OP14-049"
+      },
+      {
+        "name": "Description",
+        "displayName": "Description",
+        "value": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn.\r\n<br>[On Play] <strong>You may rest 2 of your DON!! cards:</strong> Draw 2 cards and return up to 1 Character with a cost of 7 or less to the owner's hand."
+      },
+      {
+        "name": "Color",
+        "displayName": "Color",
+        "value": "Blue"
+      },
+      {
+        "name": "CardType",
+        "displayName": "Card Type",
+        "value": "Character"
+      },
+      {
+        "name": "Cost",
+        "displayName": "Cost",
+        "value": "8"
+      },
+      {
+        "name": "Power",
+        "displayName": "Power",
+        "value": "10000"
+      },
+      {
+        "name": "Subtypes",
+        "displayName": "Subtype(s)",
+        "value": "Fish-Man;The Seven Warlords of the Sea;The Sun Pirates"
+      },
+      {
+        "name": "Attribute",
+        "displayName": "Attribute",
+        "value": "Strike"
+      }
+    ]
+  }
+]

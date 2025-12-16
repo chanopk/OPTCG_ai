@@ -1,0 +1,411 @@
+{
+  "category_id": 68,
+  "groups": [
+    {
+      "groupId": 24545,
+      "name": "Extra Booster: One Piece Heroines Edition",
+      "loaded": false
+    },
+    {
+      "groupId": 24537,
+      "name": "The Azure Sea's Seven",
+      "loaded": true,
+      "card_count": 36
+    },
+    {
+      "groupId": 24498,
+      "name": "Carrying On His Will: 3rd Anniversary Tournament Cards",
+      "loaded": true,
+      "card_count": 79
+    },
+    {
+      "groupId": 24406,
+      "name": "Legacy of the Master Release Event Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 24306,
+      "name": "Learn Together Deck Set",
+      "loaded": true,
+      "card_count": 51
+    },
+    {
+      "groupId": 24305,
+      "name": "Premium Booster -The Best- Vol. 2",
+      "loaded": true,
+      "card_count": 376
+    },
+    {
+      "groupId": 24304,
+      "name": "Starter Deck 22: Ace & Newgate",
+      "loaded": true,
+      "card_count": 31
+    },
+    {
+      "groupId": 24303,
+      "name": "Carrying On His Will",
+      "loaded": true,
+      "card_count": 177
+    },
+    {
+      "groupId": 24302,
+      "name": "Legacy of the Master",
+      "loaded": true,
+      "card_count": 158
+    },
+    {
+      "groupId": 24287,
+      "name": "Starter Deck 28: GREEN/YELLOW Yamato",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24286,
+      "name": "Starter Deck 27: BLACK Marshall.D.Teach",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24285,
+      "name": "Starter Deck 26: PURPLE/BLACK Monkey.D.Luffy",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24284,
+      "name": "Starter Deck 25: BLUE Buggy",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24283,
+      "name": "Starter Deck 24: GREEN Jewelry Bonney",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24282,
+      "name": "Starter Deck 23: RED Shanks",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 24242,
+      "name": "A Fist of Divine Speed Release Event Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 24241,
+      "name": "A Fist of Divine Speed",
+      "loaded": true,
+      "card_count": 159
+    },
+    {
+      "groupId": 24068,
+      "name": "Royal Blood Release Event Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23991,
+      "name": "Starter Deck EX: Gear 5",
+      "loaded": true,
+      "card_count": 33
+    },
+    {
+      "groupId": 23907,
+      "name": "One Piece Demo Deck Cards",
+      "loaded": true,
+      "card_count": 23
+    },
+    {
+      "groupId": 23890,
+      "name": "Revision Pack Cards",
+      "loaded": true,
+      "card_count": 33
+    },
+    {
+      "groupId": 23834,
+      "name": "Extra Booster: Anime 25th Collection",
+      "loaded": true,
+      "card_count": 105
+    },
+    {
+      "groupId": 23766,
+      "name": "Royal Blood",
+      "loaded": true,
+      "card_count": 152
+    },
+    {
+      "groupId": 23737,
+      "name": "Two Legends Pre-Release Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23590,
+      "name": "Emperors in the New World: 2nd Anniversary Tournament Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23589,
+      "name": "Emperors in the New World",
+      "loaded": true,
+      "card_count": 162
+    },
+    {
+      "groupId": 23512,
+      "name": "500 Years in the Future Pre-Release Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23496,
+      "name": "Premium Booster -The Best-",
+      "loaded": true,
+      "card_count": 325
+    },
+    {
+      "groupId": 23495,
+      "name": "Starter Deck 20: YELLOW Charlotte Katakuri",
+      "loaded": true,
+      "card_count": 11
+    },
+    {
+      "groupId": 23494,
+      "name": "Starter Deck 19: BLACK Smoker",
+      "loaded": true,
+      "card_count": 14
+    },
+    {
+      "groupId": 23493,
+      "name": "Starter Deck 18: PURPLE Monkey.D.Luffy",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 23492,
+      "name": "Starter Deck 17: BLUE Donquixote Doflamingo",
+      "loaded": true,
+      "card_count": 10
+    },
+    {
+      "groupId": 23491,
+      "name": "Starter Deck 16: GREEN Uta",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 23490,
+      "name": "Starter Deck 15: RED Edward.Newgate",
+      "loaded": true,
+      "card_count": 13
+    },
+    {
+      "groupId": 23489,
+      "name": "Starter Deck 14: 3D2Y",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 23462,
+      "name": "Two Legends",
+      "loaded": true,
+      "card_count": 154
+    },
+    {
+      "groupId": 23424,
+      "name": "Wings of the Captain Pre-Release Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23387,
+      "name": "500 Years in the Future",
+      "loaded": true,
+      "card_count": 154
+    },
+    {
+      "groupId": 23368,
+      "name": "Awakening of the New Era: 1st Anniversary Tournament Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23349,
+      "name": "Ultra Deck: The Three Brothers",
+      "loaded": true,
+      "card_count": 35
+    },
+    {
+      "groupId": 23348,
+      "name": "Starter Deck 12: Zoro and Sanji",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 23333,
+      "name": "Extra Booster: Memorial Collection",
+      "loaded": true,
+      "card_count": 80
+    },
+    {
+      "groupId": 23304,
+      "name": "One Piece Collection Sets",
+      "loaded": false
+    },
+    {
+      "groupId": 23297,
+      "name": "Kingdoms of Intrigue Pre-Release Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 23272,
+      "name": "Wings of the Captain",
+      "loaded": true,
+      "card_count": 154
+    },
+    {
+      "groupId": 23250,
+      "name": "Starter Deck 11: Uta",
+      "loaded": true,
+      "card_count": 5
+    },
+    {
+      "groupId": 23243,
+      "name": "Ultra Deck: The Three Captains",
+      "loaded": true,
+      "card_count": 18
+    },
+    {
+      "groupId": 23232,
+      "name": "Pillars of Strength Pre-Release Cards",
+      "loaded": true,
+      "card_count": 77
+    },
+    {
+      "groupId": 23213,
+      "name": "Awakening of the New Era",
+      "loaded": true,
+      "card_count": 157
+    },
+    {
+      "groupId": 23024,
+      "name": "Kingdoms of Intrigue",
+      "loaded": true,
+      "card_count": 158
+    },
+    {
+      "groupId": 22957,
+      "name": "Starter Deck 9: Yamato",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 22956,
+      "name": "Starter Deck 8: Monkey.D.Luffy",
+      "loaded": true,
+      "card_count": 15
+    },
+    {
+      "groupId": 22934,
+      "name": "Paramount War Pre-Release Cards",
+      "loaded": true,
+      "card_count": 75
+    },
+    {
+      "groupId": 22930,
+      "name": "Starter Deck 7: Big Mom Pirates",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 22890,
+      "name": "Pillars of Strength",
+      "loaded": true,
+      "card_count": 155
+    },
+    {
+      "groupId": 17699,
+      "name": "Starter Deck 6: Absolute Justice",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 17698,
+      "name": "Paramount War",
+      "loaded": true,
+      "card_count": 156
+    },
+    {
+      "groupId": 17687,
+      "name": "Starter Deck 5: Film Edition",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 17675,
+      "name": "One Piece Promotion Cards",
+      "loaded": true,
+      "card_count": 1012
+    },
+    {
+      "groupId": 17661,
+      "name": "Super Pre-Release Starter Deck 4: Animal Kingdom Pirates",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 17660,
+      "name": "Super Pre-Release Starter Deck 3: The Seven Warlords of the Sea",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 17659,
+      "name": "Super Pre-Release Starter Deck 1: Straw Hat Crew",
+      "loaded": true,
+      "card_count": 18
+    },
+    {
+      "groupId": 17658,
+      "name": "Super Pre-Release Starter Deck 2: Worst Generation",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 3192,
+      "name": "Starter Deck 3: The Seven Warlords of The Sea",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 3191,
+      "name": "Starter Deck 2: Worst Generation",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 3190,
+      "name": "Starter Deck 4: Animal Kingdom Pirates",
+      "loaded": true,
+      "card_count": 17
+    },
+    {
+      "groupId": 3189,
+      "name": "Starter Deck 1: Straw Hat Crew",
+      "loaded": true,
+      "card_count": 18
+    },
+    {
+      "groupId": 3188,
+      "name": "Romance Dawn",
+      "loaded": true,
+      "card_count": 156
+    }
+  ]
+}
