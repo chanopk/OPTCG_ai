@@ -41,8 +41,6 @@
 
 2.  **Infrastructure & QA (Phase 2)**: *Foundation*
     *   Setup **LangSmith** (Tracing) และ **Guardrails**.
-    *   เตรียม Docker/Environment ให้พร้อม.
-    *   *เตรียมบ้านให้เรียบร้อย ก่อนเริ่มสร้างเกม.*
 
 2.  **Game Engine (Phase 3)**: *Core Logic*
     *   เริ่มเขียน Code เกม (Model/Loop).
