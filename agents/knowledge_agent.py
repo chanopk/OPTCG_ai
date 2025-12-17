@@ -56,9 +56,9 @@ class AgentState(TypedDict):
 
 # Define Agent Node
 def agent(state: AgentState):
-    # Use Gemini-1.5-pro or flash. Let's try gemini-1.5-flash for speed if desired, or pro for quality.
+    # Use Gemini-1.5-pro or flash. Let's try gemini-1.5-flash for speed if desired, or pro for quality. //
     # Defaulting to 1.5-pro as in spec.
-    llm = ChatGoogleGenerativeAI(model="gemini-flash-latest", temperature=0)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
     llm_with_tools = llm.bind_tools(tools)
     return {"messages": [llm_with_tools.invoke(state["messages"])]}
 

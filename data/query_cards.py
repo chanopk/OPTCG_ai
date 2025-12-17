@@ -13,6 +13,7 @@ def main():
     parser.add_argument("--power", type=str, help="Filter by Power (e.g., 6000)")
     parser.add_argument("--set", type=str, help="Filter by Group ID")
     parser.add_argument("--name", type=str, help="Filter by exact Name (e.g., Nami)")
+    parser.add_argument("--provider", type=str, help="Embedding Provider (google_genai or huggingface)")
 
     args = parser.parse_args()
 
@@ -26,7 +27,7 @@ def main():
     if args.name: filters["name"] = args.name
 
     try:
-        engine = OptcgSearchEngine()
+        engine = OptcgSearchEngine(provider=args.provider)
         results = engine.search(args.query, filters=filters, k=args.k)
 
         if not results:

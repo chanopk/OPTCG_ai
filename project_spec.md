@@ -94,13 +94,16 @@ graph TD
     *   เขียน Script Loop ดึง API `/products` ของทุก Group ID
     *   Filter เก็บเฉพาะ **Cards** (ตัด Sealed Product ออก)
     *   Save เป็น JSON ไฟล์ละ 1 Group (`cards_{group_id}.json`)
+    *   **Data Cleaning & Deduplication:**
+        *   กรองการ์ดที่ซ้ำกันออกโดยเช็คจาก Card Number (เช่น OP01-001) เก็บเฉพาะใบแรกที่พบเพื่อลดความซ้ำซ้อนใน DB
+        *   optimize เพิ่มเติม
 *   [x] **Hybrid Search System:**
     *   Setup ChromaDB (Vector Search)
     *   Implement Structured Search (Filter จาก JSON)
     *   รวมระบบค้นหา (Retrieve Logic)
 *   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ได้
     *   *Added:* **Rule Search Tool** (ค้นหากติกาจาก Official Rules)
-*   [ ] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
+*   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)
 *Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง*

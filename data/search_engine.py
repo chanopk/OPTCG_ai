@@ -1,32 +1,27 @@
 import os
 from dotenv import load_dotenv
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
-
-# Configuration
-CHROMA_DB_DIR = "data/chroma_db"
-COLLECTION_NAME = "optcg_cards_v1"
-EMBED_MODEL_NAME = "models/text-embedding-004"
+# Import our new provider
+from embedding_provider import get_embedding_settings
 
 class OptcgSearchEngine:
-    def __init__(self):
+    def __init__(self, provider=None):
         load_dotenv()
-        self.api_key = os.getenv("GOOGLE_API_KEY")
-        if not self.api_key:
-            raise ValueError("GOOGLE_API_KEY not found in .env")
-            
-        if not os.path.exists(CHROMA_DB_DIR):
-            raise FileNotFoundError(f"ChromaDB not found at {CHROMA_DB_DIR}")
-
-        self.embeddings = GoogleGenerativeAIEmbeddings(
-            model=EMBED_MODEL_NAME,
-            google_api_key=self.api_key
-        )
         
+        # Get settings dynamically
+        try:
+            self.embeddings, self.db_path, self.collection_name, self.provider_name = get_embedding_settings(provider)
+        except ValueError as e:
+            raise ValueError(f"Failed to initialize search engine: {e}")
+
+        if not os.path.exists(self.db_path):
+             # Just a warning, maybe we haven't indexed yet
+             print(f"Warning: Database path {self.db_path} does not exist yet.")
+
         self.vectorstore = Chroma(
-            persist_directory=CHROMA_DB_DIR,
+            persist_directory=self.db_path,
             embedding_function=self.embeddings,
-            collection_name=COLLECTION_NAME
+            collection_name=self.collection_name
         )
 
     def search(self, query_text: str, filters: dict = None, k: int = 5):
@@ -64,7 +59,7 @@ class OptcgSearchEngine:
         # If no where_clause, pass None
         filter_arg = where_clause if where_clause else None
         
-        print(f"DEBUG: Searching '{query_text}' with filter: {filter_arg}")
+        print(f"DEBUG: Searching '{query_text}' using model '{self.provider_name}' with filter: {filter_arg}")
         
         results = self.vectorstore.similarity_search(
             query=query_text,

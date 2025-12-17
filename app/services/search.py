@@ -1,29 +1,28 @@
 import os
 from langchain_chroma import Chroma
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from data.embedding_provider import get_embedding_settings
 
 class HybridSearchService:
-    def __init__(self, persist_directory="data/chroma_db", collection_name="optcg_cards_v1"):
-        # Configure Google API Key
-        self.google_api_key = os.getenv("GOOGLE_API_KEY")
-        
-        # Initialize Embedding Model (Google Gemini) - Must match ingestion script
-        self.embedding_function = GoogleGenerativeAIEmbeddings(
-            model="models/text-embedding-004",
-            google_api_key=self.google_api_key
-        )
+    def __init__(self, provider=None):
+        # Initialize Embeddings and DB Path dynamically
+        try:
+            self.embedding_function, self.db_path, self.collection_name, self.provider_name = get_embedding_settings(provider)
+        except ValueError as e:
+            print(f"Error initializing HybridSearchService: {e}")
+            raise e
         
         # Initialize Vector Store (Chroma) for Cards
         self.vector_store = Chroma(
-            persist_directory=persist_directory,
+            persist_directory=self.db_path,
             embedding_function=self.embedding_function,
-            collection_name=collection_name
+            collection_name=self.collection_name
         )
         
         # Initialize Vector Store for Rules
+        # Assuming rules share the same DB path but different collection
         try:
             self.rules_store = Chroma(
-                persist_directory=persist_directory,
+                persist_directory=self.db_path,
                 embedding_function=self.embedding_function,
                 collection_name="rules_v1"
             )
@@ -34,20 +33,8 @@ class HybridSearchService:
     def hybrid_search(self, query: str, k: int = 5, filters: dict = None) -> list:
         """
         Performs a similarity search combined with metadata filtering.
-        
-        Args:
-            query (str): The search query (e.g. "Red Character with 6000 Power")
-            k (int): Number of results to return
-            filters (dict): Metadata filters (e.g. {"color": "Red", "cost": "5"})
-                            ChromaDB supports operators too, but simple dict implies exact match.
-        
-        Returns:
-            list: List of dictionaries containing score, content, and metadata.
         """
         # Perform Search
-        # similarity_search_with_score returns (Document, score) tuples.
-        # Lower score is better (distance), but Chroma might normalize. 
-        # Actually Chroma default is L2 distance (lower is better).
         try:
             results = self.vector_store.similarity_search_with_score(
                 query,
@@ -74,7 +61,7 @@ class HybridSearchService:
         """
         High-level retrieval function for Agents. Returns a formatted string context.
         """
-        results = self.hybrid_search(query, k=5, filters=filters)
+        results = self.hybrid_search(query, k=25, filters=filters)
         
         if not results:
             return "No card data found."
