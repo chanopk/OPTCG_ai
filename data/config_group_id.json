@@ -4,7 +4,8 @@
     {
       "groupId": 24545,
       "name": "Extra Booster: One Piece Heroines Edition",
-      "loaded": false
+      "loaded": true,
+      "card_count": 0
     },
     {
       "groupId": 24537,
@@ -255,7 +256,8 @@
     {
       "groupId": 23304,
       "name": "One Piece Collection Sets",
-      "loaded": false
+      "loaded": true,
+      "card_count": 0
     },
     {
       "groupId": 23297,

@@ -87,8 +87,9 @@ def main():
         gid = group["groupId"]
         
         # SKIP if already loaded
+        # SKIP if already loaded
         if group.get("loaded", False):
-            # print(f"[{gid}] Skipping (Loaded)") # Silent skip to reduce spam
+            print(f"[{gid}] Skipping (Already Loaded)") 
             continue
             
         # Check download limits
