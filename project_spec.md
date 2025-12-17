@@ -103,6 +103,10 @@ graph TD
     *   รวมระบบค้นหา (Retrieve Logic)
 *   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ได้
     *   *Added:* **Rule Search Tool** (ค้นหากติกาจาก Official Rules)
+    *   **Flexible Embedding Provider (Refactored):**
+        *   รองรับการสลับ Model ระหว่าง `Google Gemini` (API) และ `HuggingFace` (Local) ผ่าน Config `.env`
+        *   แยก Vector DB Path ตาม Provider เพื่อป้องกันความขัดแย้งของข้อมูล (`data/chroma_db_gemini` vs `data/chroma_db_huggingface`)
+        *   Centralized Provider Logic ที่ `data/embedding_provider.py`
 *   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)
