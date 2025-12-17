@@ -24,6 +24,11 @@
     *   [x] พัฒนา Script (`fetch_group_id.py`, `fetch_cards.py`) สำหรับดึงข้อมูลจาก TCGPlayer API.
     *   [x] ระบบ Filter แยกเฉพาะ Card Product และบันทึกเป็น JSON แยกตาม Group ID (Series).
     *   [x] มีข้อมูล Raw Data พร้อมสำหรับการทำ Indexing ลง Vector DB.
+    *   [x] **Knowledge Base Automation**: สร้าง `check_for_updates.py` เพื่อจัดการ Pipeline (Fetch -> Install -> Index) อัตโนมัติ.
+    *   [x] **Hybrid Search System**:
+        *   Setup **ChromaDB** พร้อม **Gemini Embeddings**.
+        *   สร้าง **Search Engine** ที่รองรับทั้ง Semantic (ความหมาย) และ Structured Filter (สี, Cost, Type).
+        *   มี Tool `query_cards.py` สำหรับทดสอบระบบค้นหา.
 
 ---
 
@@ -31,16 +36,11 @@
 
 แผนการพัฒนาขั้นต่อไป (เรียงตามลำดับความสำคัญ):
 
-1.  **Hybrid Search System (Immediate Next Step)**:
-    *   [ ] Setup **ChromaDB** เพื่อทำ Vector Search.
-    *   [ ] เขียน Logic การทำ **Structured Search** (Filter ตามสี, Cost, Type).
-    *   [ ] รวมระบบค้นหาเพื่อให้ AI ดึงข้อมูลการ์ดได้แม่นยำ 100%.
-
-2.  **AI Agent Development**:
+1.  **AI Agent Development (Next Step)**:
     *   [ ] พัฒนา **LangGraph** Agent เบื้องต้นที่สามารถใช้ Search Tool ตอบคำถามได้.
     *   [ ] สร้าง FastAPI Endpoint (`/api/chat`) สำหรับเชื่อมต่อกับ Frontend หรือ Client อื่นๆ.
 
-3.  **Game Engine (Phase 2)**:
+2.  **Game Engine (Phase 2)**:
     *   [ ] ออกแบบ Class Design (Game, Player, Card) ในภาษา Python.
     *   [ ] เริ่มเขียน Game Loop พื้นฐาน (Draw, Don!! Phase, Main Phase).
 

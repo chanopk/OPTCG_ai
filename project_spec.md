@@ -89,12 +89,12 @@ graph TD
 
 ### Phase 1: Foundation & Knowledge Base (ระบบพื้นฐานและคลังความรู้)
 *Focus: ทำให้ AI "รู้จัก" การ์ด One Piece ด้วยระบบ Hybrid Search*
-*   [ ] **Project Setup:** สร้าง Git, Setup `uv` และ Folder Structure
-*   [ ] **Data Ingestion:**
+*   [x] **Project Setup:** สร้าง Git, Setup `uv` และ Folder Structure
+*   [x] **Data Ingestion:**
     *   เขียน Script Loop ดึง API `/products` ของทุก Group ID
     *   Filter เก็บเฉพาะ **Cards** (ตัด Sealed Product ออก)
     *   Save เป็น JSON ไฟล์ละ 1 Group (`cards_{group_id}.json`)
-*   [ ] **Hybrid Search System:**
+*   [x] **Hybrid Search System:**
     *   Setup ChromaDB (Vector Search)
     *   Implement Structured Search (Filter จาก JSON)
     *   รวมระบบค้นหา (Retrieve Logic)
