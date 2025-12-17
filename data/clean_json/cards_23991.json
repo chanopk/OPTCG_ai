@@ -1,0 +1,478 @@
+[
+  {
+    "id": "ST21-001",
+    "name": "Monkey.D.Luffy (001)",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters."
+  },
+  {
+    "id": "ST21-001",
+    "name": "Monkey.D.Luffy (001) (Parallel)",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters."
+  },
+  {
+    "id": "ST21-002",
+    "name": "Usopp",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power."
+  },
+  {
+    "id": "ST21-002",
+    "name": "Usopp (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power."
+  },
+  {
+    "id": "ST21-003",
+    "name": "Sanji",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker]."
+  },
+  {
+    "id": "ST21-003",
+    "name": "Sanji (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker]."
+  },
+  {
+    "id": "ST21-004",
+    "name": "Jewelry Bonney",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Bonney Pirates",
+      "Egghead"
+    ],
+    "effect": "[DON!! x2] [On K.O.] Draw 1 card."
+  },
+  {
+    "id": "ST21-004",
+    "name": "Jewelry Bonney (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Bonney Pirates",
+      "Egghead"
+    ],
+    "effect": "[DON!! x2] [On K.O.] Draw 1 card."
+  },
+  {
+    "id": "ST21-005",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST21-005",
+    "name": "Jinbe (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST21-006",
+    "name": "Stussy",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Egghead"
+    ]
+  },
+  {
+    "id": "ST21-006",
+    "name": "Stussy (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Egghead"
+    ]
+  },
+  {
+    "id": "ST21-007",
+    "name": "Sentomaru",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Navy",
+      "Egghead"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST21-007",
+    "name": "Sentomaru (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Navy",
+      "Egghead"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST21-008",
+    "name": "Tony Tony.Chopper",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST21-008",
+    "name": "Tony Tony.Chopper (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST21-009",
+    "name": "Nami",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards."
+  },
+  {
+    "id": "ST21-009",
+    "name": "Nami (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards."
+  },
+  {
+    "id": "ST21-010",
+    "name": "Nico Robin",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+  },
+  {
+    "id": "ST21-010",
+    "name": "Nico Robin (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+  },
+  {
+    "id": "ST21-011",
+    "name": "Franky",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power."
+  },
+  {
+    "id": "ST21-011",
+    "name": "Franky (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power."
+  },
+  {
+    "id": "ST21-012",
+    "name": "Brook",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-012",
+    "name": "Brook (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-013",
+    "name": "Vegapunk",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Scientist",
+      "Egghead"
+    ]
+  },
+  {
+    "id": "ST21-013",
+    "name": "Vegapunk (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Scientist",
+      "Egghead"
+    ]
+  },
+  {
+    "id": "ST21-014",
+    "name": "Monkey.D.Luffy (014)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Rush] <em>(This card can attack on the turn in which it is played.)</em><br>\r\n[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-014",
+    "name": "Monkey.D.Luffy (014) (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Rush] <em>(This card can attack on the turn in which it is played.)</em><br>\r\n[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-015",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush].<br>\r\n[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand."
+  },
+  {
+    "id": "ST21-015",
+    "name": "Roronoa Zoro (Parallel)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush].<br>\r\n[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand."
+  },
+  {
+    "id": "ST21-016",
+    "name": "Gum-Gum Dawn Whip",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.<br>\r\n[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+  },
+  {
+    "id": "ST21-017",
+    "name": "Gum-Gum Mole Pistol",
+    "type": "Event",
+    "color": "Red",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters 5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.<br>\r\n[Trigger] Activate this card's [Main] effect."
+  }
+]

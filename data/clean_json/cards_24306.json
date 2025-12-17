@@ -1,0 +1,754 @@
+[
+  {
+    "id": "OP12-020",
+    "name": "Roronoa Zoro (Zoro Deck)",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[DON!! x3] [Activate: Main] [Once Per Turn] If this Leader battles your opponent's Character during this turn, set this Leader as active. Then, this Leader cannot attack your opponent's Characters with a base cost of 7 or less during this turn."
+  },
+  {
+    "id": "OP12-028",
+    "name": "Kouzuki Hiyori (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest 1 of your DON!! cards and this Character:</strong> If your Leader is [Roronoa Zoro], look at 5 cards from the top of your deck; reveal up to 1 (Slash) attribute card or green Event and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP12-023",
+    "name": "Kawamatsu (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Fish-Man",
+      "Land of Wano",
+      "The Akazaya Nine"
+    ]
+  },
+  {
+    "id": "OP12-027",
+    "name": "Koushirou (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "East Blue",
+      "Frost Moon Village"
+    ],
+    "effect": "If your (Slash) attribute Character with a cost of 5 or less other than this Character would be K.O.'d by your opponent's effect, you may rest this Character instead.<br>\r\n[Blocker]"
+  },
+  {
+    "id": "OP12-029",
+    "name": "Shimotsuki Kouzaburou (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Land of Wano",
+      "East Blue",
+      "Frost Moon Village"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, K.O. up to 1 of your opponent's rested Characters with a base cost of 1 or less."
+  },
+  {
+    "id": "EB02-019",
+    "name": "Roronoa Zoro (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "East Blue"
+    ],
+    "effect": "If your opponent has 2 or more Characters, this Character can attack Characters on the turn in which it is played.<br>\r\n[On Play] If your Leader has the \"Straw Hat Crew\" type, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP06-036",
+    "name": "Ryuma (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Land of Wano",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] / [On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP12-036",
+    "name": "Roronoa Zoro (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "This card in your hand cannot be played by effects.<br>\r\nIf your Leader has the (Slash) attribute, this Character cannot be K.O.'d in battle by (Slash) attribute cards and gains +1000 power."
+  },
+  {
+    "id": "EB01-012",
+    "name": "Cavendish (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Beautiful Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play]/[When Attacking] If your Leader has the [Supernovas] type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active."
+  },
+  {
+    "id": "OP10-030",
+    "name": "Smoker (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Navy",
+      "Punk Hazard"
+    ],
+    "effect": "[Banish] <em>(When this card deals damage, the target card is trashed without activating its Trigger.)</em><br>\r\n[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn."
+  },
+  {
+    "id": "OP12-031",
+    "name": "Tashigi (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Navy",
+      "East Blue"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a base cost of 6 or less. Then, give up to 3 rested DON!! cards to your [Roronoa Zoro] Leader."
+  },
+  {
+    "id": "OP12-025",
+    "name": "Kin'emon (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Land of Wano",
+      "The Akazaya Nine"
+    ]
+  },
+  {
+    "id": "OP12-032",
+    "name": "Nekomamushi (Zoro Deck)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 2000,
+    "cost": 6,
+    "rarity": "UC",
+    "subtypes": [
+      "Land of Wano",
+      "Minks",
+      "The Akazaya Nine"
+    ]
+  },
+  {
+    "id": "OP06-038",
+    "name": "The Billion-fold World Trichiliocosm (Zoro Deck)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Dressrosa"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 8 or more rested cards, that card gains an additional +2000 power during this battle.\r\n<br>\r\n[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less."
+  },
+  {
+    "id": "OP12-039",
+    "name": "Luffy Is the Man Who Will Become the King of Pirates!!! (Zoro Deck)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Set your [Roronoa Zoro] Leader as active.<br>\r\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+  },
+  {
+    "id": "P-069",
+    "name": "Koala (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-001",
+    "name": "Monkey.D.Luffy (Luffy Deck)",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters."
+  },
+  {
+    "id": "OP01-016",
+    "name": "Nami (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Straw Hat Crew] type Character card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "ST21-003",
+    "name": "Sanji (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST21-010",
+    "name": "Nico Robin (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+  },
+  {
+    "id": "OP10-011",
+    "name": "Tony Tony.Chopper (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Punk Hazard"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[Opponent's Turn] This Character gains +2000 power."
+  },
+  {
+    "id": "ST21-008",
+    "name": "Tony Tony.Chopper (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST21-015",
+    "name": "Roronoa Zoro (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush].<br>\r\n[On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand."
+  },
+  {
+    "id": "OP09-005",
+    "name": "Silvers Rayleigh (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Roger Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand."
+  },
+  {
+    "id": "OP10-013",
+    "name": "Nami (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Punk Hazard"
+    ]
+  },
+  {
+    "id": "OP11-003",
+    "name": "Usopp (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "OP11-016",
+    "name": "Roronoa Zoro (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST21-014",
+    "name": "Monkey.D.Luffy (Luffy Deck)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Rush] <em>(This card can attack on the turn in which it is played.)</em><br>\r\n[When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "OP10-019",
+    "name": "Divine Departure (Luffy Deck)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] <strong>You may rest 5 of your DON!! cards:</strong> K.O. up to 1 of your opponent's Characters with 8000 power or less.<br>\r\n[Counter] Up to 1 of your Leader gains +3000 power during this battle."
+  },
+  {
+    "id": "OP06-018",
+    "name": "Gum-Gum King Kong Gatling (Luffy Deck)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if your opponent has a Character with 7000 power or more, up to 1 of your Leader or Character cards gains +1000 power during this turn.\r\n<br>[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less."
+  },
+  {
+    "id": "ST21-017",
+    "name": "Gum-Gum Mole Pistol (Luffy Deck)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters 5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "OP11-041",
+    "name": "Nami (Nami Deck)",
+    "type": "Leader",
+    "color": "Blue;Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card.<br>\r\n[DON!! x1] [On Your Opponent's Attack] [Once Per Turn] <strong>You may trash 1 card from your hand:</strong> This Leader gains +2000 power during this turn."
+  },
+  {
+    "id": "OP11-048",
+    "name": "Capone\"Gang\"Bege (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Firetank Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Firetank Pirates\" or \"Straw Hat Crew\" type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "P-056",
+    "name": "Roronoa Zoro (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] (2) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Return up to 1 Character with a cost of 5 or less to the owner's hand."
+  },
+  {
+    "id": "EB02-022",
+    "name": "Usopp (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "East Blue"
+    ],
+    "effect": "[On Play] If you have 2 or less Characters with 5000 power or more, play up to 1 Character card with 6000 power or less and no base effect from your hand."
+  },
+  {
+    "id": "OP11-056",
+    "name": "Brook (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] Place up to 1 Character with a base cost of 1 at the bottom of the owner's deck."
+  },
+  {
+    "id": "P-053",
+    "name": "Nami (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "PR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 3 or less cards in your hand, return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand."
+  },
+  {
+    "id": "OP11-054",
+    "name": "Nami",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] If your Leader is multicolored, draw 3 cards and place 2 cards from your hand at the top or bottom of your deck in any order.\r\n\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the card's border.</span>"
+  },
+  {
+    "id": "OP09-107",
+    "name": "Nico Robin (Nami Deck)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If your opponent has 3 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.<br>\r\n[Trigger] Play up to 1 yellow Character card with a cost of 3 or less from your hand."
+  },
+  {
+    "id": "OP11-051",
+    "name": "Sanji (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Vinsmoke Family"
+    ],
+    "effect": "When this Character is K.O.'d by your opponent's effect, look at 5 cards from the top of your deck and play up to 1 \"Straw Hat Crew\" type Character card with a cost of 5 or less. Then, place the rest at the bottom of your deck in any order.<br>\r\n[On Play] Return up to 1 Character with 5000 base power or less to the owner's hand."
+  },
+  {
+    "id": "OP11-118",
+    "name": "Monkey.D.Luffy (Nami Deck)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 8000,
+    "cost": 8,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Rush]<br>\r\n[When Attacking] <strong>You may trash 1 card from your hand:</strong> Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "OP11-114",
+    "name": "Gum-Gum Fire-Fist Pistol Red Hawk (Nami Deck)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] <strong>You may rest 3 of your DON!! cards:</strong> If you and your opponent have a total of 5 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.<br>\r\n[Counter] Up to 1 of your Leader gains +3000 power during this battle."
+  },
+  {
+    "id": "OP11-060",
+    "name": "Let's Crash This Wedding!!! (Nami Deck)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] If your Leader is multicolored, look at 5 cards from the top of your deck; reveal up to 1 \"Straw Hat Crew\" type card other than [Let's Crash This Wedding!!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "ST10-004",
+    "name": "Sanji",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn. <em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-023",
+    "name": "Arlong",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fish-Man",
+      "Arlong Pirates",
+      "East Blue"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand:</strong> Up to 1 of your opponent's rested Leader cannot attack until the end of your opponent's next turn.\r\n<br>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-015",
+    "name": "Monkey.D.Dragon",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 9000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Rush]<em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-003",
+    "name": "Kid & Killer",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash;Special",
+    "power": 5000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Rush] <em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST12-008",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1][When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-044",
+    "name": "Dracule Mihawk",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "C",
+    "subtypes": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-020",
+    "name": "Gum-Gum UFO",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Punk Hazard"
+    ],
+    "effect": "[Main] Give up to 1 of your opponent's Characters 4000 power during this turn. Then, if you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.<br>\r\n[Trigger] K.O. up to 1 of your opponent's Characters with 3000 power or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-028",
+    "name": "Nekomamushi",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effect": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn.<br>\r\n(This card can attack on the turn in which it is played.)\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  }
+]

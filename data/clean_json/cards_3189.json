@@ -1,0 +1,243 @@
+[
+  {
+    "id": "ST01-001",
+    "name": "Monkey.D.Luffy (001)",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters <span style=\"color:red\">up to</span> 1 rested DON!! card.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-002",
+    "name": "Usopp",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle. [Trigger] Play this card."
+  },
+  {
+    "id": "ST01-003",
+    "name": "Karoo",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ]
+  },
+  {
+    "id": "ST01-004",
+    "name": "Sanji",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x2] This Character gains [Rush]. <em>(This card can attack on the turn in which it is played.)</em>"
+  },
+  {
+    "id": "ST01-005",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] <span style=\"color:red\">Up to 1 of your</span> Leader or <span style=\"color:red\">Character cards</span> other than this card gains +1000 power during this turn.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-006",
+    "name": "Tony Tony.Chopper",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST01-007",
+    "name": "Nami",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] Give <span style=\"color:red\">up to</span> 1 rested DON!! card to your Leader or 1 of your Characters.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-008",
+    "name": "Nico Robin",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST01-009",
+    "name": "Nefeltari Vivi",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Alabasta"
+    ]
+  },
+  {
+    "id": "ST01-010",
+    "name": "Franky",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST01-011",
+    "name": "Brook",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST01-012",
+    "name": "Monkey.D.Luffy (012)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Rush] <em>(This card can attack on the turn in which it is played.)</em>\r\n<br>[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle."
+  },
+  {
+    "id": "ST01-013",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[DON!! x1] This Character gains +1000 power."
+  },
+  {
+    "id": "ST01-014",
+    "name": "Guard Point",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] <span style=\"color:red\">Up to 1 of your</span> Leader or <span style=\"color:red\">Character cards</span> gains +3000 power during this battle. \r\n<br>[Trigger] <span style=\"color:red\">Up to 1 of your</span> Leader or <span style=\"color:red\">Character cards</span> gains +1000 power during this turn.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-015",
+    "name": "Gum-Gum Jet Pistol",
+    "type": "Event",
+    "color": "Red",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Main] K.O. <span style=\"color:red\">up to</span> 1 of your opponent's Characters with 6000 power or less. \r\n<br>[Trigger] Activate this card's [Main] effect.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-016",
+    "name": "Diable Jambe",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Select <span style=\"color:red\">up to</span> 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn. \r\n<br>[Trigger] K.O. <span style=\"color:red\">up to</span> 1 of your opponent's [Blocker] Characters with a cost of 3 or less.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST01-017",
+    "name": "Thousand Sunny",
+    "type": "Stage",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Activate: Main] You may rest this Stage: <span style=\"color:red\">Up to</span> 1 \"Straw Hat Crew\" type Leader or Character card on your field gains +1000 power during this turn.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "OP03-099",
+    "name": "Charlotte Katakuri (OP03-099)",
+    "type": "Leader",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle."
+  },
+  {
+    "id": "OP03-106",
+    "name": "Charlotte Opera",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ]
+  },
+  {
+    "id": "OP03-107",
+    "name": "Charlotte Galette",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP03-110",
+    "name": "Charlotte Smoothie",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.<br><br>\r\n[Trigger] You may trash 1 card from your hand: Play this card."
+  },
+  {
+    "id": "OP03-112",
+    "name": "Charlotte Pudding (OP03-112)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or \"Big Mom Pirates\" type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "ST07-005",
+    "name": "Charlotte Daifuku",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards."
+  },
+  {
+    "id": "ST20-001",
+    "name": "Charlotte Katakuri (ST20-001)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br><br>\r\n[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST20-002",
+    "name": "Charlotte Cracker",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.<br><br>\r\n[Trigger] You may trash 1 card from your hand: Play this card."
+  },
+  {
+    "id": "ST20-003",
+    "name": "Charlotte Brulee",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand."
+  },
+  {
+    "id": "ST20-004",
+    "name": "Charlotte Pudding (ST20-004)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your \"Big Mom Pirates\" type Characters with a cost of 3 or less as active.<br><br>\r\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less."
+  },
+  {
+    "id": "ST20-005",
+    "name": "Charlotte Linlin",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] You may trash 1 card from your hand: Your opponent chooses one:<br><br>\r\n• Your opponent trashes 2 cards from their hand.<br><br>\r\n• Trash 1 card from the top of your opponent's Life cards."
+  }
+]

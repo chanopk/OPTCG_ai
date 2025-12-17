@@ -1,0 +1,540 @@
+[
+  {
+    "id": "OP14-001",
+    "name": "Trafalgar Law",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Select 2 of your {Supernovas} or {Heart Pirates} type Characters. Swap the base power of the selected Characters with each other during this turn."
+  },
+  {
+    "id": "OP14-001",
+    "name": "Trafalgar Law (Alternate Art)",
+    "type": "Leader",
+    "color": "Red",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Select 2 of your {Supernovas} or {Heart Pirates} type Characters. Swap the base power of the selected Characters with each other during this turn."
+  },
+  {
+    "id": "OP14-013",
+    "name": "Monkey.D.Luffy",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 0,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn."
+  },
+  {
+    "id": "OP14-013",
+    "name": "Monkey.D.Luffy (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "power": 0,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -1000 power during this turn."
+  },
+  {
+    "id": "OP14-020",
+    "name": "Dracule Mihawk",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "If your opponent's Leader has the \"Slash\" attribute, this leader gains +1000 power.\r\n<br> [Activate:Main] [Once Per Turn] <strong>You may rest 1 of your cards:</strong> If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play character cards during this turn."
+  },
+  {
+    "id": "OP14-020",
+    "name": "Dracule Mihawk (Alternate Art)",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "If your opponent's Leader has the \"Slash\" attribute, this leader gains +1000 power.\r\n<br> [Activate:Main] [Once Per Turn] <strong>You may rest 1 of your cards:</strong> If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play character cards during this turn."
+  },
+  {
+    "id": "OP14-033",
+    "name": "Perona",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Thriller Bark Pirates",
+      "Muggy Kingdom"
+    ],
+    "effect": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> Play up to 1 green Character card with a cost of 5 or less from your hand."
+  },
+  {
+    "id": "OP14-033",
+    "name": "Perona (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Thriller Bark Pirates",
+      "Muggy Kingdom"
+    ],
+    "effect": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase.\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> Play up to 1 green Character card with a cost of 5 or less from your hand."
+  },
+  {
+    "id": "OP14-060",
+    "name": "Donquixhote Doflamingo",
+    "type": "Leader",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] <strong> DON!! -1:</strong> Select your Leader or 1 of your {Donquixote Pirates} type Characters. Change the attack target to the selected card."
+  },
+  {
+    "id": "OP14-060",
+    "name": "Donquixhote Doflamingo (Alternate Art)",
+    "type": "Leader",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] <strong> DON!! -1:</strong> Select your Leader or 1 of your {Donquixote Pirates} type Characters. Change the attack target to the selected card."
+  },
+  {
+    "id": "OP14-063",
+    "name": "Sugar",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>[On K.O.] If your opponent has 6 or more DON!! cards on their field, play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand."
+  },
+  {
+    "id": "EB04-018",
+    "name": "Megalo (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Animal",
+      "Fish-Man Island"
+    ],
+    "effect": "[On Play] <strong>You may rest this Character:</strong> K.O. up to 1 of your opponent's rested Characters with 8000 power or less."
+  },
+  {
+    "id": "EB04-015",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "R",
+    "subtypes": [
+      "Fish-Man",
+      "The Sun Pirates",
+      "Fish-Man Island"
+    ],
+    "effect": "[Blocker]\r\n<br>[On K.O.] <strong>You may rest 1 of your cards:</strong> If your Leader has the {Fish-Man} or {Merfolk} type, play up to 1 green Character card with a cost of 6 or less from your hand."
+  },
+  {
+    "id": "EB04-019",
+    "name": "Eleclaw",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Minks"
+    ],
+    "effect": "[Main] <strong>You may rest 1 of your cards:</strong> If your Leader has the {Minks} type, give up to 1 of your opponent's Characters -3 cost during this turn. <br>[Counter] Up to 1 of your {Minks} type Leader or Character cards gains +3000 power during this battle."
+  },
+  {
+    "id": "EB04-022",
+    "name": "Issho (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Navy",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] <strong>You may trash 2 cards from your hand:</strong> If your opponent has 6 or more cards in their hand, your opponent places 2 cards from their hand at the bottom of their deck in any order. \r\n<br>[DON!!×1] [When Attacking] <strong>You may trash 1 card from your hand:</strong> Give up to 1 of your opponent's Characters-2000 power during this turn."
+  },
+  {
+    "id": "EB04-030",
+    "name": "Kaido",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "cost": 7,
+    "rarity": "R",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "The Four Emperors"
+    ],
+    "effect": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. \r\n<br>[On Play] <strong>DON!! -2:</strong> If your Leader has the {Animal Kingdom Pirates} type, this Character gains Rush during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 7 or less."
+  },
+  {
+    "id": "EB04-031",
+    "name": "King (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "R",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "Lunarian"
+    ],
+    "effect": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. \r\n<br>[Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your, DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it."
+  },
+  {
+    "id": "OP14-080",
+    "name": "Gecko Moria",
+    "type": "Leader",
+    "color": "Black;Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your {Thriller Bark Pirates} type Characters:</strong> Your Leader and all of your Characters gain +1000 power during this turn.\r\n<br>[When Attacking] <strong>You may trash 3 cards from your hand:</strong> Add up to 1 card from the top of your deck to the top of your Life cards."
+  },
+  {
+    "id": "OP14-080",
+    "name": "Gecko Moria (Alternate Art)",
+    "type": "Leader",
+    "color": "Black;Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your {Thriller Bark Pirates} type Characters:</strong> Your Leader and all of your Characters gain +1000 power during this turn.\r\n<br>[When Attacking] <strong>You may trash 3 cards from your hand:</strong> Add up to 1 card from the top of your deck to the top of your Life cards."
+  },
+  {
+    "id": "OP14-104",
+    "name": "Gecko Moria",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Select up to 1 {Thriller Bark Pirates} type Character with a cost of 4 or less from your trash and play it or add it to the top of your Life cards face-up.\r\n<br>[Trigger] Play up to 1 Character card with a cost of 4 or less from your trash."
+  },
+  {
+    "id": "OP14-104",
+    "name": "Gecko Moria (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Select up to 1 {Thriller Bark Pirates} type Character with a cost of 4 or less from your trash and play it or add it to the top of your Life cards face-up.\r\n<br>[Trigger] Play up to 1 Character card with a cost of 4 or less from your trash."
+  },
+  {
+    "id": "OP14-079",
+    "name": "Crocodile",
+    "type": "Leader",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "All of your opponent's Characters cannot be removed from the field by your effects.\r\n<br>[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your Characters with a type including \"Baroque Works\":</strong> Give up to 1 of your opponent's Characters -10 cost during this turn. Then, you may trash 2 cards from the top of your deck."
+  },
+  {
+    "id": "OP14-079",
+    "name": "Crocodile (Alternate Art)",
+    "type": "Leader",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "All of your opponent's Characters cannot be removed from the field by your effects.\r\n<br>[Activate: Main] [Once Per Turn] <strong>You may K.O. 1 of your Characters with a type including \"Baroque Works\":</strong> Give up to 1 of your opponent's Characters -10 cost during this turn. Then, you may trash 2 cards from the top of your deck."
+  },
+  {
+    "id": "OP14-084",
+    "name": "Ms. All Sunday",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", play up to 1 Character card with a type including \"Baroque Works\" and a cost of 4 or less and up to 1 Character card with a type including \"Baroque Works\" and a cost of 1 from your trash."
+  },
+  {
+    "id": "OP14-084",
+    "name": "Ms. All Sunday (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] If your Leader's type includes \"Baroque Works\", play up to 1 Character card with a type including \"Baroque Works\" and a cost of 4 or less and up to 1 Character card with a type including \"Baroque Works\" and a cost of 1 from your trash."
+  },
+  {
+    "id": "OP14-041",
+    "name": "Boa Hancock",
+    "type": "Leader",
+    "color": "Blue;Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Opponent's Turn] When you play a Character, draw 1 card.\r\n<br>[DON!!x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d add up to 1 card from the top of your opponent's Life cards to the owner's hand."
+  },
+  {
+    "id": "OP14-041",
+    "name": "Boa Hancock (Alternate Art)",
+    "type": "Leader",
+    "color": "Blue;Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Opponent's Turn] When you play a Character, draw 1 card.\r\n<br>[DON!!x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d add up to 1 card from the top of your opponent's Life cards to the owner's hand."
+  },
+  {
+    "id": "OP14-112",
+    "name": "Boa Hancock",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.\r\n<br>[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand."
+  },
+  {
+    "id": "OP14-112",
+    "name": "Boa Hancock (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] If your Leader has the {The Seven Warlords of the Sea} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 card from the top of your opponent's Life cards to the owner's hand.\r\n<br>[Trigger] Play up to 1 Character card with 6000 power or less and a [Trigger] from your hand."
+  },
+  {
+    "id": "EB04-041",
+    "name": "Stealth Black",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] If your Leader is [Sanji] and you have 4 or more DON!! cards on your field, play up to 1 [Sanji] with 6000 power or less from your hand or trash.\r\n<br>[Trigger] Draw 2 cards and trash 1 card from your hand."
+  },
+  {
+    "id": "EB04-027",
+    "name": "Boa Hancock",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 1 card from your hand.\r\n<br>[Trigger] Play up to 1 Character card with 5000 power or less and a [Trigger] from your hand."
+  },
+  {
+    "id": "EB04-023",
+    "name": "Chaka & Pell",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 9000,
+    "cost": 8,
+    "rarity": "R",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effect": "[Double Attack] <em>(This card deals 2 damage.)</em>\r\n<br>[On Play] <strong>You may give your active Leader -5000 power during this turn:</strong> Draw 2 cards."
+  },
+  {
+    "id": "OP14-040",
+    "name": "Jinbe",
+    "type": "Leader",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash 1 card from your hand:</strong> Give up to 2 rested DON!! cards to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards."
+  },
+  {
+    "id": "OP14-040",
+    "name": "Jinbe (Alternate Art)",
+    "type": "Leader",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash 1 card from your hand:</strong> Give up to 2 rested DON!! cards to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards."
+  },
+  {
+    "id": "OP14-049",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn.\r\n<br>[On Play] <strong>You may rest 2 of your DON!! cards:</strong> Draw 2 cards and return up to 1 Character with a cost of 7 or less to the owner's hand."
+  },
+  {
+    "id": "OP14-049",
+    "name": "Jinbe (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn.\r\n<br>[On Play] <strong>You may rest 2 of your DON!! cards:</strong> Draw 2 cards and return up to 1 Character with a cost of 7 or less to the owner's hand."
+  }
+]

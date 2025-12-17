@@ -1,0 +1,235 @@
+[
+  {
+    "id": "EB01-015",
+    "name": "Scratchmen Apoo (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "On-Air Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the EB01 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-019",
+    "name": "Jewelry Bonney (OP07-019)",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Your Opponent's Attack] [Once Per Turn] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Rest up to 1 of your opponent's Leader or Character cards."
+  },
+  {
+    "id": "OP07-021",
+    "name": "Urouge (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fallen Monk Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[End of Your Turn] Set up to 1 of your DON!! cards as active.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-023",
+    "name": "Caribou (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Caribou Pirates",
+      "Supernovas"
+    ],
+    "effect": "If you have 6 or more rested DON!! cards, this Character gains +1000 power.\r\n<br>[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-025",
+    "name": "Coribou (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Caribou Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-031",
+    "name": "Bartolomeo (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-033",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-034",
+    "name": "Roronoa Zoro (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-036",
+    "name": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash (Reprint)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.\r\n<br>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP07-037",
+    "name": "More Pizza!! (Reprint)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Supernovas] type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[Trigger] Draw 1 card.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP07 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "ST24-001",
+    "name": "Capone\"Gang\"Bege",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Firetank Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand."
+  },
+  {
+    "id": "ST24-002",
+    "name": "Kid & Killer",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash;Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "SR",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[On Your Opponent's Attack] <strong>You may trash this Character:</strong> Set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "ST24-003",
+    "name": "Basil Hawkins",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Hawkins Pirates",
+      "Supernovas"
+    ],
+    "effect": "[End of Your Turn] Set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "ST24-004",
+    "name": "Law & Bepo",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash;Strike",
+    "power": 11000,
+    "cost": 10,
+    "rarity": "SR",
+    "subtypes": [
+      "Heart Pirates",
+      "Minks",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase."
+  },
+  {
+    "id": "ST24-005",
+    "name": "X.Drake",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Drake Pirates",
+      "Navy",
+      "Supernovas"
+    ],
+    "effect": "[On Play] If your Leader has the \"Supernovas\" type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn."
+  }
+]

@@ -30,7 +30,7 @@ class HybridSearchService:
             print(f"Warning: Could not initialize Rules store: {e}")
             self.rules_store = None
 
-    def hybrid_search(self, query: str, k: int = 5, filters: dict = None) -> list:
+    def hybrid_search(self, query: str, k: int = 10, filters: dict = None) -> list:
         """
         Performs a similarity search combined with metadata filtering.
         """
@@ -57,11 +57,12 @@ class HybridSearchService:
             print(f"Search Error: {e}")
             return []
 
-    def retrieve_card_data(self, query: str, filters: dict = None) -> str:
+    def retrieve_card_data(self, query: str, filters: dict = None, k: int = 10) -> str:
         """
         High-level retrieval function for Agents. Returns a formatted string context.
+        Default k is 10, but can be increased if more results are needed.
         """
-        results = self.hybrid_search(query, k=25, filters=filters)
+        results = self.hybrid_search(query, k=k, filters=filters)
         
         if not results:
             return "No card data found."
@@ -70,8 +71,10 @@ class HybridSearchService:
         for i, res in enumerate(results):
             meta = res["metadata"]
             name = meta.get("name", "Unknown")
-            pid = meta.get("productId")
-            context_parts.append(f"Card {i+1} (ID: {pid}):\n{res['content']}\n")
+            # Use 'id' from clean_json
+            card_id = meta.get("id", "Unknown")
+            
+            context_parts.append(f"Card {i+1} (ID: {card_id}):\n{res['content']}\n")
             
         return "\n---\n".join(context_parts)
 

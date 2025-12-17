@@ -1,0 +1,247 @@
+[
+  {
+    "id": "ST07-001",
+    "name": "Charlotte Linlin",
+    "type": "Leader",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x2] [When Attacking] <strong>You may add 1 card from the top or bottom of your Life cards to your hand</strong>: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards."
+  },
+  {
+    "id": "ST07-002",
+    "name": "Charlotte Anana",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ]
+  },
+  {
+    "id": "ST07-003",
+    "name": "Charlotte Katakuri",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn. <em>(This card can attack on the turn in which it is played.)</em>"
+  },
+  {
+    "id": "ST07-004",
+    "name": "Charlotte Snack",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] <strong>You may add 1 card from the top or bottom of your Life cards to your hand</strong>: This Character gains [Banish] and +1000 power during this battle. <em>(When this card deals damage, the target card is trashed without activating its Trigger.)</em>"
+  },
+  {
+    "id": "ST07-005",
+    "name": "Charlotte Daifuku",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] <strong>You may add 1 card from the top or bottom of your Life cards to your hand</strong>: Add up to 1 card from the top of your deck to the top of your Life cards."
+  },
+  {
+    "id": "ST07-006",
+    "name": "Charlotte Flampe",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ]
+  },
+  {
+    "id": "ST07-007",
+    "name": "Charlotte Brulee",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Trigger] Play this card."
+  },
+  {
+    "id": "ST07-008",
+    "name": "Charlotte Pudding",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards."
+  },
+  {
+    "id": "ST07-009",
+    "name": "Charlotte Mont-d'Or",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand</strong>: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.\r\n<br>\r\n[Trigger] <strong>You may trash 1 card from your hand</strong>: Play this card."
+  },
+  {
+    "id": "ST07-010",
+    "name": "Charlotte Linlin (010)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Your opponent chooses one:\r\n<br>\r\n• Trash 1 card from the top of your opponent's Life cards.\r\n<br>\r\n• Add 1 card from the top of your deck to the top of your Life cards."
+  },
+  {
+    "id": "ST07-011",
+    "name": "Zeus",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Character</strong>: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn. <em>(When this card deals damage, the target card is trashed without activating its Trigger.)</em>\r\n<br>\r\n[Trigger] Play this card."
+  },
+  {
+    "id": "ST07-012",
+    "name": "Baron Tamago",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ]
+  },
+  {
+    "id": "ST07-013",
+    "name": "Prometheus",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Character</strong>: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn. <em>(This card deals 2 damage.)</em>\r\n<br>\r\n[Trigger] Play this card."
+  },
+  {
+    "id": "ST07-014",
+    "name": "Pekoms",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Minks",
+      "Big Mom Pirates"
+    ]
+  },
+  {
+    "id": "ST07-015",
+    "name": "Soul Pocus",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] Your opponent chooses one:\r\n<br>\r\n• Trash 1 card from the top of your opponent's Life cards.\r\n<br>\r\n• Add 1 card from the top of your deck to the top of your Life cards.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "ST07-016",
+    "name": "Power Mochi",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.\r\n<br>\r\n[Trigger] Draw 1 card, look at up to 1 card from the top of your opponent's Life cards, and place it at the top or bottom of the Life cards."
+  },
+  {
+    "id": "ST07-017",
+    "name": "Queen Mama Chanter",
+    "type": "Stage",
+    "color": "Yellow",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates",
+      "Homies"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand</strong>: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up."
+  }
+]

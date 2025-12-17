@@ -1,0 +1,221 @@
+[
+  {
+    "id": "OP09-061",
+    "name": "Monkey.D.Luffy (OP09-061)",
+    "type": "Leader",
+    "color": "Purple;Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "life": 4,
+    "rarity": "L",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[DON!! x1] All of your Characters gain +1 cost.<br>\r\n[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it."
+  },
+  {
+    "id": "ST26-003",
+    "name": "Nico Robin",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>DON!! -2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>:</strong> Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "ST26-005",
+    "name": "Monkey.D.Luffy (ST26-005)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] / [When Attacking] <strong>DON!! -2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>:</strong> If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your \"Straw Hat Crew\" type Leader's base power becomes 7000 until the end of your opponent's next End Phase."
+  },
+  {
+    "id": "ST26-001",
+    "name": "Soba Mask",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 9000,
+    "cost": 7,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand -5 cost. \r\n<br>[On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand."
+  },
+  {
+    "id": "ST26-002",
+    "name": "Tony Tony.Chopper",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] <strong>DON!! -2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>:</strong> Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 1 or less."
+  },
+  {
+    "id": "ST26-004",
+    "name": "General Franky",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 10000,
+    "cost": 8,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>DON!! -2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>:</strong> Give up to 2 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "OP05-065",
+    "name": "San-Gorou (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP05 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP05-066",
+    "name": "Jinbe (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP05 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP05-070",
+    "name": "Fra-Nosuke (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush]. <em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP05 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-063",
+    "name": "Usopp (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-070",
+    "name": "Nami (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>You may return 1 or more DON!! cards from your field to your DON!! deck</strong>: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-076",
+    "name": "Roronoa Zoro (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>You may return 1 or more DON!! cards from your field to your DON!! deck</strong>: Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-077",
+    "name": "Gum-Gum Lightning (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] <strong>DON!! 2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em></strong>: K.O. up to 1 of your opponent's Characters with 6000 power or less.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-078",
+    "name": "Gum-Gum Giant (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Counter] <strong>DON!! 2, You may trash 1 card from your hand</strong>: If your Leader has the \"Straw Hat Crew\" type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "ST14-010",
+    "name": "Brook (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the ST14 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  }
+]

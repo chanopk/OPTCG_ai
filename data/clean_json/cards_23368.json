@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "OP05-003",
+    "name": "Inazuma",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "If you have a Character with 7000 power or more other than this Character, this Character gains [Rush]. <em>(This card can attack on the turn in which it is played.)</em>"
+  },
+  {
+    "id": "OP05-004",
+    "name": "Emporio.Ivankov",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main][Once Per Turn] If this Character has 7000 power or more, play up to 1 [Revolutionary Army] type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand."
+  },
+  {
+    "id": "OP05-008",
+    "name": "Chaka",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effect": "[DON!! x1][Activate:Main][Once Per Turn] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "OP05-009",
+    "name": "Toh-Toh",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effect": "[On Play] Draw 1 card if your Leader has 0 power or less."
+  },
+  {
+    "id": "OP05-010",
+    "name": "Nico Robin",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 1000 power or less."
+  },
+  {
+    "id": "OP05-011",
+    "name": "Bartholomew Kuma",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with 2000 power or less.\r\n<br>\r\n[Trigger] If your Leader is multicolored, play this card."
+  },
+  {
+    "id": "OP05-012",
+    "name": "Hack",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Revolutionary Army"
+    ]
+  },
+  {
+    "id": "OP05-013",
+    "name": "Bunny Joe",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP05-014",
+    "name": "Pell",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effect": "[DON!! x1][When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "OP05-018",
+    "name": "Emporio Energy Hormone",
+    "type": "Event",
+    "color": "Red",
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Revolutionary Army] type Character card with 5000 power or less from your hand.\r\n<br>\r\n[Trigger] Play up to 1 [Revolutionary Army] type Character card with 5000 power or less from your hand."
+  },
+  {
+    "id": "OP05-020",
+    "name": "Four Thousand-Brick Fist",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Fish-Man",
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] Up to 1 of your Leader or Character cards gains +2000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 2000 power or less.\r\n<br>\r\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+  },
+  {
+    "id": "OP05-021",
+    "name": "Revolutionary Army HQ",
+    "type": "Stage",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash 1 card from your hand and rest this Stage</strong>: Look at 3 cards from the top of your deck; reveal up to 1 [Revolutionary Army] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP05-024",
+    "name": "Kuween",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP05-025",
+    "name": "Gladius",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Character</strong>: Rest up to 1 of your opponent's Characters with a cost of 3 or less."
+  },
+  {
+    "id": "OP05-026",
+    "name": "Sarquiss",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Bellamy Pirates"
+    ],
+    "effect": "[DON!! x1][When Attacking][Once Per Turn] <strong>You may rest 1 of your Characters with a cost of 3 or more</strong>: Set this Character as active."
+  },
+  {
+    "id": "OP05-027",
+    "name": "Trafalgar Law (027)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Rest up to 1 of your opponent's Characters with a cost of 3 or less."
+  },
+  {
+    "id": "OP05-028",
+    "name": "Donquixote Doflamingo (028)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less."
+  },
+  {
+    "id": "OP05-029",
+    "name": "Donquixote Doflamingo (029)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[On Your Opponent's Attack][Once Per Turn] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Rest up to 1 of your opponent's Characters with a cost of 6 or less."
+  },
+  {
+    "id": "OP05-031",
+    "name": "Buffalo",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[When Attacking][Once Per Turn] If you have 2 or more rested Characters, set up to 1 of your rested Characters with a cost of 1 as active."
+  },
+  {
+    "id": "OP05-033",
+    "name": "Baby 5 (033)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Activate:Main] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em> <strong>You may rest this Character</strong>: Play up to 1 [Donquixote Pirates] type Character card with a cost of 2 or less from your hand."
+  },
+  {
+    "id": "OP05-035",
+    "name": "Bellamy",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ]
+  },
+  {
+    "id": "OP05-036",
+    "name": "Monet",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP05-038",
+    "name": "Charlestone",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may trash 1 card from your hand. If you do, set up to 3 of your DON!! cards as active.\r\n<br>\r\n[Trigger] Rest up to 1 of your opponent's Leader or Character cards with a cost of 3 or less."
+  },
+  {
+    "id": "OP05-039",
+    "name": "Stick-Stickem Meteora",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.\r\n<br>\r\n[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less."
+  },
+  {
+    "id": "OP05-040",
+    "name": "Birdcage",
+    "type": "Stage",
+    "color": "Green",
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [],
+    "effect": "If your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases.\r\n<br>\r\n[End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this SAtage."
+  },
+  {
+    "id": "OP05-044",
+    "name": "John Giant",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 10000,
+    "counter": 1000,
+    "cost": 8,
+    "rarity": "C",
+    "subtypes": [
+      "Giant",
+      "Navy"
+    ]
+  },
+  {
+    "id": "OP05-045",
+    "name": "Stainless",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash 1 card from your hand and rest this Character</strong>: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck."
+  },
+  {
+    "id": "OP05-046",
+    "name": "Dalmatian",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[On K.O.] Draw 1 card and place 1 card from your hand at the bottom of your deck."
+  },
+  {
+    "id": "OP05-047",
+    "name": "Basil Hawkins",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "Hawkins Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Block] Draw 1 card if you have 3 or less cards in your hand. Then, this Character gains +1000 power during this battle."
+  },
+  {
+    "id": "OP05-048",
+    "name": "Bastille",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1][When Attacking] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck."
+  },
+  {
+    "id": "OP05-049",
+    "name": "Haccha",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "UC",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "Giant"
+    ],
+    "effect": "[DON!! x1][When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand."
+  },
+  {
+    "id": "OP05-052",
+    "name": "Maynard",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP05-053",
+    "name": "Mozambia",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When you draw a card outside of your Draw Phase, this Character gains +2000 power during this turn."
+  },
+  {
+    "id": "OP05-054",
+    "name": "Monkey.D.Garp",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[On Play] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP05-056",
+    "name": "X.Barrels",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Former Navy"
+    ],
+    "effect": "[On Play] <strong>You may place 1 of your Characters other than this Character at the bottom of your deck</strong>: Draw 1 card."
+  },
+  {
+    "id": "OP05-058",
+    "name": "It's a Waste of Human Life!!",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 8,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Main] Place all Characters with a cost of 3 or less at the bottom of the owner's deck. Then, you and your opponent trash cards from your hands until you each have 5 cards in your hands.\r\n<br>\r\n[Trigger] Place all Characters with a cost of 2 or less at the bottom of the owner's deck."
+  },
+  {
+    "id": "OP05-059",
+    "name": "Let Us Begin the World of Violence!!",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] If your Leader is multicolored, draw 1 card. Then, return up to 1 Character with a cost of 5 or less to the owner's hand.\r\n<br>\r\n[Trigger] If your Leader is multicolored, draw 2 cards."
+  },
+  {
+    "id": "OP05-061",
+    "name": "Uso-Hachi",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1][When Attacking] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP05-062",
+    "name": "O-Nami",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "If you have 10 DON!! cards on your field, this Character gains [Blocker]. <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP05-063",
+    "name": "O-Robi",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+  },
+  {
+    "id": "OP05-065",
+    "name": "San-Gorou",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "OP05-066",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Opponent's Turn] If you have 10 DON!! cards on your field, this Character gains +1000 power."
+  },
+  {
+    "id": "OP05-068",
+    "name": "Chopa-Emon",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, set up to 1 of your purple [Straw Hat Crew] type Characters with 6000 power or less as active."
+  },
+  {
+    "id": "OP05-070",
+    "name": "Fra-Nosuke",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] If you have 8 or more DON!! cards on your field, this Character gains [Rush]. <em>(This card can attack on the turn in which it is played.)</em>"
+  },
+  {
+    "id": "OP05-072",
+    "name": "Hone-Kichi",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, give up to 2 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "OP05-073",
+    "name": "Miss Doublefinger(Zala)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand</strong>: Add up to 1 DON!! card from your DON!! deck and rest it.\r\n<br>\r\n[Trigger] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Play this card."
+  },
+  {
+    "id": "OP05-075",
+    "name": "Mr.1 (Daz.Bonez)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[On Your Opponent's Attack][Once Per Turn] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Play up to 1 [Baroque Works] type Character card with a cost of 3 or less from your hand."
+  },
+  {
+    "id": "OP05-077",
+    "name": "Gamma Knife",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[Main] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Give up to 1 of your opponent's Characters -5000 power during this turn.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP05-078",
+    "name": "Punk Rotten",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Kid Pirates"
+    ],
+    "effect": "[Main] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Up to 1 of your [Kid Pirates] type Leader or Character cards gains +5000 power during this turn.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP05-079",
+    "name": "Viola",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Your opponent places 3 cards from their trash at the bottom of their deck in any order."
+  },
+  {
+    "id": "OP05-080",
+    "name": "Elizabello II",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Dressrosa",
+      "Kingdom of Prodence"
+    ],
+    "effect": "[When Attacking][Once Per Turn] <strong>You may return 20 cards from your trash to your deck and shuffle it: This Character gains               and +10000 power during this battle. <em>(This card deals 2 damage.)</em>"
+  },
+  {
+    "id": "OP05-081",
+    "name": "One-Legged Toy Soldier",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 0,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Give up to 1 of your opponent's Characters -3 cost during this turn."
+  },
+  {
+    "id": "OP05-083",
+    "name": "Sterry",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ]
+  },
+  {
+    "id": "OP05-084",
+    "name": "Saint Charlos",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 0,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Celestial Dragons"
+    ],
+    "effect": "[Your Turn] If the only Characters on your field are [Celestial Dragons] type Characters, give all of your opponent's Characters -4 cost."
+  },
+  {
+    "id": "OP05-085",
+    "name": "Nefeltari Cobra",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Play] Trash 1 card from the top of your deck."
+  },
+  {
+    "id": "OP05-087",
+    "name": "Hakuba",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Beautiful Pirates",
+      "Dressrosa"
+    ],
+    "effect": "[DON!! x1][When Attacking] <strong>You may K.O. 1 of your Characters other than this Character</strong>: Give up to 1 of your opponent's Characters -5 cost during this turn."
+  },
+  {
+    "id": "OP05-089",
+    "name": "Saint Mjosgard",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Celestial Dragons"
+    ],
+    "effect": "[Activate:Main] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em> <strong>You may rest this Character and 1 of your Characters</strong>: Add up to 1 black Character card with a cost of 1 from your trash to your hand."
+  },
+  {
+    "id": "OP05-090",
+    "name": "Riku Doldo III",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Play] / [On K.O.] Up to 1 of your [Dressrosa] type Characters gains +2000 power during this turn."
+  },
+  {
+    "id": "OP05-092",
+    "name": "Saint Rosward",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 0,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Celestial Dragons"
+    ],
+    "effect": "[Your Turn] If the only Characters on your field are [Celestial Dragons] type Characters, give all of your opponent's Characters -6 cost."
+  },
+  {
+    "id": "OP05-095",
+    "name": "Dragon Claw",
+    "type": "Event",
+    "color": "Black",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 15 or more cards in your trash, K.O. up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP05-096",
+    "name": "I Bid 500 Million!!",
+    "type": "Event",
+    "color": "Black",
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Celestial Dragons"
+    ],
+    "effect": "[Main] Choose one:\r\n<br>\r\n• K.O. up to 1 of your opponent's Characters with a cost of 1 or less.\r\n<br>\r\n• Return up to 1 of your opponent's Characters with a cost of 1 or less to the owner's hand.\r\n<br>\r\n• Place up to 1 of your opponent's Characters with a cost of 1 or less at the top or bottom of their Life cards face-up.\r\n<br>\r\nThen, if you have a [Celestial Dragons] type Character, draw 1 card.\r\n<br>\r\n[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, or return it to the owner's hand."
+  },
+  {
+    "id": "OP05-097",
+    "name": "Mary Geoise",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Mary Geoise"
+    ],
+    "effect": "[Your Turn] The cost of playing [Celestial Dragons] type Character cards with a cost of 2 or more from your hand will be reduced by 1."
+  },
+  {
+    "id": "OP05-099",
+    "name": "Amazon",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[On Your Opponent's Attack] <strong>You may rest this Character</strong>: Your opponent may trash 1 card from the top of their Life cards. If they do not, give up to 1 of your opponent's Leader or Character cards -2000 power during this turn."
+  },
+  {
+    "id": "OP05-103",
+    "name": "Kotori",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[On Play] If you have [Hotori], K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards."
+  },
+  {
+    "id": "OP05-104",
+    "name": "Conis",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[On Play] <strong>You may place 1 of your Stages at the bottom of your deck</strong>: Draw 1 card and trash 1 card from your hand."
+  },
+  {
+    "id": "OP05-107",
+    "name": "Lieutenant Spacey",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "The Moon"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When a card is added to your hand from your Life, this Character gains +2000 power during this turn."
+  },
+  {
+    "id": "OP05-108",
+    "name": "Nola",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Sky Island"
+    ]
+  },
+  {
+    "id": "OP05-109",
+    "name": "Pagaya",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand."
+  },
+  {
+    "id": "OP05-110",
+    "name": "Holly",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Sky Island"
+    ]
+  },
+  {
+    "id": "OP05-111",
+    "name": "Hotori",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[On Play] <strong>You may play 1 [Kotori] from your hand</strong>: Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up."
+  },
+  {
+    "id": "OP05-112",
+    "name": "Captain McKinley",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On K.O.] Play up to 1 [Sky Island] type Character card with a cost of 1 from your hand."
+  },
+  {
+    "id": "OP05-113",
+    "name": "Yama",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP05-114",
+    "name": "El Thor",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if your opponent has 2 or less Life cards, that card gains an additional +2000 power during this battle.\r\n<br>\r\n[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life Cards."
+  },
+  {
+    "id": "OP05-116",
+    "name": "Hino Bird Zap",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "OP05-117",
+    "name": "Upper Yard",
+    "type": "Stage",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[On Play] Look at the top 5 cards of your deck; reveal up to 1 [Sky Island] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  }
+]

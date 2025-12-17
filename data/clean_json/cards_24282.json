@@ -1,0 +1,228 @@
+[
+  {
+    "id": "OP09-001",
+    "name": "Shanks (Reprint)",
+    "type": "Leader",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards 1000 power during this turn."
+  },
+  {
+    "id": "ST23-001",
+    "name": "Uta",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM"
+    ],
+    "effect": "If you have a Character with 10000 power or more, give this card in your hand -4 cost.\r\n<br>[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST23-002",
+    "name": "Shanks (002)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 10000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "If your opponent has a Character with 8000 base power or more, give this card in your hand -3 cost.\r\n<br>[On Play] If your Leader has the \"Red-Haired Pirates\" type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase."
+  },
+  {
+    "id": "ST23-003",
+    "name": "Benn.Beckman",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand:</strong> If your Leader has the \"Red-Haired Pirates\" type, K.O. up to 1 of your opponent's Characters with 4000 base power or less."
+  },
+  {
+    "id": "ST23-004",
+    "name": "Monkey.D.Luffy",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest 1 of your DON!! cards and this Character:</strong> Give up to 1 of your opponent's Characters-1000 power during this turn."
+  },
+  {
+    "id": "ST23-005",
+    "name": "Yasopp",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "OP09-006",
+    "name": "Howling Gab (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-010",
+    "name": "Bonk Punch (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Play up to 1 [Monster] from your hand.<br>\r\n[DON!! x1] [When Attacking] This Character gains +2000 power during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-011",
+    "name": "Hongo (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character</strong>: If your Leader has the \"Red-Haired Pirates\" type, give up to 1 of your opponent's Characters 2000 power during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-012",
+    "name": "Monster (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Red-Haired Pirates"
+    ],
+    "effect": "If your Character [Bonk Punch] would be K.O.'d by an effect, you may trash this Character instead.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-013",
+    "name": "Yasopp (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Up to 1 of your Leader gains +1000 power until the end of your opponent's next turn.<br>\r\n[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters 1000 power during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-015",
+    "name": "Lucky.Roux (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On K.O.] If your Leader has the \"Red-Haired Pirates\" type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-014",
+    "name": "Limejuice (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-016",
+    "name": "Rockstar (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-020",
+    "name": "Come On!! We'll Fight You!! (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 \"Red-Haired Pirates\" type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Draw 1 card.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  }
+]

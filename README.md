@@ -19,58 +19,43 @@
 
 *   **Project Initialization**:
     *   [x] Setup Project Structure และ Environment (`uv`).
-    *   [x] สร้าง Git Repository.
-*   **Data Ingestion Pipeline**:
-    *   [x] พัฒนา Script (`fetch_group_id.py`, `fetch_cards.py`) สำหรับดึงข้อมูลจาก TCGPlayer API.
-    *   [x] ระบบ Filter แยกเฉพาะ Card Product และบันทึกเป็น JSON แยกตาม Group ID (Series).
-    *   [x] **Data Cleaning**: เพิ่ม step Deduplication กรองการ์ดซ้ำ (Number เดียวกัน) ก่อนนำเข้า DB.
-    *   [x] **Multi-Model Embeddings**: รองรับการสลับใช้ `Google Gemini` หรือ `Local HuggingFace` ได้ผ่าน config.
-    *   [ ] optimize เพิ่มเติม
-    *   [x] มีข้อมูล Raw Data พร้อมสำหรับการทำ Indexing ลง Vector DB.
-    *   [x] **Knowledge Base Automation**: สร้าง `check_for_updates.py` เพื่อจัดการ Pipeline (Fetch -> Install -> Index) อัตโนมัติ.
-    *   [x] **Hybrid Search System**:
-        *   Setup **ChromaDB** พร้อม **Gemini Embeddings**.
-        *   สร้าง **Search Engine** ที่รองรับทั้ง Semantic (ความหมาย) และ Structured Filter (สี, Cost, Type).
-        *   มี Tool `query_cards.py` สำหรับทดสอบระบบค้นหา.
-    *   [x] **Rule Search System**:
-        *   เพิ่ม Vector Store สำหรับกฎกติกา (`rules_v1`).
-        *   Implement `retrieve_rules` สำหรับค้นหาข้อมูลกฎ.
-        *   **Configurable Provider**: สามารถเลือกใช้ Model ได้ตามต้องการ
-    *   [x] **Easy-to-Use Tools**: `query_cards.py` สำหรับทดสอบ และ API Endpoint สำหรับ Agent.
-    *   [x] **AI Agent Development**:
-        *   [x] **LangGraph Agent**:
-            *   สร้าง Basic Knowledge Agent ที่รองรับ Multi-tool (Card Search + Rule Search).
-            *   เปลี่ยน Embedding Model เป็น `text-embedding-004` เพื่อความแม่นยำสูงสุด.
+    *   [x] add Git Repository.
+*   **Data Ingestion Pipeline (Refactored)**:
+    *   [x] **Automated Pipeline**: ใช้ `check_for_updates.py` จัดการ Flow (Fetch -> Clean -> Embed) ครบวงจร.
+    *   [x] **Data Cleaning**: แปลง Raw JSON ให้เป็น Clean JSON ลดขนาดและตัด field ที่ไม่จำเป็น พร้อม Deduplication.
+    *   [x] **Flexible Embeddings**: สลับใช้ `Gemini` หรือ `HuggingFace` ได้ (เก็บ Vector แยก Folder).
+*   **Hybrid Search System**:
+    *   [x] **Advanced Search**: ค้นหาได้ทั้ง Semantic (ความหมาย) และ Filter (สี, Cost, Type).
+    *   [x] **Dynamic Context**: AI Agent สามารถปรับจำนวนผลลัพธ์ (`k`) ได้เองตามความยากของคำถาม.
+*   **AI Agent Development**:
+    *   [x] **LangGraph Agent**: สร้าง Knowledge Agent ที่ฉลาดขึ้น รู้จักใช้ Tool ค้นหาการ์ดและกติกา.
+    *   [x] **API Endpoint**: เชื่อมต่อผ่าน FastAPI (`/api/chat`).
 
-## Embedding Configuration
-สามารถเปลี่ยน Embedding Model ได้ที่ไฟล์ `.env`:
-```env
-# ใช้ Google Gemini API (ต้องมี Quota)
-EMBEDDING_PROVIDER=google_genai
-GOOGLE_API_KEY=your_key
-
-# หรือใช้ Local Model (Off-line, ไม่จำกัด Quota)
-EMBEDDING_PROVIDER=huggingface
-```
-ระบบจะแยก Database ให้อัตโนมัติ (`chroma_db_gemini` หรือ `chroma_db_huggingface`) หากเปลี่ยน Provider ต้องทำการ Re-index ข้อมูลใหม่ 1 ครั้งด้วยคำสั่ง `uv run data/embed_loader.py`
-
----
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
 
-แผนการพัฒนาขั้นต่อไป (เรียงตามลำดับความสำคัญ):
+แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
-1.  **AI Agent Development (Next Step)**:
-    *   [x] พัฒนา **LangGraph** Agent เบื้องต้นที่สามารถใช้ Search Tool ตอบคำถามได้.
-    *   [x] สร้าง FastAPI Endpoint (`/api/chat`) สำหรับเชื่อมต่อกับ Frontend หรือ Client อื่นๆ.
+1.  **Deployment Prep (Phase 1.5)**: *DevOps*
+    *   Dockerization & Environment Management.
 
-2.  **Game Engine (Phase 2)**:
-    *   [ ] ออกแบบ Class Design (Game, Player, Card) ในภาษา Python.
-    *   [ ] เริ่มเขียน Game Loop พื้นฐาน (Draw, Don!! Phase, Main Phase).
+2.  **Infrastructure & QA (Phase 2)**: *Foundation*
+    *   Setup **LangSmith** (Tracing) และ **Guardrails**.
+    *   เตรียม Docker/Environment ให้พร้อม.
+    *   *เตรียมบ้านให้เรียบร้อย ก่อนเริ่มสร้างเกม.*
 
-4.  **Simulation & Meta Agent (Phase 3-4)**:
-    *   [ ] เชื่อมต่อ Data Deck List.
-    *   [ ] ทำระบบ Simulation เพื่อ Run เกมจำนวนมากและเก็บสถิติ.
+2.  **Game Engine (Phase 3)**: *Core Logic*
+    *   เริ่มเขียน Code เกม (Model/Loop).
+    *   ฝัง Tracing/Guardrails ลงใน Engine ทันที.
+
+3.  **Basic Simulation (Phase 4)**: *Validation*
+    *   เอา Agent มาวิ่งใน Engine ให้จบเกมได้.
+
+4.  **Competitive AI (Phase 5)**: *Main Goal*
+    *   พัฒนาให้ AI เก่งและชนะได้.
+
+5.  **Meta Analysis (Phase 6)**: *Optional*
+    *   วิเคราะห์ Deck.
 
 ---
 
@@ -80,3 +65,6 @@ EMBEDDING_PROVIDER=huggingface
 *   **Database**: ChromaDB (Vector)
     *   *Note:* Data Pipeline includes a **Cleaning & Deduplication** step to filter unique card numbers.
 *   **Tools**: `uv` (Package Manager)
+    *   Virtual Environment Commands
+        *   **Windows**: `.venv\Scripts\Activate.ps1` (or simply `.venv\Scripts\python.exe` to run directly)
+        *   **macOS / Linux**: `source .venv/bin/activate`

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "P-029",
+    "name": "Bartolomeo",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[End of Your Turn] You may rest this Character: Set up to 1 of your \"FILM\" type Characters other than [Bartolomeo] as active."
+  },
+  {
+    "id": "P-057",
+    "name": "Fleeting Lullaby",
+    "type": "Event",
+    "color": "Green",
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.<br><br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "P-058",
+    "name": "Where the Wind Blows",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] If your Leader is [Uta], set all of your \"FILM\" type Characters as active at the end of this turn.<br><br>\r\n[Trigger] Set all of your \"FILM\" type Characters as active."
+  },
+  {
+    "id": "P-059",
+    "name": "The World's Continuation",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character."
+  },
+  {
+    "id": "P-060",
+    "name": "Tot Musica",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] <strong>You may rest 1 of your [Uta] cards</strong>: Rest up to 2 of your opponent's DON!! cards."
+  },
+  {
+    "id": "P-061",
+    "name": "Monkey.D.Luffy (P-061)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 10000,
+    "counter": 1000,
+    "cost": 8,
+    "rarity": "PR",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "ST11-001",
+    "name": "Uta (ST11-001)",
+    "type": "Leader",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "FILM"
+    ],
+    "effect": "[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 \"FILM\" type card to your hand. Then, place the rest at the bottom of your deck."
+  },
+  {
+    "id": "ST11-003",
+    "name": "Backlight",
+    "type": "Event",
+    "color": "Green",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] If your Leader is [Uta], choose one:<br><br>\r\n• Rest up to 1 of your opponent's Characters with a cost of 5 or less.<br><br>\r\n• K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less."
+  },
+  {
+    "id": "ST11-004",
+    "name": "New Genesis",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] If your Leader is [Uta], look at 3 cards from the top of your deck; reveal up to 1 \"FILM\" type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "ST11-005",
+    "name": "I'm invincible",
+    "type": "Event",
+    "color": "Green",
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Music"
+    ],
+    "effect": "[Main] Set up to 1 of your [Uta] Leader as active.<br><br>\r\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+  },
+  {
+    "id": "ST16-001",
+    "name": "Uta (ST16-001)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n<br>\r\n[Activate: Main] [Once Per Turn] You may trash 1 \"FILM\" type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST16-002",
+    "name": "Gordon",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "FILM"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br><br>\r\n[On Your Opponent's Attack] You may trash any number of \"Music\" type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed."
+  },
+  {
+    "id": "ST16-003",
+    "name": "Charlotte Katakuri",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Big Mom Pirates"
+    ],
+    "effect": "If your Leader has the \"FILM\" type and you have 6 or more rested cards, this Character gains +2000 power."
+  },
+  {
+    "id": "ST16-004",
+    "name": "Shanks",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 11000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters."
+  },
+  {
+    "id": "ST16-005",
+    "name": "Monkey.D.Luffy (ST16-005)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "If you have a rested [Uta], this Character gains +1000 power."
+  }
+]

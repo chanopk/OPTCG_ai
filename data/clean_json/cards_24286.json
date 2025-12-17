@@ -1,0 +1,226 @@
+[
+  {
+    "id": "OP09-081",
+    "name": "Marshall.D.Teach (OP09-081)",
+    "type": "Leader",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Four Emperors"
+    ],
+    "effect": "Your [On Play] effects are negated.<br>\r\n[Activate: Main] <strong>You may trash 1 card from your hand</strong>: Your opponent's [On Play] effects are negated until the end of your opponent's next turn."
+  },
+  {
+    "id": "ST27-003",
+    "name": "Kuzan",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "Former Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On K.O.] Play up to 1 \"Blackbeard Pirates\" type Character card with a cost of 5 or less from your trash rested."
+  },
+  {
+    "id": "ST27-005",
+    "name": "Marshall.D.Teach (ST27-005)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Four Emperors"
+    ],
+    "effect": "[Activate:Main] <strong>You may rest this Character:</strong> K.O. up to 1 Character with a cost of 3 or less.\r\n<br>[On K.O.] Add up to 1 black card from your trash to your hand."
+  },
+  {
+    "id": "ST27-001",
+    "name": "Avalo Pizarro",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] <strong>You may rest 1 of your [Fullalead] cards:</strong> If your Leader has the \"Blackbeard Pirates\" type, this Character gains +4000 power during this turn.\r\n<br>[On K.O.] Draw 1 card."
+  },
+  {
+    "id": "ST27-002",
+    "name": "Catarina Devon",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character:</strong> If your Leader has the \"Blackbeard Pirates\" type, give up to 1 of your opponent's Characters -1 cost during this turn.\r\n<br>[On K.O.] Draw 1 card."
+  },
+  {
+    "id": "ST27-004",
+    "name": "Sanjuan.Wolf",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "Giant"
+    ],
+    "effect": "If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash.\r\n<br><em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] Trash 1 card from your hand."
+  },
+  {
+    "id": "OP09-083",
+    "name": "Van Augur (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character</strong>: If your Leader has the \"Blackbeard Pirates\" type, give up to 1 of your opponent's Characters 3 cost during this turn.\r\n<br>[On K.O.] Draw 1 card.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-086",
+    "name": "Jesus Burgess (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d by your opponent's effects.<br>\r\nIf your Leader has the \"Blackbeard Pirates\" type, this Character gains +1000 power for every 4 cards in your trash.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-088",
+    "name": "Shiryu (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[DON!! x1] [When Attacking] <strong>You may trash 2 cards from your hand</strong>: Draw 2 cards.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-089",
+    "name": "Stronger (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Animal",
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash 1 card from your hand and trash this Character</strong>: If your Leader has the \"Blackbeard Pirates\" type, draw 1 card. Then, give up to 1 of your opponent's Characters –2 cost during this turn.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-090",
+    "name": "Doc Q (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character</strong>: If your Leader has the \"Blackbeard Pirates\" type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.<br>\r\n[On K.O.] Draw 1 card.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-091",
+    "name": "Vasco Shot (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-095",
+    "name": "Laffitte (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest 1 of your DON!! cards and this Character</strong>: Look at 5 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-099",
+    "name": "Fullalead (Reprint)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash 1 card from your hand and rest this Stage</strong>: Look at 3 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP10-084",
+    "name": "Sanjuan.Wolf (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "Giant"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP10 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  }
+]

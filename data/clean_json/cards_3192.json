@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ST03-001",
+    "name": "Crocodile (001)",
+    "type": "Leader",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] DON!! -4 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Return <span style=\"color:red\">up to</span> 1 Character with a cost of 5 or less to the owner's hand.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-002",
+    "name": "Edward Weevil",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "The Seven Warlords of the Sea"
+    ]
+  },
+  {
+    "id": "ST03-003",
+    "name": "Crocodile (003)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[DON!! x1] [On Block] Place <span style=\"color:red\">up to</span> 1 Character with a cost of 2 or less at the bottom of the owner's deck.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-004",
+    "name": "Gecko Moria",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] Add <span style=\"color:red\">up to</span> 1 \"The Seven Warlords of the Sea\" or \"Thriller Bark Pirates\" type Character with a cost of 4 or less than [Gecko Moria] from your trash to your hand.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-005",
+    "name": "Dracule Mihawk",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand."
+  },
+  {
+    "id": "ST03-006",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ]
+  },
+  {
+    "id": "ST03-007",
+    "name": "Sentomaru",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[DON!! x1] [Activate: Main] [Once Per Turn] (2) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Play <span style=\"color:red\">up to</span> 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-008",
+    "name": "Trafalgar Law",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST03-009",
+    "name": "Donquixote Doflamingo",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Return <span style=\"color:red\">up to</span> 1 Character with a cost of 7 or less to the owner's hand.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-010",
+    "name": "Bartholomew Kuma",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 3000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.\r\n<br>\r\n[Trigger] Play this card."
+  },
+  {
+    "id": "ST03-011",
+    "name": "Buggy",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Buggy's Delivery",
+      "The Seven Warlords of the Sea"
+    ]
+  },
+  {
+    "id": "ST03-012",
+    "name": "Pacifista",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Biological Weapon",
+      "Navy"
+    ]
+  },
+  {
+    "id": "ST03-013",
+    "name": "Boa Hancock",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Trigger] Play this card."
+  },
+  {
+    "id": "ST03-014",
+    "name": "Marshall.D.Teach",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Return <span style=\"color:red\">up to</span> 1 Character with a cost of 3 or less to the owner's hand.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-015",
+    "name": "Sables",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Main] Return <span style=\"color:red\">up to</span> 1 Character with a cost of 7 or less to the owner's hand.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-016",
+    "name": "Thrust Pad Cannon",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Revolutionary Army",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Counter] Return <span style=\"color:red\">up to</span> 1 Character with a cost of 3 or less to the owner's hand.\r\n<br>\r\n[Trigger] Activate this card's [Counter] effect.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  },
+  {
+    "id": "ST03-017",
+    "name": "Love-Love Mellow",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Counter] <span style=\"color:red\">Up to 1 of your</span> Leader or <span style=\"color:red\">Character cards</span> gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.\r\n<br><strong><span style=\"color:red\">Disclaimer: This card has been re-printed with new errata'd text as part of the Revision Pack cards series. This product page is for the original, pre-errata print of this card.</span></strong>"
+  }
+]

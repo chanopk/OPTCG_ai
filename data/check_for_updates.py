@@ -29,19 +29,19 @@ def main():
     print("Starting Knowledge Base Update Pipeline...")
     
     # 1. Fetch Group IDs (Check for new sets)
-    run_step("data/fetch_group_id.py", "1. Fetch New Group IDs")
+    run_step("data/scripts/fetch_group_id.py", "1. Fetch New Group IDs")
     
     # 2. Fetch Cards (Download content for new sets)
     # We capture output to check if any updates happened
     try:
         print("="*60)
         print("STEP: 2. Download Card Data")
-        print("Running: data/fetch_cards.py")
+        print("Running: data/scripts/fetch_cards.py")
         print("="*60)
         
         # Run and stream output to console while capturing it
         process = subprocess.Popen(
-            ["uv", "run", "data/fetch_cards.py"], 
+            ["uv", "run", "data/scripts/fetch_cards.py"], 
             stdout=subprocess.PIPE, 
             stderr=subprocess.STDOUT,
             text=True
@@ -70,9 +70,12 @@ def main():
     except Exception as e:
         print(f"[ERROR] Step 2 execution failed: {e}")
         sys.exit(1)
+
+    # 2.5 Clean Data (Transform Raw -> Clean)
+    run_step("data/scripts/clean_data.py", "2.5. Clean and Optimize Data")
     
     # 3. Update Vector DB (Index the data) - Only runs if Step 2 downloaded something
-    run_step("data/embed_loader.py", "3. Update Vector Database")
+    run_step("data/scripts/embed_loader.py", "3. Update Vector Database")
     
     print("\n" + "="*60)
     print("All steps completed successfully!")

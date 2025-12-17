@@ -1,0 +1,223 @@
+[
+  {
+    "id": "OP09-042",
+    "name": "Buggy (OP09-042)",
+    "type": "Leader",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "life": 5,
+    "rarity": "L",
+    "subtypes": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest 5 of your DON!! cards and trash 1 card from your hand</strong>: Play up to 1 \"Cross Guild\" type Character card from your hand."
+  },
+  {
+    "id": "ST25-003",
+    "name": "Crocodile & Mihawk",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash;Special",
+    "power": 7000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 1 card from your hand. Then, play up to 1 \"Cross Guild\" type Character card with a cost of 4 or less from your hand.\r\n<br>[Once Per Turn] If your \"Cross Guild\" type Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead."
+  },
+  {
+    "id": "ST25-004",
+    "name": "Buggy",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash 1 card from your hand and trash this Character:</strong> If your Leader is [Buggy], play up to 1 \"Cross Guild\" type Character card with a cost of 6 or less from your hand."
+  },
+  {
+    "id": "OP09-043",
+    "name": "Alvida (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[On K.O.] If your Leader has the \"Cross Guild\" type, play up to 1 Character card with a cost of 5 or less other than [Alvida] from your hand.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-045",
+    "name": "Cabaji (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "If you have a [Buggy] or [Mohji] Character, this Character cannot be K.O.'d in battle.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-051",
+    "name": "Buggy (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 12000,
+    "cost": 10,
+    "rarity": "R",
+    "subtypes": [
+      "The Four Emperors",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Place up to 1 of your opponent's Characters at the bottom of the owner's deck. Then, if you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-053",
+    "name": "Mohji (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Richie] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Richie] from your hand.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-054",
+    "name": "Richie (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Cross Guild"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-055",
+    "name": "Mr.1(Daz.Bonez) (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "<span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-056",
+    "name": "Mr.3(Galdino) (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "OP09-057",
+    "name": "Cross Guild (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "ST25-001",
+    "name": "Alvida",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost.\r\n<br>[On Play] If your Leader is [Buggy], draw 3 cards and trash 2 cards from your hand."
+  },
+  {
+    "id": "ST25-002",
+    "name": "Cabaji",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost.\r\n<br><em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[Opponent's Turn] This Character gains +5000 power."
+  },
+  {
+    "id": "ST25-005",
+    "name": "Mohji",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost.\r\n<br><em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On K.O.] If your Leader is [Buggy] and you have 3 or less cards in your hand, draw 1 card."
+  },
+  {
+    "id": "P-084",
+    "name": "Buggy (Promo Reprint)",
+    "type": "Character",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "PR",
+    "subtypes": [],
+    "effect": "This Character cannot attack.\r\n<br>If your Leader is [Buggy], all Characters with a cost of 3 or 4 cannot attack.\r\n<br>[On Play] Play up to 1 \"Cross Guild\" type Character card with a cost of 6 or less from your hand.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the exclusion of \"NOT FOR SALE\" on the right side, by the copyright information, and the missing gold winner stamp.</span>"
+  }
+]

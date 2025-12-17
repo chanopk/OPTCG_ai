@@ -30,14 +30,15 @@ from app.services.search import HybridSearchService
 # Let's instantiate inside to be safe for now, or use a global lazy loader.
 
 @tool
-def search_card_knowledge(query: str):
+def search_card_knowledge(query: str, k: int = 10):
     """
     Search for One Piece Card Game information using Hybrid Search.
     Useful for retrieving card effects, stats, attributes, and rule interactions.
+    You can increase 'k' (e.g., to 20 or 50) if the initial results are missing the card you are looking for or if you need a broader search.
     """
     # Instantiate service on demand to ensure thread safety with SQLite/Chroma if needed
     service = HybridSearchService()
-    return service.retrieve_card_data(query)
+    return service.retrieve_card_data(query, k=k)
 
 @tool
 def search_rule_knowledge(query: str):

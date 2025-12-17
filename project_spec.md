@@ -16,11 +16,14 @@
     *   ดูสถิติการใช้งาน (Meta trends)
     *   แนะนำ card (การ์ดแก้ทาง)
 4.  **Simulation:** จำลองการต่อสู้ (Battle) ระหว่าง Deck เพื่อหา Win Rate
+5.  **Competitive Gameplay AI:** (Highlight) สร้าง AI ที่สามารถเล่นเกมได้จริง มีการตัดสินใจที่ถูกต้อง (Decision Making) เพื่อเอาชนะคู่ต่อสู้ได้ ไม่ใช่แค่สุ่มเล่น
 
 ### Non-Functional Requirements
 1.  **Modularity:** แยกส่วนประกอบชัดเจน (API, Agent, Engine, Data) เพื่อการดูแลรักษา
 2.  **Extensibility:** รองรับฟีเจอร์ AIOps (Evaluation, Tracing) ในอนาคต
-3.  **Simplicity:** โค้ดเข้าใจง่าย ไม่ซับซ้อนจนเกินไป เหมาะแก่การเรียนรู้
+3.  **Observability:** มีระบบ Tracing/Logging เพื่อตรวจสอบกระบวนการคิดของ Agent (LangSmith/Phoenix)
+4.  **Reliability:** มี Guardrails ป้องกันการทำผิดกติกา (Illegal Moves)
+5.  **Simplicity:** โค้ดเข้าใจง่าย ไม่ซับซ้อนจนเกินไป เหมาะแก่การเรียนรู้
 
 ## 3. Technology Stack
 
@@ -73,8 +76,10 @@ graph TD
     *   *Knowledge Agent*: เชี่ยวชาญเรื่อง Text ของการ์ด
     *   *Stats Agent*: เชี่ยวชาญเรื่องตัวเลขและ Meta
 3.  **`engine/`**: (สำคัญ) Python pure logic ที่จำลองกติกาเกม OPTCG สำหรับใช้ใน Simulation.
-4.  **`data/`**: Script สำหรับ Load data, Vector DB management.
-4.  **`data/`**: Script สำหรับ Load data, Vector DB management.
+4.  **`data/`**: ศูนย์กลางข้อมูล
+    *   **`scripts/`**: Utility Scripts (`fetch`, `clean`, `embed`, `query`).
+    *   **`chroma_db_gemini/`**: Vector DB (Google GenAI).
+    *   **`clean_json/`**: ข้อมูลการ์ดที่ผ่านการ Clean.
 5.  **`core/`**: Config, Logger, Utilities.
 
 ### Data Retrieval Strategy (Hybrid Search)
@@ -90,55 +95,63 @@ graph TD
 ### Phase 1: Foundation & Knowledge Base (ระบบพื้นฐานและคลังความรู้)
 *Focus: ทำให้ AI "รู้จัก" การ์ด One Piece ด้วยระบบ Hybrid Search*
 *   [x] **Project Setup:** สร้าง Git, Setup `uv` และ Folder Structure
-*   [x] **Data Ingestion:**
-    *   เขียน Script Loop ดึง API `/products` ของทุก Group ID
-    *   Filter เก็บเฉพาะ **Cards** (ตัด Sealed Product ออก)
-    *   Save เป็น JSON ไฟล์ละ 1 Group (`cards_{group_id}.json`)
-    *   **Data Cleaning & Deduplication:**
-        *   กรองการ์ดที่ซ้ำกันออกโดยเช็คจาก Card Number (เช่น OP01-001) เก็บเฉพาะใบแรกที่พบเพื่อลดความซ้ำซ้อนใน DB
-        *   optimize เพิ่มเติม
+*   [x] **Data Ingestion Pipeline (Refactored):**
+    *   **Architecture:** เก็บ Script ทั้งหมดไว้ที่ `data/scripts/` เพื่อความสะอาด
+    *   **Workflow:**
+        1.  `fetch_group_id.py`: เช็ค Set ใหม่จาก API
+        2.  `fetch_cards.py`: โหลด Raw JSON
+        3.  `clean_data.py`: **Data Cleaning** แปลงข้อมูลให้ Flat, Clean และกรอง Deduplication (By Card ID)
+        4.  `embed_loader.py`: Index ข้อมูลที่ Clean แล้วลง Vector DB
+    *   **Automation:** ใช้ `check_for_updates.py` จัดการ Flow ทั้งหมดอัตโนมัติ
 *   [x] **Hybrid Search System:**
-    *   Setup ChromaDB (Vector Search)
-    *   Implement Structured Search (Filter จาก JSON)
-    *   รวมระบบค้นหา (Retrieve Logic)
-*   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ได้
-    *   *Added:* **Rule Search Tool** (ค้นหากติกาจาก Official Rules)
-    *   **Flexible Embedding Provider (Refactored):**
-        *   รองรับการสลับ Model ระหว่าง `Google Gemini` (API) และ `HuggingFace` (Local) ผ่าน Config `.env`
-        *   แยก Vector DB Path ตาม Provider เพื่อป้องกันความขัดแย้งของข้อมูล (`data/chroma_db_gemini` vs `data/chroma_db_huggingface`)
-        *   Centralized Provider Logic ที่ `data/embedding_provider.py`
+    *   **Vector Database:**
+        *   แยก Folder ชัดเจนตาม Provider: `data/chroma_db_gemini` และ `data/chroma_db_huggingface`
+        *   รองรับการสลับ Model ผ่าน Config (`.env`)
+    *   **Search Service:**
+        *   รองรับ **Dynamic k** (AI ปรับจำนวนผลลัพธ์ได้เอง)
+        *   แสดงผลพร้อม **Clean ID** (e.g., OP01-001)
+*   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ตอบคำถามได้
 *   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)
-*Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง*
+*Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง
 *   [ ] **Dockerization:**
-    *   สร้าง `Dockerfile` สำหรับ Build Image ของ Service Application (Optimized Size)
-    *   สร้าง `docker-compose.yml` เพื่อทดสอบการรัน Service และ Database ในสภาพแวดล้อมจำลอง
-*   [ ] **Configuration Management:**
-    *   จัดการ Environment Variables ผ่าน `.env` สำหรับ Production
-*   [ ] **Host Testing:**
-    *   ทดสอบเรียกใช้งาน API ผ่าน Container เพื่อจำลองการใช้งานจริง
+    *   สร้าง `Dockerfile` สำหรับ Build Image ของ Service Application
+    *   สร้าง `docker-compose.yml` เพื่อทดสอบการรัน Service.
+    [ ] **DevOps:**
+    *   จัดการ Environment Variables (`.env`) สำหรับ Production.
 
-### Phase 2: Rules Engine, Simulation & Evaluation
-*Focus: ทำให้ AI "เล่น" เป็น และ "ตรวจสอบ" ความถูกต้องได้*
-*   [ ] ออกแบบ Class/Model ของเกม (Game, Player, Card, Board, Phase).
-*   [ ] เขียน Game Loop พื้นฐาน (Draw, Don!!, Main, Attack, End).
-*   [ ] Implement กติกาการเล่นพื้นฐาน.
-*   [ ] สร้าง **Simulator Module** ที่รับ Deck List 2 ฝั่งแล้วรันเกมจนจบ (อาจจะเป็น Random Action ไปก่อนในช่วงแรก).
-*   [ ] เพิ่ม **LangSmith** หรือ **Phoenix** สำหรับ Tracing/Monitoring เพื่อตรวจสอบการทำงานของ Agent.
-*   [ ] ทำ **Evaluation set** (ชุดทดสอบ) เพื่อวัดผลความถูกต้องของคำตอบและ Logic อย่างสม่ำเสมอ.
+### Phase 2: Infrastructure & Quality Assurance Foundation
+*Focus: ปูพื้นฐานระบบตรวจสอบ (Observability) และความปลอดภัย (Guardrails) ก่อนเริ่มงานยาก*
+*   [ ] **Observability Setup:**
+    *   Setup **LangSmith** Project.
+    *   เชื่อมต่อ Tracing เข้ากับ Agent ที่มีอยู่ (Knowledge Agent).
+*   [ ] **Guardrails Setup:**
+    *   ติดตั้ง Library Guardrails.
+    *   สร้าง Input/Output Validation เบื้องต้นสำหรับ API.
 
-### Phase 3: Meta Analysis & Agent Intelligence
-*Focus: ทำให้ AI "วิเคราะห์" และ "แนะนำ" ได้*
-*   [ ] เชื่อมข้อมูล Deck Stats (อาจจะต้องหา Mock data หรือแหล่งข้อมูลเสริม).
-*   [ ] สร้าง **Meta Agent** ที่ดึงข้อมูลสถิติได้.
-*   [ ] สร้าง Logic การแนะนำการ์ด (Deck Suggestion) โดยดูจาก Win Rate หรือ Card usage.
-*   [ ] พัฒนา **Stats Agent** ให้ทำงานร่วมกับ Simulator (เช่น รัน Sim 100 รอบแล้วสรุปผล).
+### Phase 3: Game Engine Implementation
+*Focus: สร้างระบบเกม (สนามเด็กเล่น) ให้สมบูรณ์*
+*   *Note: เริ่มเขียน Logic เกมจริงๆ ใน Phase นี้*
+*   [ ] ออกแบบ Class/Model (Game, Player, Card, Board).
+*   [ ] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
+*   [ ] ฝัง Tracing ลงใน Game Loop เพื่อส่งข้อมูลเข้า LangSmith.
+*   [ ] ฝัง Guardrails ตรวจสอบ State ของเกมป้อนกัน Illegal Moves.
 
-### Phase 4: Advanced Features (Future)
-*Focus: ปรับปรุงคุณภาพและระบบให้ฉลาดขึ้น*
-*   [ ] เพิ่ม Guardrails ป้องกัน AI ตอบนอกเรื่อง.
-*   [ ] Refactor Simulation ให้ฉลาดขึ้น (ใช้ Search Algorithm หรือ RL แทน Random).
+### Phase 4: Basic AI & Simulation (Validation)
+*Focus: เชื่อมต่อ AI ให้เล่นจนจบเกมได้*
+*   [ ] เชื่อมต่อ Agent เข้ากับ Game Engine.
+*   [ ] สร้าง **Random/Rule-based Agent** เพื่อทดสอบ Loop.
+*   [ ] ตรวจสอบผลการเล่นผ่าน Dashboard ของ LangSmith.
+
+### Phase 5: Competitive AI (The Goal)
+*Focus: สร้าง AI ที่เล่นเพื่อชัยชนะ*
+*   [ ] พัฒนา Strategy Agent (Minimax/Search).
+*   [ ] วัดผล Win Rate (Evaluation).
+
+### Phase 6: Meta Analysis (Optional)
+*Focus: วิเคราะห์สถิติ*
+*   [ ] ระบบแนะนำ Deck.
 
 ## 6. Implementation Plan: Starting Point (จุดเริ่มต้น)
 
@@ -156,4 +169,4 @@ graph TD
     *   POST `/chat` endpoint.
 
 ---
-*Note: โปรเจคนี้เน้นความเข้าใจใน Architecture ของ Agent ถ้าส่วน Game Simulation ซับซ้อนเกินไป อาจจะลด Scope เหลือแค่การคำนวณ Probability เบื้องต้นจากการ์ดบนมือแทนการเล่นจนจบเกม*
+*Note: เป้าหมายสูงสุดของโปรเจคคือการสร้าง "Winning AI" ที่เล่นเกมได้จริง ดังนั้นการพัฒนา Game Engine ให้สมบูรณ์จึงเป็นหัวใจสำคัญ*

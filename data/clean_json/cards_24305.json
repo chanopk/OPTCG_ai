@@ -1,0 +1,4646 @@
+[
+  {
+    "id": "PRB02-003",
+    "name": "Lucky.Roux",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] <strong>You may trash 1 Character card with 6000 power or more from your hand:</strong> Draw 2 cards."
+  },
+  {
+    "id": "PRB02-003",
+    "name": "Lucky.Roux (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] <strong>You may trash 1 Character card with 6000 power or more from your hand:</strong> Draw 2 cards."
+  },
+  {
+    "id": "PRB02-004",
+    "name": "Jewelry Bonney",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Your Opponent's Attack] [Once Per Turn] Set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "PRB02-004",
+    "name": "Jewelry Bonney (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Your Opponent's Attack] [Once Per Turn] Set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "PRB02-005",
+    "name": "Monkey.D.Luffy",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader is multicolored and your opponent has 7 or less DON!! cards on their field, your opponent rests 1 of their active DON!! cards at the start of their next Main Phase."
+  },
+  {
+    "id": "PRB02-005",
+    "name": "Monkey.D.Luffy (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader is multicolored and your opponent has 7 or less DON!! cards on their field, your opponent rests 1 of their active DON!! cards at the start of their next Main Phase."
+  },
+  {
+    "id": "PRB02-012",
+    "name": "Nami",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Straw Hat Crew\" type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[Trigger] Play this card."
+  },
+  {
+    "id": "PRB02-012",
+    "name": "Nami (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Straw Hat Crew\" type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>[Trigger] Play this card."
+  },
+  {
+    "id": "PRB02-009",
+    "name": "Mr.3(Galdino)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "This effect can be activated when this Character is rested by your opponent's effect. You may trash this Character and draw 2 cards.\r\n<br>[Blocker]"
+  },
+  {
+    "id": "PRB02-009",
+    "name": "Mr.3(Galdino) (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "This effect can be activated when this Character is rested by your opponent's effect. You may trash this Character and draw 2 cards.\r\n<br>[Blocker]"
+  },
+  {
+    "id": "PRB02-016",
+    "name": "Otama",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 0,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand:</strong> Up to 1 of your Leader or Character cards gains +3000 power during this turn.\r\n<br>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "PRB02-016",
+    "name": "Otama (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 0,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Land of Wano"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand:</strong> Up to 1 of your Leader or Character cards gains +3000 power during this turn.\r\n<br>[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "PRB02-015",
+    "name": "Shiryu",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Blocker] and +4 cost.\r\n<br>[On K.O.] If your Leader has the \"Blackbeard Pirates\" type, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less."
+  },
+  {
+    "id": "PRB02-015",
+    "name": "Shiryu (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Blocker] and +4 cost.\r\n<br>[On K.O.] If your Leader has the \"Blackbeard Pirates\" type, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less."
+  },
+  {
+    "id": "PRB02-002",
+    "name": "Trafalgar Law (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Heart Pirates",
+      "The Seven Warlords of the Sea",
+      "Punk Hazard"
+    ],
+    "effect": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "PRB02-002",
+    "name": "Trafalgar Law",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Heart Pirates",
+      "The Seven Warlords of the Sea",
+      "Punk Hazard"
+    ],
+    "effect": "[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character -2000 power during this turn instead.\r\n<br>[When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "PRB02-001",
+    "name": "Koby",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Navy",
+      "SWORD"
+    ],
+    "effect": "[Opponent's Turn] If your Leader has the \"Navy\" type, this Character gains +1000 power.\r\n<br>[When Attacking] K.O. up to 1 of your opponent's Characters with 3000 base power or less. Then, if you have 6 or less cards in your hand, draw 1 card."
+  },
+  {
+    "id": "PRB02-001",
+    "name": "Koby (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Navy",
+      "SWORD"
+    ],
+    "effect": "[Opponent's Turn] If your Leader has the \"Navy\" type, this Character gains +1000 power.\r\n<br>[When Attacking] K.O. up to 1 of your opponent's Characters with 3000 base power or less. Then, if you have 6 or less cards in your hand, draw 1 card."
+  },
+  {
+    "id": "PRB02-006",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead.\r\n<br>[Blocker]"
+  },
+  {
+    "id": "PRB02-006",
+    "name": "Roronoa Zoro (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead.\r\n<br>[Blocker]"
+  },
+  {
+    "id": "PRB02-010",
+    "name": "Charlotte Pudding",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] <strong>DON!! -2:</strong> If your Leader has the \"Big Mom Pirates\" type and your opponent has 6 or more DON!! cards on their field, draw 2 cards. Then, play up to 1 \"Big Mom Pirates\" type Character card with 6000 to 8000 power from your hand."
+  },
+  {
+    "id": "PRB02-010",
+    "name": "Charlotte Pudding (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] <strong>DON!! -2:</strong> If your Leader has the \"Big Mom Pirates\" type and your opponent has 6 or more DON!! cards on their field, draw 2 cards. Then, play up to 1 \"Big Mom Pirates\" type Character card with 6000 to 8000 power from your hand."
+  },
+  {
+    "id": "PRB02-011",
+    "name": "Donquixote Doflamingo",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker]\r\n<br>[On Play] If your Leader is multicolored, add up to 1 DON!! card from your DON!! deck and rest it."
+  },
+  {
+    "id": "PRB02-011",
+    "name": "Donquixote Doflamingo (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Blocker]\r\n<br>[On Play] If your Leader is multicolored, add up to 1 DON!! card from your DON!! deck and rest it."
+  },
+  {
+    "id": "PRB02-008",
+    "name": "Marco (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Former Whitebeard Pirates",
+      "Land of Wano"
+    ],
+    "effect": "[Blocker]<em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On K.O.] Draw 2 cards."
+  },
+  {
+    "id": "PRB02-008",
+    "name": "Marco",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Former Whitebeard Pirates",
+      "Land of Wano"
+    ],
+    "effect": "[Blocker]<em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On K.O.] Draw 2 cards."
+  },
+  {
+    "id": "PRB02-007",
+    "name": "Jinbe",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"The Seven Warlords of the Sea\" type card other than [Jinbe] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "PRB02-007",
+    "name": "Jinbe(Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fish-Man",
+      "The Seven Warlords of the Sea",
+      "The Sun Pirates"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"The Seven Warlords of the Sea\" type card other than [Jinbe] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP09-020",
+    "name": "Come On!! We'll Fight You!! (Alternate Art)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 \"Red-Haired Pirates\" type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Draw 1 card."
+  },
+  {
+    "id": "OP09-057",
+    "name": "Cross Guild (Alternate Art)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "OP09-078",
+    "name": "Gum-Gum Giant (Alternate Art)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Counter] <strong>DON!! 2, You may trash 1 card from your hand</strong>: If your Leader has the \"Straw Hat Crew\" type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards."
+  },
+  {
+    "id": "OP09-096",
+    "name": "My Era...Begins!! (Alternate Art)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "ST15-002",
+    "name": "Edward.Newgate (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.<br>\r\n<br>\r\n[Activate: Main] <strong>You may rest this Character</strong>: K.O. up to 1 of your opponent's Characters with 5000 power or less."
+  },
+  {
+    "id": "ST16-004",
+    "name": "Shanks (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 11000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters."
+  },
+  {
+    "id": "PRB02-014",
+    "name": "Sabo",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 2000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "If you have 15 or more cards in your trash, give this card in your hand -3 cost.\r\n<br>[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "PRB02-014",
+    "name": "Sabo (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 2000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "If you have 15 or more cards in your trash, give this card in your hand -3 cost.\r\n<br>[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "PRB02-013",
+    "name": "Gecko Moria",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "R",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the \"Thriller Bark Pirates\" type, play up to 1 Character card with a cost of 4 or less from your trash rested. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "PRB02-013",
+    "name": "Gecko Moria (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "R",
+    "subtypes": [
+      "The Seven Warlords of the Sea",
+      "Thriller Bark Pirates"
+    ],
+    "effect": "[On Play] If your Leader has the \"Thriller Bark Pirates\" type, play up to 1 Character card with a cost of 4 or less from your trash rested. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "PRB02-017",
+    "name": "Boa Hancock",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Once Per Turn] <strong>You may trash 1 card with a [Trigger] from your hand:</strong> Your opponent's rested Leader or up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next End Phase.\r\n<br>[Trigger] K.O up to 1 of your opponent's Characters with a cost of 4 or less"
+  },
+  {
+    "id": "PRB02-017",
+    "name": "Boa Hancock (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Once Per Turn] <strong>You may trash 1 card with a [Trigger] from your hand:</strong> Your opponent's rested Leader or up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next End Phase.\r\n<br>[Trigger] K.O up to 1 of your opponent's Characters with a cost of 4 or less"
+  },
+  {
+    "id": "PRB02-018",
+    "name": "Portgas.D.Ace (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If you have a face-up Life card, play up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 2 from your hand or trash."
+  },
+  {
+    "id": "PRB02-018",
+    "name": "Portgas.D.Ace",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] If you have a face-up Life card, play up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 2 from your hand or trash."
+  },
+  {
+    "id": "ST17-002",
+    "name": "Trafalgar Law (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Heart Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the \"The Seven Warlords of the Sea\" type, return up to 1 Character with a cost of 4 or less to the owner's hand."
+  },
+  {
+    "id": "EB01-015",
+    "name": "Scratchmen Apoo (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "On-Air Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less."
+  },
+  {
+    "id": "OP07-021",
+    "name": "Urouge (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fallen Monk Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[End of Your Turn] Set up to 1 of your DON!! cards as active."
+  },
+  {
+    "id": "OP10-095",
+    "name": "Roronoa Zoro (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] <strong>You may rest 1 of your \"Dressrosa\" type Leader or Stage cards:</strong> K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, trash 2 cards from the top of your deck."
+  },
+  {
+    "id": "OP10-109",
+    "name": "Basil Hawkins (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Hawkins Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.<br>\r\n[Trigger] Draw 2 cards and trash 1 card from your hand."
+  },
+  {
+    "id": "OP05-030",
+    "name": "Donquixote Rosinante (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates",
+      "Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Opponent's Turn] If your rested Character would be K.O.'d, you may trash this Character instead."
+  },
+  {
+    "id": "OP09-056",
+    "name": "Mr.3(Galdino) (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP09-086",
+    "name": "Jesus Burgess (Alternate Art)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d by your opponent's effects.<br>\r\nIf your Leader has the \"Blackbeard Pirates\" type, this Character gains +1000 power for every 4 cards in your trash."
+  },
+  {
+    "id": "OP09-076",
+    "name": "Roronoa Zoro (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>You may return 1 or more DON!! cards from your field to your DON!! deck</strong>: Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP10-011",
+    "name": "Tony Tony.Chopper (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Punk Hazard"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[Opponent's Turn] This Character gains +2000 power.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-063",
+    "name": "Jinbe (Alternate Art)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Fish-Man"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less."
+  },
+  {
+    "id": "OP10-011",
+    "name": "Tony Tony.Chopper (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Punk Hazard"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[Opponent's Turn] This Character gains +2000 power."
+  },
+  {
+    "id": "OP06-007",
+    "name": "Shanks (SP)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 12000,
+    "cost": 10,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On play] K.O. up to 1 of your opponent's Characters with 10000 power or less."
+  },
+  {
+    "id": "OP06-047",
+    "name": "Charlotte Pudding (SP)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards."
+  },
+  {
+    "id": "OP08-023",
+    "name": "Carrot (SP)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Minks"
+    ],
+    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase."
+  },
+  {
+    "id": "EB02-061",
+    "name": "Monkey.D.Luffy (SP)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Water Seven"
+    ],
+    "effect": "If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, this Character gains [Rush].<br>\r\n[When Attacking] [Once Per Turn] <strong>You may return 2 of your active DON!! cards to your DON!! deck:</strong> Set this Character as active. Then, add 1 card from the top of your Life cards to your hand."
+  },
+  {
+    "id": "OP05-091",
+    "name": "Rebecca (SP)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker]\r\n<br>\r\n[On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested."
+  },
+  {
+    "id": "OP10-119",
+    "name": "Trafalgar Law (SP)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 9000,
+    "cost": 7,
+    "rarity": "SEC",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Reveal up to 1 \"Supernovas\" type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your \"Supernovas\" type Leader."
+  },
+  {
+    "id": "OP06-119",
+    "name": "Sanji (Manga)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 9000,
+    "cost": 9,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck."
+  },
+  {
+    "id": "EB01-009",
+    "name": "Just Shut Up and Come with Us!!!! (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Drum Kingdom"
+    ],
+    "effect": "[Counter] Look at 5 cards from the top of your deck and play up to 1 [Animal] type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-009",
+    "name": "Just Shut Up and Come with Us!!!! (Pirate Foil)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Drum Kingdom"
+    ],
+    "effect": "[Counter] Look at 5 cards from the top of your deck and play up to 1 [Animal] type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "EB01-012",
+    "name": "Cavendish (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Beautiful Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play]/[When Attacking] If your Leader has the [Supernovas] type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-015",
+    "name": "Scratchmen Apoo (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "On-Air Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-018",
+    "name": "Mountain God (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Land of Wano"
+    ],
+    "effect": "<span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-018",
+    "name": "Mountain God (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Animal",
+      "Land of Wano"
+    ]
+  },
+  {
+    "id": "OP09-096",
+    "name": "My Era...Begins!! (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 \"Blackbeard Pirates\" type card other than [My Era...Begins!!] and add it to your hand. Then, trash the rest.<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-038",
+    "name": "Oh Come My Way (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[Counter] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.\r\n<br>\r\n[Trigger] DON!! -1: Draw 2 cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-038",
+    "name": "Oh Come My Way (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effect": "[Counter] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.\r\n<br>\r\n[Trigger] DON!! -1: Draw 2 cards."
+  },
+  {
+    "id": "EB01-046",
+    "name": "Brook (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters -1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-078",
+    "name": "Gum-Gum Giant (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Counter] <strong>DON!! 2, You may trash 1 card from your hand</strong>: If your Leader has the \"Straw Hat Crew\" type, up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 2 cards.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-048",
+    "name": "Laboon (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Animal"
+    ],
+    "effect": "[Activate:Main]<strong>You may rest this Character</strong>: Give up to 1 of your opponent's Characters -4 cost during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-051",
+    "name": "Finger Pistol (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "CP9"
+    ],
+    "effect": "[Main] <strong>You may trash 2 cards from the top of your deck</strong>: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-051",
+    "name": "Finger Pistol (Alternate Art)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "CP9"
+    ],
+    "effect": "[Main] <strong>You may trash 2 cards from the top of your deck</strong>: K.O. up to 1 of your opponent's Characters with a cost of 5 or less."
+  },
+  {
+    "id": "EB01-057",
+    "name": "Shirahoshi (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "SR",
+    "subtypes": [
+      "Merfolk"
+    ],
+    "effect": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards.\r\n<br>\r\n[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-060",
+    "name": "Did Someone Say...Kami? (Reprint)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Main] Play up to 1 [Enel] with a cost of 7 or less life from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.\r\n<br>\r\n[Trigger] Draw 2 cards and trash 1 card from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "EB01-060",
+    "name": "Did Someone Say...Kami? (Pirate Foil)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Main] Play up to 1 [Enel] with a cost of 7 or less life from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.\r\n<br>\r\n[Trigger] Draw 2 cards and trash 1 card from your hand."
+  },
+  {
+    "id": "EB01-061",
+    "name": "Mr.2.Bon.Kurei (Bentham) (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SEC",
+    "subtypes": [
+      "Former Baroque Works"
+    ],
+    "effect": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n[When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST21-003",
+    "name": "Sanji (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP01-039",
+    "name": "Killer (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP01-039",
+    "name": "Killer (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card."
+  },
+  {
+    "id": "ST21-003",
+    "name": "Sanji (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker]."
+  },
+  {
+    "id": "OP01-055",
+    "name": "You Can Be My Samurai!! (Reprint)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Main] <strong>You may rest 2 of your Characters:</strong> Draw 2 cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP01-055",
+    "name": "You Can Be My Samurai!! (Pirate Foil)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Main] <strong>You may rest 2 of your Characters:</strong> Draw 2 cards."
+  },
+  {
+    "id": "OP02-005",
+    "name": "Curly.Dadan (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Mountain Bandits",
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP02-005",
+    "name": "Curly.Dadan (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Mountain Bandits",
+      "Mountain Bandits"
+    ],
+    "effect": "[On Play] Look at up to 5 cards from the top of your deck; reveal up to 1 red Character with a cost of 1 and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP02-068",
+    "name": "Gum-Gum Rain (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Impel Down"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP02-068",
+    "name": "Gum-Gum Rain (Alternate Art)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Impel Down"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Return up to 1 Character with a cost of 2 or less to the owner's hand."
+  },
+  {
+    "id": "ST20-003",
+    "name": "Charlotte Brulee (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST20-003",
+    "name": "Charlotte Brulee (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand."
+  },
+  {
+    "id": "OP03-008",
+    "name": "Buggy (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by \"Slash\" attribute cards.\r\n<br>\r\n[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP03-008",
+    "name": "Buggy (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Buggy Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d in battle by \"Slash\" attribute cards.\r\n<br>\r\n[On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "ST19-002",
+    "name": "Sengoku (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 2 black \"Navy\" type cards from your hand: If your Leader has the \"Navy\" type, draw 3 cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST19-002",
+    "name": "Sengoku (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[On Play] You may trash 2 black \"Navy\" type cards from your hand: If your Leader has the \"Navy\" type, draw 3 cards."
+  },
+  {
+    "id": "OP03-044",
+    "name": "Kaya (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effect": "[On Play] Draw 2 cards and trash 2 cards from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP03-048",
+    "name": "Nojiko (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "ST18-003",
+    "name": "San-Gorou (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP03-048",
+    "name": "Nojiko (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effect": "[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand."
+  },
+  {
+    "id": "ST18-003",
+    "name": "San-Gorou (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card."
+  },
+  {
+    "id": "OP03-072",
+    "name": "Gum-Gum Jet Gatling (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Water Seven"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP03-072",
+    "name": "Gum-Gum Jet Gatling (Alternate Art)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Water Seven"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP03-097",
+    "name": "Six King Pistol (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "CP9"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP04-016",
+    "name": "Bad Manners Kick Course (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP04-016",
+    "name": "Bad Manners Kick Course (Alternate Art)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Alabasta",
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Give up to 1 of your opponent's Leader or Character cards -3000 power during this turn."
+  },
+  {
+    "id": "ST18-002",
+    "name": "O-Nami (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br><br>\r\n[On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-002",
+    "name": "Uta (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "FILM"
+    ],
+    "effect": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 \"Red-Haired Pirates\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-004",
+    "name": "Shanks (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 12000,
+    "cost": 10,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "Give all of your opponent's Characters 1000 power.<br>\r\n[Rush] <em>(This card can attack on the turn in which it is played.)</em>\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-005",
+    "name": "Silvers Rayleigh (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Roger Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] If your opponent has 2 or more Characters with a base power of 5000 or more, draw 2 cards and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST18-002",
+    "name": "O-Nami (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br><br>\r\n[On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards."
+  },
+  {
+    "id": "OP09-009",
+    "name": "Benn.Beckman (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Ranged",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Trash up to 1 of your opponent's Characters with 6000 power or less.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST18-001",
+    "name": "Uso-Hachi (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST18-001",
+    "name": "Uso-Hachi (Alternate Art)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less."
+  },
+  {
+    "id": "ST18-001",
+    "name": "Uso-Hachi (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less."
+  },
+  {
+    "id": "OP04-077",
+    "name": "Ideo (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP04-077",
+    "name": "Ideo (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP09-014",
+    "name": "Limejuice (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn."
+  },
+  {
+    "id": "OP04-083",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Play] None of your Characters can be K.O.'d by effects until the start of your next turn. Then, draw 2 cards and trash 2 cards from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP09-014",
+    "name": "Limejuice (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-014",
+    "name": "Limejuice (Alternate Art)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] Your opponent cannot activate up to 1 [Blocker] Character that has 4000 power or less during this turn."
+  },
+  {
+    "id": "ST17-005",
+    "name": "Marshall.D.Teach",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST17-005",
+    "name": "Marshall.D.Teach (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 3000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST17-003",
+    "name": "Buggy (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Buggy's Delivery",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-020",
+    "name": "Come On!! We'll Fight You!! (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 \"Red-Haired Pirates\" type card other than [Come On!! We'll Fight You!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Draw 1 card.\r\n<br>\r\n<br><span style=\"color:red\">DISCLAIMER: This card is a reprint of the pre-existing card in the OP09 set. The main difference between this card and the original print is the inclusion of \"EN\" on the right side, by the copyright information.</span>"
+  },
+  {
+    "id": "ST17-003",
+    "name": "Buggy (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Buggy's Delivery",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order."
+  },
+  {
+    "id": "OP04-096",
+    "name": "Corrida Coliseum (Reprint)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "If your Leader has the [Dressrosa] type, your [Dressrosa] type Characters can attack Characters on the turn in which they are played.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST17-002",
+    "name": "Trafalgar Law (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Heart Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the \"The Seven Warlords of the Sea\" type, return up to 1 Character with a cost of 4 or less to the owner's hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-027",
+    "name": "Sabo (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army",
+      "ODYSSEY"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card."
+  },
+  {
+    "id": "OP04-096",
+    "name": "Corrida Coliseum (Pirate Foil)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "If your Leader has the [Dressrosa] type, your [Dressrosa] type Characters can attack Characters on the turn in which they are played."
+  },
+  {
+    "id": "OP09-027",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army",
+      "ODYSSEY"
+    ],
+    "effect": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-033",
+    "name": "Nico Robin (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, none of your \"ODYSSEY\" or \"Straw Hat Crew\" type Characters can be K.O.'d by effects until the end of your opponent's next turn."
+  },
+  {
+    "id": "ST16-005",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "If you have a rested [Uta], this Character gains +1000 power.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-033",
+    "name": "Nico Robin (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "ODYSSEY"
+    ],
+    "effect": "[On Play] If you have 2 or more rested Characters, none of your \"ODYSSEY\" or \"Straw Hat Crew\" type Characters can be K.O.'d by effects until the end of your opponent's next turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST16-005",
+    "name": "Monkey.D.Luffy (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "If you have a rested [Uta], this Character gains +1000 power."
+  },
+  {
+    "id": "OP09-046",
+    "name": "Crocodile (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Play up to 1 \"Cross Guild\" type Character card or Character card with a type including \"Baroque Works\" with a cost of 5 or less from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-004",
+    "name": "Emporio.Ivankov (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main][Once Per Turn] If this Character has 7000 power or more, play up to 1 [Revolutionary Army] type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP05-004",
+    "name": "Emporio.Ivankov (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main][Once Per Turn] If this Character has 7000 power or more, play up to 1 [Revolutionary Army] type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand."
+  },
+  {
+    "id": "OP09-048",
+    "name": "Dracule Mihawk (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] Draw 2 cards and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-021",
+    "name": "Revolutionary Army HQ (Reprint)",
+    "type": "Stage",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash 1 card from your hand and rest this Stage</strong>: Look at 3 cards from the top of your deck; reveal up to 1 [Revolutionary Army] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-021",
+    "name": "Revolutionary Army HQ (Pirate Foil)",
+    "type": "Stage",
+    "color": "Red",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash 1 card from your hand and rest this Stage</strong>: Look at 3 cards from the top of your deck; reveal up to 1 [Revolutionary Army] type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "ST16-004",
+    "name": "Shanks (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 11000,
+    "cost": 9,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's rested Characters.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-030",
+    "name": "Donquixote Rosinante (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates",
+      "Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Opponent's Turn] If your rested Character would be K.O.'d, you may trash this Character instead.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP09-056",
+    "name": "Mr.3(Galdino) (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card or card with a type including \"Baroque Works\" other than [Mr.3(Galdino)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-036",
+    "name": "Monet (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP09-057",
+    "name": "Cross Guild (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Main] Look at 4 cards from the top of your deck; reveal up to 1 \"Cross Guild\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-036",
+    "name": "Monet (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Block] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "ST16-003",
+    "name": "Charlotte Katakuri (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Big Mom Pirates"
+    ],
+    "effect": "If your Leader has the \"FILM\" type and you have 6 or more rested cards, this Character gains +2000 power.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-037",
+    "name": "Because the Side of Justice Will Be Whichever Side Wins!! (Reprint)",
+    "type": "Event",
+    "color": "Green",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Donquixote Pirates"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand</strong>: Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>\r\n[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST16-003",
+    "name": "Charlotte Katakuri (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "FILM",
+      "Big Mom Pirates"
+    ],
+    "effect": "If your Leader has the \"FILM\" type and you have 6 or more rested cards, this Character gains +2000 power."
+  },
+  {
+    "id": "OP05-052",
+    "name": "Maynard (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP09-065",
+    "name": "Sanji (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>You may return 1 or more DON!! cards from your field to your DON!! deck</strong>: This Character gains [Rush] during this turn. Then, rest up to 1 of your opponent's Characters with a cost of 6 or less.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-052",
+    "name": "Maynard (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "ST15-002",
+    "name": "Edward.Newgate (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 8000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.<br>\r\n<br>\r\n[Activate: Main] <strong>You may rest this Character</strong>: K.O. up to 1 of your opponent's Characters with 5000 power or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-069",
+    "name": "Trafalgar Law (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "R",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 \"Straw Hat Crew\" or \"Heart Pirates\" type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-077",
+    "name": "Gamma Knife (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[Main] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Give up to 1 of your opponent's Characters -5000 power during this turn.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-077",
+    "name": "Gamma Knife (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[Main] DON!! -1 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Give up to 1 of your opponent's Characters -5000 power during this turn.\r\n<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP09-072",
+    "name": "Franky (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em><br>\r\n[On Play] <strong>DON!! 2, You may trash 1 card from your hand</strong>: Draw 2 cards.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-076",
+    "name": "Roronoa Zoro",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] <strong>You may return 1 or more DON!! cards from your field to your DON!! deck</strong>: Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-077",
+    "name": "Gum-Gum Lightning (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] <strong>DON!! 2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em></strong>: K.O. up to 1 of your opponent's Characters with 6000 power or less.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP09-077",
+    "name": "Gum-Gum Lightning (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] <strong>DON!! 2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em></strong>: K.O. up to 1 of your opponent's Characters with 6000 power or less.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-079",
+    "name": "Gum-Gum Jump Rope (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] <strong>DON!! 2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em></strong>: Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP09-079",
+    "name": "Gum-Gum Jump Rope (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors"
+    ],
+    "effect": "[Main] <strong>DON!! 2 <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em></strong>: Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, draw 1 card.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-084",
+    "name": "Catarina Devon (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn."
+  },
+  {
+    "id": "OP09-084",
+    "name": "Catarina Devon (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Activate: Main] [Once Per Turn] If your Leader has the \"Blackbeard Pirates\" type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-086",
+    "name": "Jesus Burgess (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "This Character cannot be K.O.'d by your opponent's effects.<br>\r\nIf your Leader has the \"Blackbeard Pirates\" type, this Character gains +1000 power for every 4 cards in your trash.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-093",
+    "name": "Marshall.D.Teach (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 12000,
+    "cost": 10,
+    "rarity": "SR",
+    "subtypes": [
+      "Blackbeard Pirates",
+      "The Four Emperors"
+    ],
+    "effect": "[Blocker]<br>\r\n[Activate: Main] [Once Per Turn] If your Leader has the \"Blackbeard Pirates\" type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-097",
+    "name": "Black Vortex (Pirate Foil)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card 4000 power during this turn.<br>\r\n[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn."
+  },
+  {
+    "id": "OP09-097",
+    "name": "Black Vortex (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Counter] Negate the effect of up to 1 of your opponent's Leader or Character cards and give that card 4000 power during this turn.<br>\r\n[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-098",
+    "name": "Black Hole (Pirate Foil)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] If your Leader has the \"Blackbeard Pirates\" type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it.<br>\r\n[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn."
+  },
+  {
+    "id": "ST14-017",
+    "name": "Thousand Sunny (Reprint)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "All of your black \"Straw Hat Crew\" type Characters gain +1 cost.\r\n<br>[On Play] If your Leader has the \"Straw Hat Crew\" type, draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP09-098",
+    "name": "Black Hole (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Blackbeard Pirates"
+    ],
+    "effect": "[Main] If your Leader has the \"Blackbeard Pirates\" type, negate the effect of up to 1 of your opponent's Characters during this turn. Then, if that Character has a cost of 4 or less, K.O. it.<br>\r\n[Trigger] Negate the effect of up to 1 of your opponent's Leader or Character cards during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST14-016",
+    "name": "I Have My Crew!! (Reprint)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.\r\n<br>[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST14-016",
+    "name": "I Have My Crew!! (Pirate Foil)",
+    "type": "Event",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.\r\n<br>[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less."
+  },
+  {
+    "id": "ST14-013",
+    "name": "Roronoa Zoro (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST14-013",
+    "name": "Roronoa Zoro (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "OP05-091",
+    "name": "Rebecca (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "SR",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[Blocker]\r\n<br>\r\n[On Play] Add up to 1 black Character card with a cost of 3 to 7 other than [Rebecca] from your trash to your hand. Then, play up to 1 black Character card with a cost of 3 or less from your hand rested.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "OP10-018",
+    "name": "Ten-Layer Igloo (Pirate Foil)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates",
+      "Punk Hazard"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards 2000 power during this turn.<br>\r\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+  },
+  {
+    "id": "OP10-018",
+    "name": "Ten-Layer Igloo (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Donquixote Pirates",
+      "Punk Hazard"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards 2000 power during this turn.<br>\r\n[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-097",
+    "name": "Mary Geoise (Reprint)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Mary Geoise"
+    ],
+    "effect": "[Your Turn] The cost of playing [Celestial Dragons] type Character cards with a cost of 2 or more from your hand will be reduced by 1.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-097",
+    "name": "Mary Geoise (Pirate Foil)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Mary Geoise"
+    ],
+    "effect": "[Your Turn] The cost of playing [Celestial Dragons] type Character cards with a cost of 2 or more from your hand will be reduced by 1."
+  },
+  {
+    "id": "OP10-032",
+    "name": "Tashigi (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "SR",
+    "subtypes": [
+      "Navy",
+      "Punk Hazard"
+    ],
+    "effect": "If you have a green Character other than [Tashigi] that would be removed from the field by your opponent's effect, you may rest this Character instead.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-097",
+    "name": "Mary Geoise (Alternate Art)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Mary Geoise"
+    ],
+    "effect": "[Your Turn] The cost of playing [Celestial Dragons] type Character cards with a cost of 2 or more from your hand will be reduced by 1."
+  },
+  {
+    "id": "ST14-010",
+    "name": "Brook (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP05-102",
+    "name": "Gedatsu (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "R",
+    "subtypes": [
+      "Sky Island",
+      "Vassals"
+    ],
+    "effect": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright) and the Artist Credit (Note: there is no pencil design on top of the artist name).</span>"
+  },
+  {
+    "id": "ST14-010",
+    "name": "Brook (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ]
+  },
+  {
+    "id": "OP10-046",
+    "name": "Kyros (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 9000,
+    "cost": 7,
+    "rarity": "SR",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Return up to 1 Character with a cost of 5 or less to the owner's hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-007",
+    "name": "Shanks (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 12000,
+    "cost": 10,
+    "rarity": "SR",
+    "subtypes": [
+      "FILM",
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[On play] K.O. up to 1 of your opponent's Characters with 10000 power or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-079",
+    "name": "God Thread (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP10-079",
+    "name": "God Thread (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 5,
+    "rarity": "UC",
+    "subtypes": [
+      "Donquixote Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with a cost 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active.<br>\r\n[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-044",
+    "name": "Gion (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-044",
+    "name": "Gion (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck."
+  },
+  {
+    "id": "ST14-007",
+    "name": "Nico Robin (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] / [When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters -5 cost during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-095",
+    "name": "Roronoa Zoro (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Slash",
+    "power": 6000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] <strong>You may rest 1 of your \"Dressrosa\" type Leader or Stage cards:</strong> K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, trash 2 cards from the top of your deck.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST14-007",
+    "name": "Nico Robin (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] / [When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters -5 cost during this turn."
+  },
+  {
+    "id": "OP06-047",
+    "name": "Charlotte Pudding (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST13-019",
+    "name": "The Three Brothers' Bond (Reprint)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST13-019",
+    "name": "The Three Brothers' Bond (Pirate Foil)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sabo], [Portgas.D.Ace], or [Monkey.D.Luffy] with a cost of 5 or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "OP10-105",
+    "name": "Cavendish (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Beautiful Pirates",
+      "Supernovas",
+      "Dressrosa"
+    ]
+  },
+  {
+    "id": "OP06-049",
+    "name": "Sengoku (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "<span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-105",
+    "name": "Cavendish (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Beautiful Pirates",
+      "Supernovas",
+      "Dressrosa"
+    ],
+    "effect": "<span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-049",
+    "name": "Sengoku (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ]
+  },
+  {
+    "id": "OP06-056",
+    "name": "Ama no Murakumo Sword (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-056",
+    "name": "Ama no Murakumo Sword (Pirate Foil)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Main] Place up to 1 of your opponent's Characters with a cost of 2 or less and up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck in any order."
+  },
+  {
+    "id": "OP10-108",
+    "name": "Scratchmen Apoo (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "On-Air Pirates",
+      "Supernovas"
+    ],
+    "effect": "If you have a yellow \"Supernovas\" type Character other than [Scratchmen Apoo], this Character gains [Blocker]."
+  },
+  {
+    "id": "OP10-108",
+    "name": "Scratchmen Apoo (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Ranged",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "On-Air Pirates",
+      "Supernovas"
+    ],
+    "effect": "If you have a yellow \"Supernovas\" type Character other than [Scratchmen Apoo], this Character gains [Blocker].\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-058",
+    "name": "Gravity Blade Raging Tiger (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 7,
+    "rarity": "R",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.\r\n<br>[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-058",
+    "name": "Gravity Blade Raging Tiger (Alternate Art)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 7,
+    "rarity": "R",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Main] Place up to 2 Characters with a cost of 6 or less at the bottom of the owner's deck in any order.\r\n<br>[Trigger] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck."
+  },
+  {
+    "id": "ST13-014",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-109",
+    "name": "Basil Hawkins (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Hawkins Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.<br>\r\n[Trigger] Draw 2 cards and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright). \r\n<br>The non-foil version of this reprinted card was originally reprinted from the Learn Together Deck Set.</span>"
+  },
+  {
+    "id": "ST13-014",
+    "name": "Monkey.D.Luffy (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Monkey.D.Luffy] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn."
+  },
+  {
+    "id": "OP06-059",
+    "name": "White Snake (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.\r\n<br>\r\n[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-059",
+    "name": "White Snake (Pirate Foil)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn, and draw 1 card.\r\n<br>\r\n[Trigger] Look at 5 cards from the top of your deck and place them at the top or bottom of your deck in any order."
+  },
+  {
+    "id": "OP06-063",
+    "name": "Vinsmoke Sora (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "Kingdom of GERMA"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand</strong>: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 [The Vinsmoke Family] type Character card with 4000 power or less from your trash to your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST13-010",
+    "name": "Portgas.D.Ace (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-112",
+    "name": "Eustass\"Captain\"Kid (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 9000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] <strong>You may rest this Character:</strong> Trash up to 1 card from the top of your opponent's Life cards.<br>\r\n[End of Your Turn] If your opponent has 2 or less Life cards, draw 1 card and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-063",
+    "name": "Vinsmoke Sora (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "Kingdom of GERMA"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand</strong>: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 [The Vinsmoke Family] type Character card with 4000 power or less from your trash to your hand."
+  },
+  {
+    "id": "ST13-010",
+    "name": "Portgas.D.Ace (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Portgas.D.Ace] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn."
+  },
+  {
+    "id": "OP06-073",
+    "name": "Shiki (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-073",
+    "name": "Shiki (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[On Play] If you have 8 or more DON!! cards on your field, draw 1 card and trash 1 card from your hand."
+  },
+  {
+    "id": "OP06-076",
+    "name": "Hitokiri Kamazo (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas",
+      "SMILE"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-114",
+    "name": "X.Drake (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Drake Pirates",
+      "Navy",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character:</strong> If the number of your Life cards is equal to or less than the number of your opponent's Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "OP06-076",
+    "name": "Hitokiri Kamazo (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Kid Pirates",
+      "Supernovas",
+      "SMILE"
+    ],
+    "effect": "[Your Turn][Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less."
+  },
+  {
+    "id": "ST13-007",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-114",
+    "name": "X.Drake (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Drake Pirates",
+      "Navy",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character:</strong> If the number of your Life cards is equal to or less than the number of your opponent's Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST13-007",
+    "name": "Sabo (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Goa Kingdom"
+    ],
+    "effect": "[Activate: Main] <strong>You may trash this Character</strong>: Reveal 1 card from the top of your Life cards. If that card is a [Sabo] with a cost of 5, you may play that card. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn."
+  },
+  {
+    "id": "OP06-078",
+    "name": "GERMA 66 (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "GERMA 66"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-078",
+    "name": "GERMA 66 (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "GERMA 66"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" other than [GERMA 66] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Draw 1 card."
+  },
+  {
+    "id": "OP10-114",
+    "name": "X.Drake (Alternate Art)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Drake Pirates",
+      "Navy",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] <strong>You may rest this Character:</strong> If the number of your Life cards is equal to or less than the number of your opponent's Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+  },
+  {
+    "id": "ST13-004",
+    "name": "Edward.Newgate (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP06-107",
+    "name": "Kouzuki Momonosuke (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Wisdom",
+    "power": 6000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Land of Wano",
+      "Kouzuki Clan"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[On Play] Add up to 1 of your \"Land of Wano\" type Characters other than [Kouzuki Momonosuke] to the top or bottom of the owner's Life cards face-up.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP10-119",
+    "name": "Trafalgar Law (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 9000,
+    "cost": 7,
+    "rarity": "SEC",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas",
+      "Dressrosa"
+    ],
+    "effect": "[On Play] Reveal up to 1 \"Supernovas\" type Character card from your hand and add it to the top of your Life cards face-down. Then, give up to 1 rested DON!! card to 1 of your \"Supernovas\" type Leader.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST13-004",
+    "name": "Edward.Newgate (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "The Four Emperors",
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Add 1 card from the top of your deck to the top of your Life cards. Then, look at all your Life cards; place 1 card at the top of your deck and place the rest back in your Life area in any order."
+  },
+  {
+    "id": "OP06-115",
+    "name": "You're the One Who Should Disappear (Reprint)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand:</strong> Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>[Trigger] If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP06-115",
+    "name": "You're the One Who Should Disappear (Alternate Art)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 0,
+    "rarity": "R",
+    "subtypes": [
+      "Sky Island"
+    ],
+    "effect": "[Counter] <strong>You may trash 1 card from your hand:</strong> Up to 1 of your Leader or Character cards gains +3000 power during this battle.\r\n<br>[Trigger] If you have 0 Life cards, you may add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand."
+  },
+  {
+    "id": "ST12-017",
+    "name": "Plastic Surgery Shot (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST12-017",
+    "name": "Plastic Surgery Shot (Pirate Foil)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck."
+  },
+  {
+    "id": "ST12-005",
+    "name": "Perona (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Thriller Bark Pirates",
+      "Muggy Kingdom"
+    ],
+    "effect": "<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST12-005",
+    "name": "Perona (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Thriller Bark Pirates",
+      "Muggy Kingdom"
+    ]
+  },
+  {
+    "id": "P-044",
+    "name": "Sabo (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[DON!! x1] If you have 4 or less cards in your hand, this Character gains +2000 power."
+  },
+  {
+    "id": "OP06-118",
+    "name": "Roronoa Zoro (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 9000,
+    "cost": 9,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "<span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright). \r\n<br>The non-foil version of this reprinted card was originally reprinted from the Learn Together Deck Set.</span>\r\n\r\n[When Attacking][Once Per Turn](1)<em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Set this Character as active.\r\n<br>\r\n[Activate:Main][Once Per Turn](2)<em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Set this Character as active."
+  },
+  {
+    "id": "OP06-119",
+    "name": "Sanji (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 9000,
+    "cost": 9,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character with a cost of 9 or less other than [Sanji]. Then, place the rest at the bottom of your deck.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-044",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[DON!! x1] If you have 4 or less cards in your hand, this Character gains +2000 power.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "ST10-008",
+    "name": "Shachi & Penguin (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-014",
+    "name": "Moda (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Lulucia Kingdom"
+    ],
+    "effect": "[Your Turn][On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-014",
+    "name": "Moda (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 2000,
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Lulucia Kingdom"
+    ],
+    "effect": "[Your Turn][On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn."
+  },
+  {
+    "id": "ST10-008",
+    "name": "Shachi & Penguin (Pirate Foil)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "C",
+    "subtypes": [
+      "Heart Pirates"
+    ],
+    "effect": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them."
+  },
+  {
+    "id": "P-063",
+    "name": "Jinbe (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Fish-Man"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less."
+  },
+  {
+    "id": "OP07-015",
+    "name": "Monkey.D.Dragon (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Special",
+    "power": 9000,
+    "cost": 8,
+    "rarity": "SR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Rush]<em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-017",
+    "name": "Dragon Breath (Reprint)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-017",
+    "name": "Dragon Breath (Pirate Foil)",
+    "type": "Event",
+    "color": "Red",
+    "cost": 2,
+    "rarity": "UC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less.\r\n<br>\r\n[Trigger] Activate this card's [Main] effect."
+  },
+  {
+    "id": "P-063",
+    "name": "Jinbe (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Fish-Man"
+    ],
+    "effect": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 1 or less.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "ST10-005",
+    "name": "Jinbe (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn. \r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-021",
+    "name": "Urouge (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Fallen Monk Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[End of Your Turn] Set up to 1 of your DON!! cards as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST10-005",
+    "name": "Jinbe (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Fish-Man",
+      "Straw Hat Crew"
+    ],
+    "effect": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters -2000 power during this turn."
+  },
+  {
+    "id": "P-068",
+    "name": "Sanji (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "Kingdom of GERMA"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+  },
+  {
+    "id": "OP07-026",
+    "name": "Jewelry Bonney (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Up to 1 of your opponent's rested Character or DON!! cards will not become active in your opponent's next Refresh Phase.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST06-008",
+    "name": "Hina (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ],
+    "effect": "[On Play] Give up to 1 of your opponent's Characters -4 cost during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST06-008",
+    "name": "Hina (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 5000,
+    "cost": 3,
+    "rarity": "C",
+    "subtypes": [
+      "Navy"
+    ]
+  },
+  {
+    "id": "OP07-029",
+    "name": "Basil Hawkins (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Slash",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Hawkins Pirates",
+      "Supernovas"
+    ],
+    "effect": "If your Leader has the [Supernovas] type, this Character gains [Blocker]. <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n[Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your opponent's Characters instead.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-068",
+    "name": "Sanji (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Strike",
+    "power": 4000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "The Vinsmoke Family",
+      "Kingdom of GERMA"
+    ],
+    "effect": "[Activate:Main] <strong>You may trash this Character</strong>: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-069",
+    "name": "Koala (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "ST02-007",
+    "name": "Jewelry Bonney (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em> You may rest this Character Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-031",
+    "name": "Bartolomeo (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-069",
+    "name": "Koala (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Strike",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "ST02-007",
+    "name": "Jewelry Bonney (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 1000,
+    "counter": 1000,
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Activate: Main] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em> You may rest this Character Look at 5 cards from the top of your deck; reveal up to 1 \"Supernovas\" type card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP07-031",
+    "name": "Bartolomeo (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand."
+  },
+  {
+    "id": "P-070",
+    "name": "Carrot (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "Minks"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>"
+  },
+  {
+    "id": "OP07-040",
+    "name": "Crocodile (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Return up to 1 Character with a cost of 2 or less to the owner's hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-040",
+    "name": "Crocodile (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Return up to 1 Character with a cost of 2 or less to the owner's hand."
+  },
+  {
+    "id": "P-070",
+    "name": "Carrot (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "Minks"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP07-040",
+    "name": "Crocodile (Alternate Art)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Baroque Works",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[On Play] (1) <em>(You may rest the specified number of DON!! cards in your cost area.)</em>: Return up to 1 Character with a cost of 2 or less to the owner's hand."
+  },
+  {
+    "id": "ST01-011",
+    "name": "Brook (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-056",
+    "name": "Slave Arrow (Reprint)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Counter] <strong>You may return 1 of your Characters with a cost of 2 or more to the owner's hand</strong>: Up to 1 of your Leader or Character cards gains +4000 power during this battle.\r\n<br>[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-056",
+    "name": "Slave Arrow (Pirate Foil)",
+    "type": "Event",
+    "color": "Blue",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Kuja Pirates",
+      "The Seven Warlords of the Sea"
+    ],
+    "effect": "[Counter] <strong>You may return 1 of your Characters with a cost of 2 or more to the owner's hand</strong>: Up to 1 of your Leader or Character cards gains +4000 power during this battle.\r\n<br>[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order."
+  },
+  {
+    "id": "OP07-064",
+    "name": "Sanji (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 2000,
+    "cost": 6,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand -3 cost.\r\n<br>\r\n[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "ST01-011",
+    "name": "Brook (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 3000,
+    "counter": 2000,
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters."
+  },
+  {
+    "id": "P-073",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "[Activate:Main][Once Per Turn] <strong>You may add 1 card from the top or bottom of your Life cards to your hand</strong>: This character gains +1000 power during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP07-076",
+    "name": "Slow-Slow Beam Sword (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Counter] <strong>DON!! -1</strong> <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.\r\n<br>[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-074",
+    "name": "Portgas.D.Ace (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may return this Character to the owner's hand</strong>: Look at 5 cards from the top of your deck and place them as the top or bottom of the deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP07-076",
+    "name": "Slow-Slow Beam Sword (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 2,
+    "rarity": "C",
+    "subtypes": [
+      "Foxy Pirates"
+    ],
+    "effect": "[Counter] <strong>DON!! -1</strong> <em>(You may return the specified number of DON!! cards from your field to your DON!! deck.)</em>: Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.\r\n<br>[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "OP07-107",
+    "name": "Franky (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "R",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Egghead"
+    ],
+    "effect": "[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-075",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 7,
+    "rarity": "PR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.\r\n<br>[When Attacking] If you have a Character with a cost of 8 or more on your field, draw 1 card and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP07-109",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Strike",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "The Four Emperors",
+      "Egghead"
+    ],
+    "effect": "[Activate: Main]<strong>You may trash this Character</strong>: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.\r\n<br>\r\n[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-114",
+    "name": "He Possesses the World's Most Brilliant Mind (Reprint)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Egghead] type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Draw 1 card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP07-114",
+    "name": "He Possesses the World's Most Brilliant Mind (Pirate Foil)",
+    "type": "Event",
+    "color": "Yellow",
+    "cost": 1,
+    "rarity": "UC",
+    "subtypes": [
+      "Scientist",
+      "Egghead"
+    ],
+    "effect": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Egghead] type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order.\r\n<br>\r\n[Trigger] Draw 1 card."
+  },
+  {
+    "id": "P-088",
+    "name": "Trafalgar Law (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Trigger] If your Leader has the \"Supernovas\" type and you and your opponent have a total of 5 or less Life cards, play this card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "P-078",
+    "name": "Adio (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effect": "If you have 2 or more rested \"ODYSSEY\" type Characters, this Character gains +1000 power."
+  },
+  {
+    "id": "P-078",
+    "name": "Adio",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effect": "If you have 2 or more rested \"ODYSSEY\" type Characters, this Character gains +1000 power."
+  },
+  {
+    "id": "OP07-118",
+    "name": "Sabo (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Special",
+    "power": 9000,
+    "cost": 8,
+    "rarity": "SEC",
+    "subtypes": [
+      "Revolutionary Army"
+    ],
+    "effect": "[On Play] <strong>You may trash 1 card from your hand</strong>: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-088",
+    "name": "Trafalgar Law (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Heart Pirates",
+      "Supernovas"
+    ],
+    "effect": "[Trigger] If your Leader has the \"Supernovas\" type and you and your opponent have a total of 5 or less Life cards, play this card.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP07-119",
+    "name": "Portgas.D.Ace (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 10000,
+    "cost": 10,
+    "rarity": "SEC",
+    "subtypes": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[On Play] Add up to 1 card from the top of your deck to the top of your Life cards. Then, if you have 2 or less Life cards, this Character gains [Rush] during this turn.\r\n<em>(This card can attack on the turn in which it is played.)</em>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-079",
+    "name": "Lim (Pirate Foil)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[End of Your Turn] If you have 2 or more rested \"ODYSSEY\" type Characters, set this Character as active."
+  },
+  {
+    "id": "P-079",
+    "name": "Lim",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Wisdom",
+    "power": 0,
+    "counter": 1000,
+    "cost": 2,
+    "rarity": "PR",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effect": "[Blocker] <em>(After your opponent declares an attack, you may rest this card to make it the new target of the attack.)</em>\r\n<br>[End of Your Turn] If you have 2 or more rested \"ODYSSEY\" type Characters, set this Character as active."
+  },
+  {
+    "id": "P-085",
+    "name": "Jewelry Bonney (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] If your Leader has the \"Supernovas\" type and the number of your Life cards is equal to or less than the number of your opponent's Life cards, add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "P-085",
+    "name": "Jewelry Bonney (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Bonney Pirates",
+      "Supernovas"
+    ],
+    "effect": "[On Play] If your Leader has the \"Supernovas\" type and the number of your Life cards is equal to or less than the number of your opponent's Life cards, add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up."
+  },
+  {
+    "id": "OP08-023",
+    "name": "Carrot (Reprint)",
+    "type": "Character",
+    "color": "Green",
+    "attribute": "Special",
+    "power": 6000,
+    "counter": 1000,
+    "cost": 5,
+    "rarity": "SR",
+    "subtypes": [
+      "Minks"
+    ],
+    "effect": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-067",
+    "name": "Charlotte Pudding (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Wisdom",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "R",
+    "subtypes": [
+      "Big Mom Pirates"
+    ],
+    "effect": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-083",
+    "name": "Shanks (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "PR",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[DON!!x1] [When Attacking] <strong>You may trash 1 Character card from your hand:</strong> Give up to 1 of your opponent's Characters -1000 power during this turn. Then, draw 1 card.<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "P-083",
+    "name": "Shanks (Pirate Foil)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 7000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "PR",
+    "subtypes": [
+      "The Four Emperors",
+      "Red-Haired Pirates"
+    ],
+    "effect": "[DON!!x1] [When Attacking] <strong>You may trash 1 Character card from your hand:</strong> Give up to 1 of your opponent's Characters -1000 power during this turn. Then, draw 1 card."
+  },
+  {
+    "id": "OP08-074",
+    "name": "Black Maria (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Special",
+    "power": 2000,
+    "counter": 2000,
+    "cost": 3,
+    "rarity": "SR",
+    "subtypes": [
+      "Animal Kingdom Pirates"
+    ],
+    "effect": "[Activate:Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-076",
+    "name": "It's to Die For (Reprint)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-076",
+    "name": "It's to Die For (Pirate Foil)",
+    "type": "Event",
+    "color": "Purple",
+    "cost": 3,
+    "rarity": "UC",
+    "subtypes": [
+      "The Four Emperors",
+      "Big Mom Pirates"
+    ],
+    "effect": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active."
+  },
+  {
+    "id": "P-082",
+    "name": "Crocodile (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "OP08-087",
+    "name": "Scratchmen Apoo (Reprint)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "On-Air Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>\r\n[Activate:Main] [Once Per Turn] Give up to 1 of your opponent's Characters 1 cost during this turn.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-082",
+    "name": "Crocodile (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 7000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Former Baroque Works",
+      "Cross Guild"
+    ],
+    "effect": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck."
+  },
+  {
+    "id": "OP08-087",
+    "name": "Scratchmen Apoo (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Ranged",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "UC",
+    "subtypes": [
+      "Animal Kingdom Pirates",
+      "On-Air Pirates"
+    ],
+    "effect": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)<br>\r\n[Activate:Main] [Once Per Turn] Give up to 1 of your opponent's Characters 1 cost during this turn."
+  },
+  {
+    "id": "OP08-118",
+    "name": "Silvers Rayleigh (Reprint)",
+    "type": "Character",
+    "color": "Red",
+    "attribute": "Slash",
+    "power": 8000,
+    "cost": 8,
+    "rarity": "SEC",
+    "subtypes": [
+      "Former Roger Pirates"
+    ],
+    "effect": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character 3000 power and the other 2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-099",
+    "name": "Kalgara (Reprint)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior",
+      "Jaya"
+    ],
+    "effect": "<span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "OP08-099",
+    "name": "Kalgara (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Slash",
+    "power": 8000,
+    "counter": 1000,
+    "cost": 6,
+    "rarity": "C",
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior",
+      "Jaya"
+    ]
+  },
+  {
+    "id": "P-081",
+    "name": "Dracule Mihawk (Reprint)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Activate:Main] <strong>You may return this Character to the owner's hand:</strong> If you have 3 or more blue \"Cross Guild\" type Characters, play up to 1 \"Cross Guild\" type Character card with a cost of 5 from your hand.\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with changes to the copyright information (Note: the original print did not include \"EN\" at the end of the copyright).</span>"
+  },
+  {
+    "id": "P-081",
+    "name": "Dracule Mihawk (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Slash",
+    "power": 5000,
+    "counter": 1000,
+    "cost": 4,
+    "rarity": "PR",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effect": "[Activate:Main] <strong>You may return this Character to the owner's hand:</strong> If you have 3 or more blue \"Cross Guild\" type Characters, play up to 1 \"Cross Guild\" type Character card with a cost of 5 from your hand."
+  },
+  {
+    "id": "ST14-017",
+    "name": "Thousand Sunny (Pirate Foil)",
+    "type": "Stage",
+    "color": "Black",
+    "cost": 1,
+    "rarity": "C",
+    "subtypes": [
+      "Straw Hat Crew"
+    ],
+    "effect": "All of your black \"Straw Hat Crew\" type Characters gain +1 cost.\r\n<br>[On Play] If your Leader has the \"Straw Hat Crew\" type, draw 1 card."
+  },
+  {
+    "id": "EB02-061",
+    "name": "Monkey.D.Luffy (Reprint)",
+    "type": "Character",
+    "color": "Purple",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 6,
+    "rarity": "SEC",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Water Seven"
+    ],
+    "effect": "If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, this Character gains [Rush].<br>\r\n[When Attacking] [Once Per Turn] <strong>You may return 2 of your active DON!! cards to your DON!! deck:</strong> Set this Character as active. Then, add 1 card from the top of your Life cards to your hand."
+  },
+  {
+    "id": "P-073",
+    "name": "Sabo (Pirate Foil)",
+    "type": "Character",
+    "color": "Yellow",
+    "attribute": "Special",
+    "power": 5000,
+    "counter": 2000,
+    "cost": 5,
+    "rarity": "PR",
+    "subtypes": [
+      "Revolutionary Army",
+      "Dressrosa"
+    ],
+    "effect": "[Activate:Main][Once Per Turn] <strong>You may add 1 card from the top or bottom of your Life cards to your hand</strong>: This character gains +1000 power during this turn.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "P-074",
+    "name": "Portgas.D.Ace (Pirate Foil)",
+    "type": "Character",
+    "color": "Blue",
+    "attribute": "Special",
+    "power": 4000,
+    "counter": 1000,
+    "cost": 3,
+    "rarity": "PR",
+    "subtypes": [
+      "Whitebeard Pirates"
+    ],
+    "effect": "[Activate:Main] <strong>You may return this Character to the owner's hand</strong>: Look at 5 cards from the top of your deck and place them as the top or bottom of the deck in any order.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  },
+  {
+    "id": "P-075",
+    "name": "Monkey.D.Luffy (Pirate Foil)",
+    "type": "Character",
+    "color": "Black",
+    "attribute": "Strike",
+    "power": 7000,
+    "cost": 7,
+    "rarity": "PR",
+    "subtypes": [
+      "Straw Hat Crew",
+      "Supernovas"
+    ],
+    "effect": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.\r\n<br>[When Attacking] If you have a Character with a cost of 8 or more on your field, draw 1 card and trash 1 card from your hand.\r\n\r\n<br>\r\n<br><span style=\"color: red;\">Disclaimer: This card was reprinted from the original set with a different border (Note: the original print had a full art border).</span>"
+  }
+]
