@@ -1,0 +1,105 @@
+# One Piece Card Game Comprehensive Rules
+
+## 1. Game Overview
+The One Piece Card Game is a competitive trading card game.
+Objective: Reduce the opponent's Life to 0 and land one final direct attack on their Leader, OR force the opponent to deplete their deck.
+
+## 2. Winning Conditions
+A player wins the game if any of the following conditions are met:
+1. **Direct Attack Win**: The opponent has 0 Life cards, and their Leader takes damage from an attack (Power of Attacker ≥ Power of Leader).
+2. **Deck Depletion**: The opponent has 0 cards left in their Deck and is required to draw a card (usually during the Draw Phase).
+
+## 3. Deck Construction Rules
+- **Leader Card**: 1 card (Determines Life and Color Identity).
+- **Main Deck**: Exactly 50 cards. (Does not include Leader or DON!!).
+- **DON!! Deck**: Exactly 10 DON!! cards.
+- **Color Rule**: Main Deck cards must match at least one color of the Leader. (e.g., A Red/Green Leader can use Red cards and Green cards).
+- **Card Limit**: Max 4 copies of cards with the same Card Number.
+
+## 4. Card Types
+### 4.1 Leader Cards
+- The central card of the deck.
+- Placed in the Leader Area.
+- Has a Life value (determines starting Life cards) and Power.
+- Can attack and be attacked.
+
+### 4.2 Character Cards
+- Units used to fight.
+- Played into the Character Area.
+- Have Cost, Power, Attribute (Slash, Strike, Special, Ranged, Wisdom), and often Effects.
+- Cannot attack on the turn they are played (unless they have [Rush]).
+
+### 4.3 Event Cards
+- Single-use cards with powerful effects.
+- Played from hand by paying Cost, resolving effect, then sending to Trash.
+- Some have [Counter] effects useable during opponent's attack step.
+
+### 4.4 Stage Cards
+- Field spell cards.
+- Placed in the Stage Area.
+- Only 1 Stage per player can be active. Playing a new one trashes the old one.
+- Provide passive buffs or activated abilities.
+
+### 4.5 DON!! Cards
+- Resource cards.
+- Used to pay cost to play cards.
+- Can be attached to Leader/Characters to give +1000 Power per card during your turn.
+
+## 5. Game Areas
+- **Leader Area**: For the Leader card.
+- **Character Area**: Up to 5 Characters. If full, must trash one to play a new one.
+- **Deck Area**: Main deck.
+- **Life Area**: Life cards face-down.
+- **Hand**: Cards drawn but not yet played. (Private knowledge, but count is public).
+- **Trash Area**: Discard pile.
+- **Cost Area**: For active and rested DON!! cards.
+- **DON!! Deck Area**: For the DON!! deck.
+
+## 6. Keywords and Effects
+- **[On Play]**: Effect triggers immediately when the Character is played to the field.
+- **[When Attacking]**: Effect triggers when this card declares an attack.
+- **[Don!! xN]**: This effect is active ONLY while this card has at least N DON!! cards attached.
+- **[Activate: Main]**: You may activate this effect during your Main Phase. Note: Some require resting the card (Once Per Turn).
+- **[Rush]**: Can attack on the turn it is played.
+- **[Blocker]**: During an opponent's attack step, you may Rest this card. If you do, this card becomes the new target of the attack.
+- **[Counter]**: Used from Hand during the specific "Counter Step" of a battle to add Power to the defending card for that battle only.
+- **[Trigger]**: When this card is taken from Life due to damage, you may reveal it to activate its effect immediately (often without paying Cost).
+- **[Banished]**: When this card deals damage, the target Life card is trashed instead of added to hand.
+- **[Double Attack]**: This card deals 2 damage to Life instead of 1.
+- **[Once Per Turn]**: This effect can only be used once strictly per turn.
+
+## 7. Game Flow (Turn Structure)
+The game is played in turns, alternating between players. The first player does not draw a card on their very first turn.
+
+### 7.1 Refresh Phase
+1. Return all DON!! cards attached to characters to the Cost Area.
+2. Set all Rested cards (Leader, Characters, Stage) to Active.
+
+### 7.2 Draw Phase
+1. Draw 1 card from the Deck. (Skipped by player 1 on the very first turn).
+
+### 7.3 DON!! Phase
+1. Draw 2 DON!! cards from DON!! Deck and place them in Cost Area Active. (Player 1 gets only 1 DON!! on the very first turn).
+
+### 7.4 Main Phase
+The active player can perform actions in any order:
+- **Play a Card**: Pay cost by resting DON!! cards.
+- **Attach DON!!**: Move Active DON!! from Cost Area to a Leader/Character.
+- **Activate Effect**: Use effects of cards.
+- **Attack**: Rest an Active Leader/Character to attack an opponent's rested Leader/Character.
+
+### 7.5 End Phase
+1. Effects that last "until end of turn" expire.
+2. Pass turn to opponent.
+
+## 8. Combat (Battle Steps)
+1. **Attack Declaration**: Active Player Rests a Character/Leader and targets opponent's Leader or Rested Character.
+   - Trigger: "[When Attacking]" effects resolve.
+2. **Block Step**: Defending Player declares if they use a [Blocker].
+   - Logic: If blocked, the target changes to the Blocker.
+3. **Counter Step**: Defending Player may discard cards with [Counter] icon or play Counter Event cards to boost Defender's Power.
+4. **Damage Resolution**: Compare Total Power.
+   - **Attacker Power ≥ Defender Power**: Attack hits.
+     - Vs Leader: Deal 1 Damage. (Opponent takes 1 Life card to Hand. Trigger may activate). If Opponent has 0 Life, Attacker WINS.
+     - Vs Character: Defender Character is KO'd (Sent to Trash).
+   - **Attacker Power < Defender Power**: Attack fails. No damage dealt to Attacker.

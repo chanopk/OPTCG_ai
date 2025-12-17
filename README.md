@@ -29,6 +29,13 @@
         *   Setup **ChromaDB** พร้อม **Gemini Embeddings**.
         *   สร้าง **Search Engine** ที่รองรับทั้ง Semantic (ความหมาย) และ Structured Filter (สี, Cost, Type).
         *   มี Tool `query_cards.py` สำหรับทดสอบระบบค้นหา.
+    *   [x] **Rule Search System**:
+        *   เพิ่ม Vector Store สำหรับกฎกติกา (`rules_v1`).
+        *   Implement `retrieve_rules` สำหรับค้นหาข้อมูลกฎ.
+*   **AI Agent Development**:
+    *   [x] **LangGraph Agent**:
+        *   สร้าง Basic Knowledge Agent ที่รองรับ Multi-tool (Card Search + Rule Search).
+        *   เปลี่ยน Embedding Model เป็น `text-embedding-004` เพื่อความแม่นยำสูงสุด.
 
 ---
 
@@ -37,7 +44,7 @@
 แผนการพัฒนาขั้นต่อไป (เรียงตามลำดับความสำคัญ):
 
 1.  **AI Agent Development (Next Step)**:
-    *   [ ] พัฒนา **LangGraph** Agent เบื้องต้นที่สามารถใช้ Search Tool ตอบคำถามได้.
+    *   [x] พัฒนา **LangGraph** Agent เบื้องต้นที่สามารถใช้ Search Tool ตอบคำถามได้.
     *   [ ] สร้าง FastAPI Endpoint (`/api/chat`) สำหรับเชื่อมต่อกับ Frontend หรือ Client อื่นๆ.
 
 2.  **Game Engine (Phase 2)**:

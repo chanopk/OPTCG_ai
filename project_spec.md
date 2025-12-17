@@ -10,7 +10,7 @@
 
 ### Functional Requirements
 1.  **Card Knowledge Analysis:** เข้าใจข้อมูลการ์ด Model, Effect, Trigger และ Attribute ต่างๆ
-2.  **Rule Understanding:** เข้าใจกติกาพื้นฐานและ Flow ของเกม
+2.  **Rule Understanding:** เข้าใจกติกาพื้นฐานและ Flow ของเกม (Implemented via Vector Search on Official Rules)
 3.  **Deck & Meta Analysis:**
     *   วิเคราะห์ Deck list
     *   ดูสถิติการใช้งาน (Meta trends)
@@ -34,7 +34,7 @@
 *   **Search Strategy:** **Hybrid Search** (สำคัญมาก)
     *   **Vector Search (Semantic):** ใช้ ChromaDB/FAISS สำหรับคำถามเชิงความหมาย
     *   **Structured Search (Exact):** ใช้ SQL/JSON Filtering สำหรับ Stat (Power, Cost, Type, Color)
-*   **Vector Database:** ChromaDB หรือ FAISS (สำหรับ RAG ทำ Knowledge Base)
+*   **Vector Database:** ChromaDB (สำหรับ Cards and Rules Knowledge Base)
 *   **Testing:** Pytest
 
 ## 4. System Architecture (สถาปัตยกรรมระบบ)
@@ -98,8 +98,19 @@ graph TD
     *   Setup ChromaDB (Vector Search)
     *   Implement Structured Search (Filter จาก JSON)
     *   รวมระบบค้นหา (Retrieve Logic)
-*   [ ] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ได้
+*   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ได้
+    *   *Added:* **Rule Search Tool** (ค้นหากติกาจาก Official Rules)
 *   [ ] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
+
+### Phase 1.5: Containerization (Deployment Ready)
+*Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง*
+*   [ ] **Dockerization:**
+    *   สร้าง `Dockerfile` สำหรับ Build Image ของ Service Application (Optimized Size)
+    *   สร้าง `docker-compose.yml` เพื่อทดสอบการรัน Service และ Database ในสภาพแวดล้อมจำลอง
+*   [ ] **Configuration Management:**
+    *   จัดการ Environment Variables ผ่าน `.env` สำหรับ Production
+*   [ ] **Host Testing:**
+    *   ทดสอบเรียกใช้งาน API ผ่าน Container เพื่อจำลองการใช้งานจริง
 
 ### Phase 2: Rules Engine, Simulation & Evaluation
 *Focus: ทำให้ AI "เล่น" เป็น และ "ตรวจสอบ" ความถูกต้องได้*
