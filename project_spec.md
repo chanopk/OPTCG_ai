@@ -131,6 +131,17 @@ graph TD
     *   **Layer 1: Input Guards** (Topic Relevance, PII Redaction, Injection Prevention).
     *   **Layer 2: Output Guards** (Toxicity Check, JSON Structure Validation).
     *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
+*   [ ] **Execution Metadata:** เพิ่ม response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
+
+### Phase 2.5: Real-time Streaming & UX (Better Experience)
+*Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
+*   [ ] **Streaming API Endpoint (`/api/chat/stream`):**
+    *   สร้าง Endpoint ใหม่ที่รองรับ **Server-Sent Events (SSE)**.
+    *   ไม่ลบอันเก่า แต่เพิ่มทางเลือกให้ Frontend.
+*   [ ] **Thought Process Exposure:**
+    *   Stream **"Thinking Events"** (e.g., "Searching Card: Luffy...", "Reading Rules...").
+    *   Stream **"Token Generation"** (ตัวหนังสือค่อยๆ พิมพ์ออกมา).
+*   [ ] **LangGraph Streaming:** Implement `.astream_events()` เพื่อจับ Event ภายใน Graph.
 
 ### Phase 3: Game Engine Implementation
 *Focus: สร้างระบบเกม (สนามเด็กเล่น) ให้สมบูรณ์*

@@ -43,8 +43,13 @@
 
 1.  **Infrastructure & QA (Phase 2)**: *Foundation*
     *   Setup **Langfuse** (Tracing).
+    *   Implement **Execution Metadata** response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
 
-2.  **Game Engine (Phase 3)**: *Core Logic*
+2.  **Real-time Streaming (Phase 2.5)**: *Better UX*
+    *   สร้าง Endpoint `/api/chat/stream` (SSE).
+    *   แสดง **Thought Process** และ **Streaming Tokens** (เหมือน ChatGPT).
+
+3.  **Game Engine (Phase 3)**: *Core Logic*
     *   เริ่มเขียน Code เกม (Model/Loop).
     *   ฝัง Tracing/Guardrails ลงใน Engine ทันที.
 
