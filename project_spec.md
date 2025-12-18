@@ -127,13 +127,9 @@ graph TD
 *   [ ] **Observability Setup:**
     *   Setup **Langfuse** Project.
     *   เชื่อมต่อ Tracing เข้ากับ Agent ที่มีอยู่ (Knowledge Agent).
-*   [x] **Guardrails Setup (Comprehensive & Educational):**
+*   [x] **Guardrails Setup (Comprehensive):**
     *   **Layer 1: Input Guards** (Topic Relevance, PII Redaction, Injection Prevention).
     *   **Layer 2: Output Guards** (Toxicity Check, JSON Structure Validation).
-    *   **Refactor:**
-        *   Translated documentation to **Thai** for educational purpose.
-        *   Optimized `off_topic_keywords` list.
-        *   **Prioritized LLM-based Validation** (Judge LLM) for Topic & Toxicity over Vector Search.
     *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
 
 ### Phase 3: Game Engine Implementation
