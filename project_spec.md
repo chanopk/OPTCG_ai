@@ -125,11 +125,15 @@ graph TD
 ### Phase 2: Infrastructure & Quality Assurance Foundation
 *Focus: ปูพื้นฐานระบบตรวจสอบ (Observability) และความปลอดภัย (Guardrails) ก่อนเริ่มงานยาก*
 *   [ ] **Observability Setup:**
-    *   Setup **LangSmith** Project.
+    *   Setup **Langfuse** Project.
     *   เชื่อมต่อ Tracing เข้ากับ Agent ที่มีอยู่ (Knowledge Agent).
-*   [x] **Guardrails Setup (Comprehensive):**
+*   [x] **Guardrails Setup (Comprehensive & Educational):**
     *   **Layer 1: Input Guards** (Topic Relevance, PII Redaction, Injection Prevention).
     *   **Layer 2: Output Guards** (Toxicity Check, JSON Structure Validation).
+    *   **Refactor:**
+        *   Translated documentation to **Thai** for educational purpose.
+        *   Optimized `off_topic_keywords` list.
+        *   **Prioritized LLM-based Validation** (Judge LLM) for Topic & Toxicity over Vector Search.
     *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
 
 ### Phase 3: Game Engine Implementation
