@@ -24,6 +24,7 @@ load_dotenv()
 # Given it's a tool, re-instantiating might be safer or passing a singleton.
 # We will duplicate the import here to be safe with path.
 from app.services.search import HybridSearchService
+from app.services.middleware import input_guard, output_guard
 
 # Initialize Service once if possible, or inside tool to avoid Pickling issues
 # But Chroma client might need to be created in the main thread or consistently.
@@ -68,17 +69,22 @@ builder = StateGraph(AgentState)
 
 builder.add_node("agent", agent)
 builder.add_node("tools", ToolNode(tools))
+builder.add_node("guard_input", input_guard)
+builder.add_node("guard_output", output_guard)
 
-builder.add_edge(START, "agent")
+# Flow: START -> guard_input -> agent
+builder.add_edge(START, "guard_input")
+builder.add_edge("guard_input", "agent")
 
-def should_continue(state: AgentState) -> Literal["tools", END]:
+def should_continue(state: AgentState) -> Literal["tools", "guard_output"]:
     last_message = state["messages"][-1]
     if last_message.tool_calls:
         return "tools"
-    return END
+    return "guard_output"
 
 builder.add_conditional_edges("agent", should_continue)
 builder.add_edge("tools", "agent")
+builder.add_edge("guard_output", END)
 
 graph = builder.compile()
 

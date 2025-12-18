@@ -7,6 +7,7 @@ from app.schemas import ChatRequest, ChatResponse
 # Check relative path: app/api.py -> agents/knowledge_agent.py
 # We can use absolute imports since project root is in path or installed package
 from agents.knowledge_agent import graph
+# from app.services.guardrails import guardrails_service
 
 app = FastAPI(title="OPTCG AI Service")
 
@@ -14,6 +15,7 @@ app = FastAPI(title="OPTCG AI Service")
 async def chat(request: ChatRequest):
     """
     Chat with the OPTCG Knowledge Agent.
+    """
     """
     try:
         inputs = {"messages": [HumanMessage(content=request.query)]}
@@ -26,6 +28,9 @@ async def chat(request: ChatRequest):
         last_message = messages[-1]
         
         return ChatResponse(response=last_message.content)
+    except ValueError as ve:
+        # Catch Guardrails errors (raised as ValueError in middleware)
+        raise HTTPException(status_code=400, detail=str(ve))
     except Exception as e:
         # In production, we should log the error
         print(f"Error processing request: {e}")
