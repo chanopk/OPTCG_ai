@@ -28,10 +28,13 @@
     *   [x] **Advanced Search**: ค้นหาได้ทั้ง Semantic (ความหมาย) และ Filter (สี, Cost, Type).
     *   [x] **Dynamic Context**: AI Agent สามารถปรับจำนวนผลลัพธ์ (`k`) ได้เองตามความยากของคำถาม.
 *   **AI Agent Development**:
-    *   [x] **LangGraph Agent**: สร้าง Knowledge Agent ที่ฉลาดขึ้น รู้จักใช้ Tool ค้นหาการ์ดและกติกา.
+    *   [x] **LangGraph Agent:** สร้าง Knowledge Agent ที่ฉลาดขึ้น รู้จักใช้ Tool ค้นหาการ์ดและกติกา.
+    *   [x] **Rulebook Knowledge Base:** เชื่อมต่อข้อมูลจาก Conversation Playbook เพื่อให้ AI Coach ตอบคำถามได้แม่นยำตามหลักสูตร.
     *   [x] **API Endpoint**: เชื่อมต่อผ่าน FastAPI (`/api/chat`).
 *   **Deployment Ready (Phase 1.5)**:
     *   [x] **Containerization**: รองรับ Docker & Docker Compose พร้อมใช้งาน.
+*   **Safety & Reliability (Phase 2)**:
+    *   [x] **Comprehensive Guardrails**: ระบบป้องกัน 2 ชั้น (Input/Output) ครอบคลุม PII, Injection, Toxicity และ Structure Validation (Implemented as Middleware Nodes).
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
@@ -39,7 +42,7 @@
 แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
 1.  **Infrastructure & QA (Phase 2)**: *Foundation*
-    *   Setup **LangSmith** (Tracing) และ **Guardrails**.
+    *   Setup **LangSmith** (Tracing).
 
 2.  **Game Engine (Phase 3)**: *Core Logic*
     *   เริ่มเขียน Code เกม (Model/Loop).

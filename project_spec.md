@@ -111,6 +111,7 @@ graph TD
         *   รองรับ **Dynamic k** (AI ปรับจำนวนผลลัพธ์ได้เอง)
         *   แสดงผลพร้อม **Clean ID** (e.g., OP01-001)
 *   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ตอบคำถามได้
+*   [x] **Rulebook Integration:** นำเข้า "Conversation Playbook" เพื่อเป็น Knowledge Base หลักสำหรับระบบ Coach
 *   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)
@@ -126,9 +127,10 @@ graph TD
 *   [ ] **Observability Setup:**
     *   Setup **LangSmith** Project.
     *   เชื่อมต่อ Tracing เข้ากับ Agent ที่มีอยู่ (Knowledge Agent).
-*   [ ] **Guardrails Setup:**
-    *   ติดตั้ง Library Guardrails.
-    *   สร้าง Input/Output Validation เบื้องต้นสำหรับ API.
+*   [x] **Guardrails Setup (Comprehensive):**
+    *   **Layer 1: Input Guards** (Topic Relevance, PII Redaction, Injection Prevention).
+    *   **Layer 2: Output Guards** (Toxicity Check, JSON Structure Validation).
+    *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
 
 ### Phase 3: Game Engine Implementation
 *Focus: สร้างระบบเกม (สนามเด็กเล่น) ให้สมบูรณ์*
