@@ -68,7 +68,14 @@ LANGFUSE_HOST="https://cloud.langfuse.com"
 *   **Trace ID:** สำคัญที่สุด ทำให้ Client สามารถสร้าง Link ไปที่ Langfuse Public Trace ได้ถ้าต้องการ
 *   **Steps:** ดึงจาก LangGraph State History (`messages`)
 
-### Step 5: Streaming API Implementation (Phase 2.5)
+### Step 5: Agent Architecture Research & Selection (Phase 2.5)
+*Goal: เลือกโครงสร้างสมอง AI ที่ฉลาดและเหมาะสมกับเกมที่สุด*
+เราจะทำการทดลองและเลือก Architecture จากแผนผัง:
+1.  **Common Architectures:** Test RAG vs ReAct vs CoT.
+2.  **Advanced Patterns:** พิจารณา Planner Executor หรือ Tree-of-Thought ถ้า Logic เกมซับซ้อนมาก.
+3.  **Outcome:** อัปเดต `graph.py` ตาม Architecture ที่เลือก (ปัจจุบันเราใช้ Router+Tools ซึ่งคล้าย ReAct/Router).
+
+### Step 6: Streaming API Implementation (Phase 2.5)
 *Goal: ลด Latency และแสดงความคิดของ AI แบบ Real-time*
 เราจะสร้าง Endpoint ใหม่ `/api/chat/stream` ที่ส่งข้อมูลแบบ **Server-Sent Events (SSE)**:
 

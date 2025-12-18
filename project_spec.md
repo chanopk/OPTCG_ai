@@ -135,6 +135,10 @@ graph TD
 
 ### Phase 2.5: Real-time Streaming & UX (Better Experience)
 *Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
+*   [ ] **Agent Architecture Implementation & Selection:**
+    *   ศึกษาและเลือก Architecture ที่เหมาะสมที่สุดจากภาพ:
+    *   **Common Architectures:** RAG Agent, ReAct (Reason + Act), Chain of Thought (CoT).
+    *   **Other Patterns:** Planner Executor, DAG Agents, Tree-of-Thought.
 *   [ ] **Streaming API Endpoint (`/api/chat/stream`):**
     *   สร้าง Endpoint ใหม่ที่รองรับ **Server-Sent Events (SSE)**.
     *   ไม่ลบอันเก่า แต่เพิ่มทางเลือกให้ Frontend.
