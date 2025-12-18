@@ -35,7 +35,6 @@
     *   [x] **Containerization**: รองรับ Docker & Docker Compose พร้อมใช้งาน.
 *   **Safety & Reliability (Phase 2)**:
     *   [x] **Comprehensive Guardrails**: ระบบป้องกัน 2 ชั้น (Input/Output) ครอบคลุม PII, Injection, Toxicity และ Structure Validation (Implemented as Middleware Nodes).
-        *   *Update:* ปรับปรุง Code ให้เป็นภาษาไทย (Educational), คัดกรอง Keyword ใหม่ และเน้นการใช้ **Judge LLM** ตรวจสอบความถูกต้อง.
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
