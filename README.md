@@ -30,16 +30,15 @@
 *   **AI Agent Development**:
     *   [x] **LangGraph Agent**: สร้าง Knowledge Agent ที่ฉลาดขึ้น รู้จักใช้ Tool ค้นหาการ์ดและกติกา.
     *   [x] **API Endpoint**: เชื่อมต่อผ่าน FastAPI (`/api/chat`).
+*   **Deployment Ready (Phase 1.5)**:
+    *   [x] **Containerization**: รองรับ Docker & Docker Compose พร้อมใช้งาน.
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
 
 แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
-1.  **Deployment Prep (Phase 1.5)**: *DevOps*
-    *   Dockerization & Environment Management.
-
-2.  **Infrastructure & QA (Phase 2)**: *Foundation*
+1.  **Infrastructure & QA (Phase 2)**: *Foundation*
     *   Setup **LangSmith** (Tracing) และ **Guardrails**.
 
 2.  **Game Engine (Phase 3)**: *Core Logic*
@@ -66,3 +65,20 @@
     *   Virtual Environment Commands
         *   **Windows**: `.venv\Scripts\Activate.ps1` (or simply `.venv\Scripts\python.exe` to run directly)
         *   **macOS / Linux**: `source .venv/bin/activate`
+
+### 🐳 How to Run with Docker
+
+1.  **Environment Setup**:
+    Copy `.env.example` to `.env` and fill in your API keys.
+    ```bash
+    cp .env.example .env
+    ```
+
+2.  **Run with Docker Compose**:
+    ```bash
+    docker-compose -f docker/docker-compose.yml up --build
+    ```
+    The API will be available at `http://localhost:8000/docs`.
+
+3.  **Data Persistence**:
+    The `data` folder is mounted as a volume, so your Vector DB and JSON data persist between restarts.

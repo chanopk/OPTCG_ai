@@ -114,11 +114,11 @@ graph TD
 *   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)
-*Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง
-*   [ ] **Dockerization:**
+*Focus: เตรียม Environment สำหรับนำ API ไปทดสอบบน Host จริง*
+*   [x] **Dockerization:**
     *   สร้าง `Dockerfile` สำหรับ Build Image ของ Service Application
     *   สร้าง `docker-compose.yml` เพื่อทดสอบการรัน Service.
-    [ ] **DevOps:**
+*   [x] **DevOps:**
     *   จัดการ Environment Variables (`.env`) สำหรับ Production.
 
 ### Phase 2: Infrastructure & Quality Assurance Foundation

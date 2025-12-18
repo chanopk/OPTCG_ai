@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: optcg-ai
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data:/app/data
+      - ../.env:/app/.env
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

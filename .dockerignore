@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# Data (Exclude large datasets and DBs from the image build)
+# We expect these to be mounted via volume for persistence
+data/chroma_db_gemini/
+data/chroma_db_huggingface/
+data/raw_json/
+data/clean_json/
+
+# Initialization logic is in scripts, but code in data/embedding_provider.py is needed.
+# COPY . . will copy data/ but skip the above patterns.
