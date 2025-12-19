@@ -42,8 +42,8 @@
 แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
 1.  **Infrastructure & QA (Phase 2)**: *Foundation*
-    *   Setup **Langfuse** (Tracing).
-    *   Implement **Execution Metadata** response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
+    *   [x] Setup **Langfuse** (Tracing).
+    *   [x] Implement **Execution Metadata** response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
 
 2.  **Real-time Streaming (Phase 2.5)**: *Better UX*
     *   **Research & Select Agent Architecture** (ReAct, CoT, DAG, etc.).

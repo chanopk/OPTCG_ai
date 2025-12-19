@@ -21,7 +21,7 @@
 ### Non-Functional Requirements
 1.  **Modularity:** แยกส่วนประกอบชัดเจน (API, Agent, Engine, Data) เพื่อการดูแลรักษา
 2.  **Extensibility:** รองรับฟีเจอร์ AIOps (Evaluation, Tracing) ในอนาคต
-3.  **Observability:** มีระบบ Tracing/Logging เพื่อตรวจสอบกระบวนการคิดของ Agent (LangSmith/Phoenix)
+3.  **Observability:** มีระบบ Tracing/Logging เพื่อตรวจสอบกระบวนการคิดของ Agent (Langfuse)
 4.  **Reliability:** มี Guardrails ป้องกันการทำผิดกติกา (Illegal Moves)
 5.  **Simplicity:** โค้ดเข้าใจง่าย ไม่ซับซ้อนจนเกินไป เหมาะแก่การเรียนรู้
 
@@ -152,14 +152,14 @@ graph TD
 *   *Note: เริ่มเขียน Logic เกมจริงๆ ใน Phase นี้*
 *   [ ] ออกแบบ Class/Model (Game, Player, Card, Board).
 *   [ ] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
-*   [ ] ฝัง Tracing ลงใน Game Loop เพื่อส่งข้อมูลเข้า LangSmith.
+*   [ ] ฝัง Tracing ลงใน Game Loop เพื่อส่งข้อมูลเข้า Langfuse.
 *   [ ] ฝัง Guardrails ตรวจสอบ State ของเกมป้อนกัน Illegal Moves.
 
 ### Phase 4: Basic AI & Simulation (Validation)
 *Focus: เชื่อมต่อ AI ให้เล่นจนจบเกมได้*
 *   [ ] เชื่อมต่อ Agent เข้ากับ Game Engine.
 *   [ ] สร้าง **Random/Rule-based Agent** เพื่อทดสอบ Loop.
-*   [ ] ตรวจสอบผลการเล่นผ่าน Dashboard ของ LangSmith.
+*   [ ] ตรวจสอบผลการเล่นผ่าน Dashboard ของ Langfuse.
 
 ### Phase 5: Competitive AI (The Goal)
 *Focus: สร้าง AI ที่เล่นเพื่อชัยชนะ*

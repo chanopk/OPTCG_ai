@@ -25,13 +25,14 @@
 
 ## 3. Implementation Steps (ขั้นตอนการทำ)
 
-### Step 1: Dependencies
+
+### Step 1: Dependencies [x]
 ติดตั้ง Library ที่จำเป็น
 ```bash
 uv add langfuse
 ```
 
-### Step 2: Configuration (.env)
+### Step 2: Configuration (.env) [x]
 เพิ่ม Variable เหล่านี้ใน `.env`
 ```env
 LANGFUSE_SECRET_KEY=sk-lf-...
@@ -39,14 +40,14 @@ LANGFUSE_PUBLIC_KEY=pk-lf-...
 LANGFUSE_HOST="https://cloud.langfuse.com"
 ```
 
-### Step 3: Code Integration (LangGraph & Callback)
+### Step 3: Code Integration (LangGraph & Callback) [x]
 เราจะไปเชื่อมต่อ Langfuse เข้ากับ LangGraph:
 1.  **`app/api/routers/chat.py`**:
-    *   Inject `LangfuseCallbackHandler`.
-    *   ดึง `trace_id` จาก Handler เพื่อส่งกลับให้ User.
-    *   ดึง `observation` หรือ `usage` data (ถ้ามี).
+    *   [x] Inject `LangfuseCallbackHandler`.
+    *   [x] ดึง `trace_id` จาก Handler เพื่อส่งกลับให้ User.
+    *   [x] ดึง `observation` หรือ `usage` data (ถ้ามี).
 
-### Step 4: Enhanced API Response (Execution Metadata)
+### Step 4: Enhanced API Response (Execution Metadata) [x]
 *Concept: **"Execution Metadata"** (Execution Trace Exposure)*
 เราจะปรับ API Spec ของ `/api/chat` ให้ส่งข้อมูลกลับมามากขึ้น เพื่อให้ Frontend หรือ User รู้ว่าเกิดอะไรขึ้นเบื้องหลัง:
 
@@ -68,14 +69,14 @@ LANGFUSE_HOST="https://cloud.langfuse.com"
 *   **Trace ID:** สำคัญที่สุด ทำให้ Client สามารถสร้าง Link ไปที่ Langfuse Public Trace ได้ถ้าต้องการ
 *   **Steps:** ดึงจาก LangGraph State History (`messages`)
 
-### Step 5: Agent Architecture Research & Selection (Phase 2.5)
+### Step 5: Agent Architecture Research & Selection (Phase 2.5) [ ]
 *Goal: เลือกโครงสร้างสมอง AI ที่ฉลาดและเหมาะสมกับเกมที่สุด*
 เราจะทำการทดลองและเลือก Architecture จากแผนผัง:
 1.  **Common Architectures:** Test RAG vs ReAct vs CoT.
 2.  **Advanced Patterns:** พิจารณา Planner Executor หรือ Tree-of-Thought ถ้า Logic เกมซับซ้อนมาก.
 3.  **Outcome:** อัปเดต `graph.py` ตาม Architecture ที่เลือก (ปัจจุบันเราใช้ Router+Tools ซึ่งคล้าย ReAct/Router).
 
-### Step 6: Streaming API Implementation (Phase 2.5)
+### Step 6: Streaming API Implementation (Phase 2.5) [ ]
 *Goal: ลด Latency และแสดงความคิดของ AI แบบ Real-time*
 เราจะสร้าง Endpoint ใหม่ `/api/chat/stream` ที่ส่งข้อมูลแบบ **Server-Sent Events (SSE)**:
 
@@ -112,7 +113,7 @@ data: {"type": "token", "content": " Roo"}
 3.  **Cost:** บอกเลยว่า 1 คำถามนี้เสียเงินกี่บาท ($0.00xxx)
 4.  **Error Tracking:** ถ้า Error ตรงไหน กราฟจะแดงและบอกจุดที่พังทันที
 
-## 5. Verification
-1.  **Test Call:** ยิง Request ไปที่ `/api/chat`.
-2.  **Check Response:** ต้องได้ JSON ที่มี field `metadata` พร้อม `trace_id`.
-3.  **Check Dashboard:** นำ `trace_id` ไปค้นใน Langfuse ต้องเจอ Log.
+## 5. Verification [x]
+1.  [x] **Test Call:** ยิง Request ไปที่ `/api/chat`.
+2.  [x] **Check Response:** ต้องได้ JSON ที่มี field `metadata` พร้อม `trace_id`.
+3.  [x] **Check Dashboard:** นำ `trace_id` ไปค้นใน Langfuse ต้องเจอ Log.
