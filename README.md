@@ -34,23 +34,28 @@
 *   **Deployment Ready (Phase 1.5)**:
     *   [x] **Containerization**: รองรับ Docker & Docker Compose พร้อมใช้งาน.
 *   **Safety & Reliability (Phase 2)**:
+    *   [x] **Observability**: Setup **Langfuse** (Tracing) & Implement **Execution Metadata** response.
     *   [x] **Comprehensive Guardrails**: ระบบป้องกัน 2 ชั้น (Input/Output) ครอบคลุม PII, Injection, Toxicity และ Structure Validation (Implemented as Middleware Nodes).
+    *   [x] **Azure AI Foundry POC:** Compare and implement Azure Content Safety as an alternative provider.
+
+### Phase 2.1: Guardrails POC (Azure vs Local)
+*   **Dual Provider Support:** Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
+*   **Architecture:** LangGraph Middleware Nodes with State Router.
+*   **Documentation:** See `guardrails_comparison.md` and `walkthrough.md`.
+
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
 
 แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
-1.  **Infrastructure & QA (Phase 2)**: *Foundation*
-    *   [x] Setup **Langfuse** (Tracing).
-    *   [x] Implement **Execution Metadata** response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
-
-2.  **Real-time Streaming (Phase 2.5)**: *Better UX*
+1.  **Real-time Streaming (Phase 2.5)**: *Better UX*
     *   **Research & Select Agent Architecture** (ReAct, CoT, DAG, etc.).
     *   สร้าง Endpoint `/api/chat/stream` (SSE).
     *   แสดง **Thought Process** และ **Streaming Tokens** (เหมือน ChatGPT).
 
-3.  **Game Engine (Phase 3)**: *Core Logic*
+
+2.  **Game Engine (Phase 3)**: *Core Logic*
     *   เริ่มเขียน Code เกม (Model/Loop).
     *   ฝัง Tracing/Guardrails ลงใน Engine ทันที.
 
@@ -62,6 +67,7 @@
 
 5.  **Meta Analysis (Phase 6)**: *Optional*
     *   วิเคราะห์ Deck.
+
 
 ---
 

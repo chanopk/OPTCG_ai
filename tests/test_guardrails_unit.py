@@ -5,7 +5,10 @@ import os
 # Ensure project root is in path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from app.services.guardrails import guardrails_service
+from app.services.guardrails import LocalGuardrailsProvider
+
+# Instantiate provider
+guardrails_service = LocalGuardrailsProvider()
 
 @pytest.mark.asyncio
 async def test_valid_input():

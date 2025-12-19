@@ -24,7 +24,10 @@ load_dotenv()
 # Given it's a tool, re-instantiating might be safer or passing a singleton.
 # We will duplicate the import here to be safe with path.
 from app.services.search import HybridSearchService
-from app.services.middleware import input_guard, output_guard
+from app.services.middleware import (
+    local_input_guard, azure_input_guard, 
+    local_output_guard, azure_output_guard
+)
 
 # Initialize Service once if possible, or inside tool to avoid Pickling issues
 # But Chroma client might need to be created in the main thread or consistently.
@@ -69,22 +72,49 @@ builder = StateGraph(AgentState)
 
 builder.add_node("agent", agent)
 builder.add_node("tools", ToolNode(tools))
-builder.add_node("guard_input", input_guard)
-builder.add_node("guard_output", output_guard)
 
-# Flow: START -> guard_input -> agent
-builder.add_edge(START, "guard_input")
-builder.add_edge("guard_input", "agent")
+# Guardrail Nodes
+builder.add_node("local_input_guard", local_input_guard)
+builder.add_node("azure_input_guard", azure_input_guard)
+builder.add_node("local_output_guard", local_output_guard)
+builder.add_node("azure_output_guard", azure_output_guard)
 
-def should_continue(state: AgentState) -> Literal["tools", "guard_output"]:
+# Router Logic for Guardrails
+def select_input_guard(state: AgentState) -> Literal["local_input_guard", "azure_input_guard"]:
+    provider = os.getenv("GUARDRAILS_PROVIDER", "LOCAL").upper()
+    if provider == "AZURE":
+        return "azure_input_guard"
+    return "local_input_guard"
+
+def select_output_guard_or_tools(state: AgentState):
+    # Check if we should go to tools first
     last_message = state["messages"][-1]
     if last_message.tool_calls:
         return "tools"
-    return "guard_output"
+    
+    # Otherwise go to Output Guard
+    provider = os.getenv("GUARDRAILS_PROVIDER", "LOCAL").upper()
+    if provider == "AZURE":
+        return "azure_output_guard"
+    return "local_output_guard"
 
-builder.add_conditional_edges("agent", should_continue)
+# Edges
+# START -> Input Guard
+builder.add_conditional_edges(START, select_input_guard)
+
+# Input Guard -> Agent (Both paths lead to agent)
+builder.add_edge("local_input_guard", "agent")
+builder.add_edge("azure_input_guard", "agent")
+
+# Agent -> Tools OR Output Guard
+builder.add_conditional_edges("agent", select_output_guard_or_tools)
+
+# Tools -> Agent
 builder.add_edge("tools", "agent")
-builder.add_edge("guard_output", END)
+
+# Output Guard -> END
+builder.add_edge("local_output_guard", END)
+builder.add_edge("azure_output_guard", END)
 
 graph = builder.compile()
 

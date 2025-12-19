@@ -133,7 +133,23 @@ graph TD
     *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
 *   [x] **Execution Metadata:** เพิ่ม response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
 
+
+### Phase 2.1: Guardrails POC (Azure vs Local)
+*Focus: เปรียบเทียบและทดสอบระบบความปลอดภัยด้วย Azure AI Foundry*
+*   [x] **Design & Config:**
+    *   เพิ่ม Config `GUARDRAILS_PROVIDER` (Azure/Local) ใน `.env`.
+    *   Refactor `guardrails.py` ให้รองรับ Strategy Pattern (Provider Interface).
+*   [x] **Azure Integration:**
+    *   Implement `AzureGuardrailsProvider` โดยใช้ Azure AI Foundry SDK.
+    *   ตรวจสอบ Input (Content Safety).
+*   [x] **LangGraph Integration:**
+    *   ใช้ Conditional Routes เพื่อเลือก Guardrails Node ที่ถูกต้อง.
+*   [x] **Comparison Report & Docs:**
+    *   สร้าง `docs/azure_setup_guide.md` สอนวิธีสมัคร.
+    *   เปรียบเทียบผลลัพธ์ใน `guardrails_comparison.md`.
+
 ### Phase 2.5: Real-time Streaming & UX (Better Experience)
+
 *Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
 *   [ ] **Agent Architecture Implementation & Selection:**
     *   ศึกษาและเลือก Architecture ที่เหมาะสมที่สุดจากภาพ:
