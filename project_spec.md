@@ -157,7 +157,7 @@ graph TD
 *   [x] **API UX Improvements:**
     *   **Graceful Error Handling:** ปรับ API ให้คืนค่า `200 OK` พร้อมข้อความแจ้งเตือนจาก Guardrails แทนการโยน `HTTP 400 Error` เพื่อให้ Frontend แสดงผลเป็นข้อความแชทได้ทันที.
 
-### Phase 2.5: Real-time Streaming & UX (Better Experience)
+### Phase 2.5: POC Agent Architecture & Real-time Streaming & UX (Better Experience)
 
 *Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
 *   [ ] **Agent Architecture Implementation & Selection:**

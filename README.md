@@ -37,25 +37,15 @@
     *   [x] **Observability**: Setup **Langfuse** (Tracing) & Implement **Execution Metadata** response.
     *   [x] **Comprehensive Guardrails**: ระบบป้องกัน 2 ชั้น (Input/Output) ครอบคลุม PII, Injection, Toxicity และ Structure Validation (Implemented as Middleware Nodes).
     *   [x] **Azure AI Foundry POC:** Compare and implement Azure Content Safety as an alternative provider.
-
-### Phase 2.1: Guardrails POC (Azure vs Local)
-*   [x] **Dual Provider Support**: Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
-*   [x] **Architecture**: LangGraph Middleware Nodes with State Router.
-*   [x] **Documentation**: See `guardrails_comparison.md` and `walkthrough.md`.
-
-### Phase 2.2: Thai Language Support & Localization
-*   [x] **Thai Agent Persona**: Agent instructed via System Prompt to always respond in Thai (except for Technical Terms).
-*   [x] **Localized Guardrails**: Return polite Thai refusals for allowed topics (Local) and translated error messages (Azure).
-*   [x] **Graceful Error Handling**: API returns Guardrail violations as normal `200 OK` messages, preventing client-side errors.
-
+    *   [x] **Guardrails Dual Provider Support**: Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)
 
 แผนการพัฒนาเรียงตามลำดับความจำเป็น (Logical Order):
 
-1.  **Real-time Streaming (Phase 2.5)**: *Better UX*
-    *   **Research & Select Agent Architecture** (ReAct, CoT, DAG, etc.).
+1.  **POC Agent Architecture & Real-time Streaming (Phase 2.5)**: *Better UX*
+    *   **Agent Architecture Selection**: Research and implement appropriate patterns (RAG, ReAct, CoT, etc.).
     *   สร้าง Endpoint `/api/chat/stream` (SSE).
     *   แสดง **Thought Process** และ **Streaming Tokens** (เหมือน ChatGPT).
 
