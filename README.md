@@ -39,16 +39,14 @@
     *   [x] **Azure AI Foundry POC:** Compare and implement Azure Content Safety as an alternative provider.
 
 ### Phase 2.1: Guardrails POC (Azure vs Local)
-*   **Dual Provider Support:** Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
-*   **Architecture:** LangGraph Middleware Nodes with State Router.
-*   **Documentation:** See `guardrails_comparison.md` and `walkthrough.md`.
+*   [x] **Dual Provider Support**: Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
+*   [x] **Architecture**: LangGraph Middleware Nodes with State Router.
+*   [x] **Documentation**: See `guardrails_comparison.md` and `walkthrough.md`.
 
 ### Phase 2.2: Thai Language Support & Localization
-*   **Thai Agent Persona:** Agent instructed via System Prompt to always respond in Thai (except for Technical Terms).
-*   **Localized Guardrails:**
-    *   **Local Provider:** Returns polite Thai refusals for allowed topics.
-    *   **Azure Provider:** Error messages translated to Thai for consistent UX.
-*   **Graceful Error Handling:** API returns Guardrail violations as normal `200 OK` messages, preventing client-side errors.
+*   [x] **Thai Agent Persona**: Agent instructed via System Prompt to always respond in Thai (except for Technical Terms).
+*   [x] **Localized Guardrails**: Return polite Thai refusals for allowed topics (Local) and translated error messages (Azure).
+*   [x] **Graceful Error Handling**: API returns Guardrail violations as normal `200 OK` messages, preventing client-side errors.
 
 
 
