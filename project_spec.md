@@ -124,14 +124,14 @@ graph TD
 
 ### Phase 2: Infrastructure & Quality Assurance Foundation
 *Focus: ปูพื้นฐานระบบตรวจสอบ (Observability) และความปลอดภัย (Guardrails) ก่อนเริ่มงานยาก*
-*   [ ] **Observability Setup:**
+*   [x] **Observability Setup:**
     *   Setup **Langfuse** Project.
     *   เชื่อมต่อ Tracing เข้ากับ Agent ที่มีอยู่ (Knowledge Agent).
 *   [x] **Guardrails Setup (Comprehensive):**
     *   **Layer 1: Input Guards** (Topic Relevance, PII Redaction, Injection Prevention).
     *   **Layer 2: Output Guards** (Toxicity Check, JSON Structure Validation).
     *   **Middleware Architecture:** Refactored Guardrails into LangGraph Nodes (`input_guard`, `output_guard`) for better integration.
-*   [ ] **Execution Metadata:** เพิ่ม response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
+*   [x] **Execution Metadata:** เพิ่ม response (trace_id, token usage, cost) เพื่อให้ Client รู้สถานะการทำงาน.
 
 ### Phase 2.5: Real-time Streaming & UX (Better Experience)
 *Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
