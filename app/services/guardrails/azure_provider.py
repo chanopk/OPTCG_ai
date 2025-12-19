@@ -49,7 +49,7 @@ class AzureGuardrailsProvider:
             if blocks:
                 return {
                     "valid": False,
-                    "error": f"Azure Content Safety Alert: Blocked categories: {', '.join(blocks)}",
+                    "error": f"Azure Content Safety Alert: ตรวจพบเนื้อหาที่ไม่เหมาะสมในหมวดหมู่: {', '.join(blocks)}",
                     "refined_query": query
                 }
 
@@ -81,7 +81,7 @@ class AzureGuardrailsProvider:
                          blocks.append(f"{result.category}")
             
             if blocks:
-                 return {"valid": False, "error": f"Azure Quality Alert: Response contained {', '.join(blocks)} content.", "refined_response": None}
+                 return {"valid": False, "error": f"Azure Quality Alert: คำตอบมีเนื้อหาที่ไม่เหมาะสม ({', '.join(blocks)})", "refined_response": None}
                  
         except Exception as e:
             print(f"Azure Output Guard Error: {e}")

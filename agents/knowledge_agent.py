@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from typing import Annotated, Literal, TypedDict
 
-from langchain_core.messages import BaseMessage, HumanMessage
+from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import END, StateGraph, START
 from langgraph.graph.message import add_messages
@@ -60,12 +60,22 @@ class AgentState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
 # Define Agent Node
+SYSTEM_PROMPT = """
+You are a helpful assistant for the One Piece Card Game.
+1. You must always answer in Thai.
+2. You are allowed to use English for specific Card Names, Keywords, Abilities, and Technical Terms to maintain accuracy.
+3. Do not answer questions unrelated to One Piece Card Game. If asked about other topics, politely refuse in Thai.
+"""
+
 def agent(state: AgentState):
-    # Use Gemini-1.5-pro or flash. Let's try gemini-1.5-flash for speed if desired, or pro for quality. //
-    # Defaulting to 1.5-pro as in spec.
+    # change model when limit token is too high
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
     llm_with_tools = llm.bind_tools(tools)
-    return {"messages": [llm_with_tools.invoke(state["messages"])]}
+    
+    # Prepend System Prompt
+    messages = [SystemMessage(content=SYSTEM_PROMPT)] + state["messages"]
+    
+    return {"messages": [llm_with_tools.invoke(messages)]}
 
 # Build Graph
 builder = StateGraph(AgentState)

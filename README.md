@@ -43,6 +43,13 @@
 *   **Architecture:** LangGraph Middleware Nodes with State Router.
 *   **Documentation:** See `guardrails_comparison.md` and `walkthrough.md`.
 
+### Phase 2.2: Thai Language Support & Localization
+*   **Thai Agent Persona:** Agent instructed via System Prompt to always respond in Thai (except for Technical Terms).
+*   **Localized Guardrails:**
+    *   **Local Provider:** Returns polite Thai refusals for allowed topics.
+    *   **Azure Provider:** Error messages translated to Thai for consistent UX.
+*   **Graceful Error Handling:** API returns Guardrail violations as normal `200 OK` messages, preventing client-side errors.
+
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)

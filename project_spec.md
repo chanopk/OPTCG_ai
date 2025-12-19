@@ -144,9 +144,18 @@ graph TD
     *   ตรวจสอบ Input (Content Safety).
 *   [x] **LangGraph Integration:**
     *   ใช้ Conditional Routes เพื่อเลือก Guardrails Node ที่ถูกต้อง.
-*   [x] **Comparison Report & Docs:**
-    *   สร้าง `docs/azure_setup_guide.md` สอนวิธีสมัคร.
-    *   เปรียบเทียบผลลัพธ์ใน `guardrails_comparison.md`.
+*   *   **Comparison Report & Docs:**
+        *   สร้าง `docs/azure_setup_guide.md` สอนวิธีสมัคร.
+        *   เปรียบเทียบผลลัพธ์ใน `guardrails_comparison.md`.
+
+### Phase 2.2: Thai Language Support & Localization
+*Focus: ปรับปรุงประสบการณ์ผู้ใช้ชาวไทยและการจัดการข้อผิดพลาด*
+*   [x] **Thai Language Enforcement:**
+    *   **Agent Persona:** เพิ่ม System Prompt ให้ Knowledge Agent ตอบเป็นภาษาไทยเสมอ (ยกเว้นศัพท์เทคนิค).
+*   [x] **Guardrails Localization:**
+    *   **Translation:** แปลข้อความแจ้งเตือนความปลอดภัยของทั้ง Local และ Azure Provider เป็นภาษาไทย.
+*   [x] **API UX Improvements:**
+    *   **Graceful Error Handling:** ปรับ API ให้คืนค่า `200 OK` พร้อมข้อความแจ้งเตือนจาก Guardrails แทนการโยน `HTTP 400 Error` เพื่อให้ Frontend แสดงผลเป็นข้อความแชทได้ทันที.
 
 ### Phase 2.5: Real-time Streaming & UX (Better Experience)
 

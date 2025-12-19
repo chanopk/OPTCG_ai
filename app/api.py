@@ -65,7 +65,11 @@ async def chat(request: ChatRequest):
         )
     except ValueError as ve:
         # Catch Guardrails errors (raised as ValueError in middleware)
-        raise HTTPException(status_code=400, detail=str(ve))
+        # Return as a normal response so the user sees the Thai message
+        return ChatResponse(
+            response=str(ve),
+            metadata=ChatMetadata(execution_time=0)
+        )
     except Exception as e:
         # In production, we should log the error
         print(f"Error processing request: {e}")
