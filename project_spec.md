@@ -10,7 +10,7 @@
 
 ### Functional Requirements
 1.  **Card Knowledge Analysis:** เข้าใจข้อมูลการ์ด Model, Effect, Trigger และ Attribute ต่างๆ
-2.  **Rule Understanding:** เข้าใจกติกาพื้นฐานและ Flow ของเกม (Implemented via Vector Search on Official Rules)
+2.  **Rule Understanding:** เข้าใจกติกาพื้นฐานและ Flow ของเกม (Implemented via **Direct Context Injection** of Official Rules)
 3.  **Deck & Meta Analysis:**
     *   วิเคราะห์ Deck list
     *   ดูสถิติการใช้งาน (Meta trends)
@@ -37,7 +37,8 @@
 *   **Search Strategy:** **Hybrid Search** (สำคัญมาก)
     *   **Vector Search (Semantic):** ใช้ ChromaDB/FAISS สำหรับคำถามเชิงความหมาย
     *   **Structured Search (Exact):** ใช้ SQL/JSON Filtering สำหรับ Stat (Power, Cost, Type, Color)
-*   **Vector Database:** ChromaDB (สำหรับ Cards and Rules Knowledge Base)
+*   **Vector Database:** ChromaDB (สำหรับ Cards Knowledge Base)
+*   **Context Injection:** Comprehensive Rules (สำหรับ Rule Knowledge)
 *   **Testing:** Pytest
 
 ## 4. System Architecture (สถาปัตยกรรมระบบ)
@@ -51,7 +52,7 @@ graph TD
     
     subgraph "Agent Layer"
         AgentOrchestrator --> RouterAgent[Router Node]
-        RouterAgent --> KB_Agent[Knowledge/Rules Agent]
+        RouterAgent --> KB_Agent[Knowledge Agent (with Rules Context)]
         RouterAgent --> Meta_Agent[Meta/Stats Agent]
         RouterAgent --> Sim_Agent[Simulation Agent]
     end
@@ -111,7 +112,7 @@ graph TD
         *   รองรับ **Dynamic k** (AI ปรับจำนวนผลลัพธ์ได้เอง)
         *   แสดงผลพร้อม **Clean ID** (e.g., OP01-001)
 *   [x] **Basic Knowledge Agent:** สร้าง LangGraph Agent ที่ใช้ Search Tool ตอบคำถามได้
-*   [x] **Rulebook Integration:** นำเข้า "Conversation Playbook" เพื่อเป็น Knowledge Base หลักสำหรับระบบ Coach
+*   [x] **Rule Injection Strategy:** เปลี่ยนจาก RAG เป็นการ Inject `comprehensive_rules.txt` เข้า Context โดยตรงเพื่อความแม่นยำสูงสุด
 *   [x] **API:** สร้าง Endpoint `POST /api/chat` ด้วย FastAPI
 
 ### Phase 1.5: Containerization (Deployment Ready)

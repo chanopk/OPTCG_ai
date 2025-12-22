@@ -14,6 +14,7 @@ from langgraph.graph.message import add_messages
 from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode
 from dotenv import load_dotenv
+from app.services.rule_loader import load_comprehensive_rules
 
 # Load Environment Variables
 load_dotenv()
@@ -44,27 +45,28 @@ def search_card_knowledge(query: str, k: int = 10):
     service = HybridSearchService()
     return service.retrieve_card_data(query, k=k)
 
-@tool
-def search_rule_knowledge(query: str):
-    """
-    Search for Official Rules of One Piece Card Game.
-    Useful for answering questions about game flow, combat steps, keywords, and specific interactions.
-    """
-    service = HybridSearchService()
-    return service.retrieve_rules(query)
-
-tools = [search_card_knowledge, search_rule_knowledge]
+tools = [search_card_knowledge]
 
 # Define State
 class AgentState(TypedDict):
     messages: Annotated[list[BaseMessage], add_messages]
 
+# Load Rules
+RULES_TEXT = load_comprehensive_rules()
+
 # Define Agent Node
-SYSTEM_PROMPT = """
+SYSTEM_PROMPT = f"""
 You are a helpful assistant for the One Piece Card Game.
 1. You must always answer in Thai.
 2. You are allowed to use English for specific Card Names, Keywords, Abilities, and Technical Terms to maintain accuracy.
 3. Do not answer questions unrelated to One Piece Card Game. If asked about other topics, politely refuse in Thai.
+
+Below are the Comprehensive Rules of the game. Use these rules to answer any questions regarding gameplay, steps, effects, or interactions.
+If the user asks about a rule, answer confidently based on the text below.
+
+=== COMPREHENSIVE RULES ===
+{RULES_TEXT}
+===========================
 """
 
 def agent(state: AgentState):
@@ -128,13 +130,15 @@ builder.add_edge("azure_output_guard", END)
 
 graph = builder.compile()
 
-def run_agent(query: str):
+import asyncio
+
+async def run_agent(query: str):
     """
     Helper function to run the agent with a single query.
     """
     print(f"User: {query}")
     inputs = {"messages": [HumanMessage(content=query)]}
-    for chunk in graph.stream(inputs, stream_mode="values"):
+    async for chunk in graph.astream(inputs, stream_mode="values"):
         message = chunk["messages"][-1]
         if message.content:
             print(f"Agent: {message.content}")
@@ -147,4 +151,4 @@ if __name__ == "__main__":
     if "GOOGLE_API_KEY" not in os.environ:
         print("Please set GOOGLE_API_KEY environment variable.")
     else:
-        run_agent("What does Monkey D. Luffy Leader card do?")
+        asyncio.run(run_agent("What does Monkey D. Luffy Leader card do?"))

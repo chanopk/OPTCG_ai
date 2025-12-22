@@ -28,8 +28,8 @@
     *   [x] **Advanced Search**: ค้นหาได้ทั้ง Semantic (ความหมาย) และ Filter (สี, Cost, Type).
     *   [x] **Dynamic Context**: AI Agent สามารถปรับจำนวนผลลัพธ์ (`k`) ได้เองตามความยากของคำถาม.
 *   **AI Agent Development**:
-    *   [x] **LangGraph Agent:** สร้าง Knowledge Agent ที่ฉลาดขึ้น รู้จักใช้ Tool ค้นหาการ์ดและกติกา.
-    *   [x] **Rulebook Knowledge Base:** เชื่อมต่อข้อมูลจาก Conversation Playbook เพื่อให้ AI Coach ตอบคำถามได้แม่นยำตามหลักสูตร.
+    *   [x] **LangGraph Agent:** สร้าง Knowledge Agent ที่ฉลาดขึ้น โดยใช้ Rule Injection ใส่กฎทั้งหมดลงใน Context.
+    *   [x] **Rulebook Knowledge Base:** โหลด `comprehensive_rules.txt` เข้าสู่ System Prompt โดยตรงเพื่อให้ตอบคำถามได้แม่นยำที่สุด.
     *   [x] **API Endpoint**: เชื่อมต่อผ่าน FastAPI (`/api/chat`).
 *   **Deployment Ready (Phase 1.5)**:
     *   [x] **Containerization**: รองรับ Docker & Docker Compose พร้อมใช้งาน.
