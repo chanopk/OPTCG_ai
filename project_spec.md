@@ -195,14 +195,15 @@ graph TD
 ### Phase 3: Game Engine Implementation
 *Focus: สร้างระบบเกม (สนามเด็กเล่น) ให้สมบูรณ์*
 *   *Note: เริ่มเขียน Logic เกมจริงๆ ใน Phase นี้*
-*   [ ] ออกแบบ Class/Model (Game, Player, Card, Board).
-*   [ ] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
+*   [x] ออกแบบ Class/Model (Game, Player, Card, Board).
+*   [x] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
 
 ### Phase 4: Basic AI & Simulation (Validation)
 *Focus: เชื่อมต่อ AI ให้เล่นจนจบเกมได้*
-*   [ ] เชื่อมต่อ Agent เข้ากับ Game Engine.
-*   [ ] สร้าง **Random/Rule-based Agent** เพื่อทดสอบ Loop.
-*   [ ] ตรวจสอบผลการเล่นผ่าน Dashboard ของ Langfuse.
+*   [x] เชื่อมต่อ Agent เข้ากับ Game Engine (Implemented `BaseGameAgent`).
+*   [x] สร้าง **Random Agent** เพื่อทดสอบ Loop (Completed).
+*   [x] สร้าง **Rule-Based Agent (SimpleRuleAgent)** เพื่อทดสอบความฉลาดเบื้องต้น (Heuristic: Play Max Cost, Attack Leader).
+*   [x] ตรวจสอบผลการเล่นผ่าน Simulation Script (`scripts/simulation_runner.py`).
 
 ### Phase 5: Competitive AI (The Goal)
 *Focus: สร้าง AI ที่เล่นเพื่อชัยชนะ*
