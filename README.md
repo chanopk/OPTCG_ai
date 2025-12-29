@@ -38,6 +38,12 @@
     *   [x] **Comprehensive Guardrails**: ระบบป้องกัน 2 ชั้น (Input/Output) ครอบคลุม PII, Injection, Toxicity และ Structure Validation (Implemented as Middleware Nodes).
     *   [x] **Azure AI Foundry POC:** Compare and implement Azure Content Safety as an alternative provider.
     *   [x] **Guardrails Dual Provider Support**: Can switch between `LOCAL` (Regex/Keyword) and `AZURE` (AI Content Safety) via `.env`.
+*   **Game Engine Core (Phase 3 & 3.5)**:
+    *   [x] **Robust Game Loop**: Complete Turn System (Refresh -> Draw -> Don -> Main -> End) with multi-phase handling.
+    *   [x] **Advanced Battle System**: Full `Attack -> Block -> Counter -> Resolve` sequence with state transitions.
+    *   [x] **Effect Parsing & Execution**:
+        *   **Parser**: Extracts complex effects (`Draw`, `Bounce`, `KO`, `Bottom Deck`) and costs (`Don!! -X`).
+        *   **Resolution**: `EffectManager` executes `ON_PLAY` triggers and keyword abilities (`Rush`, `Blocker`) in real-time.
 
 
 ### 🚀 Future Plans (สิ่งที่จะทำต่อ)

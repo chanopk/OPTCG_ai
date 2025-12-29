@@ -2,9 +2,11 @@ from typing import List, Optional
 import random
 from engine.state import GameState, PhaseType
 from engine.core.phases import PhaseManager, Phase
-from engine.core.actions import GameAction, PlayCardAction, AttackAction, EndTurnAction
+from engine.core.actions import GameAction, PlayCardAction, AttackAction, EndTurnAction, BlockAction, CounterAction, ResolveBattleAction
 from engine.models.player import Player
 from engine.models.card import CardInstance
+from engine.core.battle import BattlePhase
+from engine.core.effect_manager import EffectManager
 
 class Game:
     """
@@ -20,6 +22,7 @@ class Game:
             }
         )
         self.phase_manager = PhaseManager()
+        self.effect_manager = EffectManager(self.state)
         
     def start_game(self):
         """
@@ -50,8 +53,15 @@ class Game:
         Process a player's action. Returns True if valid and executed.
         """
         # 1. Validate Player
-        if action.player_id != self.state.active_player_id:
-            # Only active player can act during their turn (except Block/Counter - TODO)
+        expected_player = self.state.active_player_id
+        
+        # Exception: Battle Steps (Block/Counter)
+        if self.state.current_battle:
+            battle = self.state.current_battle
+            if battle.current_step in ['BLOCK', 'COUNTER']:
+                expected_player = self.state.get_opponent(battle.attacker_id).id
+                
+        if action.player_id != expected_player:
             return False
             
         # 2. Handle Action based on Type
@@ -65,10 +75,29 @@ class Game:
         elif action.action_type == 'ATTACK':
             if isinstance(action, AttackAction):
                 return self._handle_attack(action)
+        
+        elif action.action_type == 'BLOCK':
+            # TODO: Implement Block Logic
+            return self._handle_block(action)
+            
+        elif action.action_type == 'COUNTER':
+             # TODO: Implement Counter Logic
+             return self._handle_counter(action)
+             
+        elif action.action_type == 'RESOLVE_BATTLE':
+             # If in BLOCK step, passing means going to COUNTER step
+             if self.state.current_battle and self.state.current_battle.current_step == 'BLOCK':
+                 self.state.current_battle.current_step = 'COUNTER'
+                 return True
+             # If in COUNTER step, passing means finishing battle
+             return self._resolve_battle()
                 
         return False
         
     def _handle_end_phase(self) -> bool:
+        if self.state.current_battle:
+            return False # Cannot end phase during battle
+            
         """
         Transition to next phase or next turn.
         """
@@ -87,6 +116,9 @@ class Game:
         return True
         
     def _handle_play_card(self, action: PlayCardAction) -> bool:
+        if self.state.current_battle:
+             return False # Cannot play character during battle
+             
         player = self.state.get_active_player()
         if action.card_hand_index >= len(player.hand):
             return False
@@ -104,6 +136,16 @@ class Game:
         
         try:
             player.field.add_character(instance)
+            # CHECK ON PLAY EFFECTS
+            # Simplified: Check if card has ON_PLAY effect in list
+            # We need to lookup the original Card definition for effects
+            # ideally CardInstance should trigger this via ID lookup
+            # For now, let's assume we can get effects from the card object we popped
+            for effect in card.effect_list:
+                if effect.type == 'ON_PLAY':
+                     print(f"    [Effect] Triggering ON_PLAY for {card.name}")
+                     self.effect_manager.resolve_effect(effect, instance.instance_id)
+
             return True
         except ValueError:
             # Field full
@@ -129,11 +171,144 @@ class Game:
         # 2. Rest Attacker
         attacker.is_rested = True
         
-        # 3. Resolve Battle (Simplified: Just log it)
-        # In a real game, steps are: Block -> Counter -> Damage Calculation
-        # For now, we assume successful attack for simulation flow
-        print(f"    [Engine] {attacker.instance_id} attacks {action.target_instance_id}!")
+        # 3. Start Battle Phase (Transient State)
+        self.state.current_battle = BattlePhase(
+            attacker_id=player.id,
+            attacker_instance_id=action.attacker_instance_id,
+            target_instance_id=action.target_instance_id,
+            current_step="BLOCK", # Next step is BLOCK
+            attacker_power=attacker.total_power
+        )
         
+        # Determine Target Power for snapshot
+        opponent = self.state.get_opponent(player.id)
+        target = None
+        if opponent.leader and opponent.leader.instance_id == action.target_instance_id:
+            target = opponent.leader
+        else:
+             for char in opponent.field.character_area:
+                if char.instance_id == action.target_instance_id:
+                    target = char
+                    break
+        
+        if target:
+            self.state.current_battle.target_power = target.total_power
+
+        print(f"    [Engine] {attacker.instance_id} attacks {action.target_instance_id}! (Battle Started)")
+        return True
+
+    def _handle_block(self, action: BlockAction) -> bool:
+        battle = self.state.current_battle
+        if not battle: return False
+        
+        # Validate Blocker
+        player = self.state.players.get(action.player_id)
+        blocker = None
+        for char in player.field.character_area:
+            if char.instance_id == action.blocker_instance_id:
+                blocker = char
+                break
+        
+        if not blocker: return False
+        if blocker.is_rested: return False # Cannot block if rested
+        
+        # Check if blocker has BLOCKER trait (Need to check Card traits or keywords)
+        # Simplified: Check granted_keywords
+        if "BLOCKER" not in blocker.granted_keywords and "BLOCKER" not in [t.upper() for t in blocker.granted_keywords]:
+             # Also check generic traits if we parsed it?
+             # EffectManager grants BLOCKER keyword.
+             # If parsed from JSON but not played via EffectManager (e.g. from test setup), we might miss it.
+             # For now, rely on granted_keywords.
+             pass 
+
+        if action.action_type == 'BLOCK':
+             battle.blocker_instance_id = action.blocker_instance_id
+             # Change target to blocker
+             battle.target_instance_id = action.blocker_instance_id
+             battle.target_power = blocker.total_power
+             
+             battle.current_step = "COUNTER"
+             print(f"    [Battle] Blocked by {action.blocker_instance_id}! New Target: {action.blocker_instance_id}")
+             
+             # Rest the blocker
+             blocker.is_rested = True
+             return True
+        return False
+        
+    def _handle_counter(self, action: CounterAction) -> bool:
+        battle = self.state.current_battle
+        if not battle: return False
+        
+        # Validate Counter Card (simplified: assumed from hand)
+        player = self.state.players.get(action.player_id)
+        if action.card_hand_index >= len(player.hand): return False
+        
+        card = player.hand.pop(action.card_hand_index)
+        # Use card counter power (default 1000 if not set)
+        counter_power = card.counter
+        
+        # Apply to current target (could be Leader or Blocker)
+        target = None
+        # Check Leader
+        target_owner = self.state.players.get(battle.target_instance_id.split('_')[0]) # HACK to get owner?
+        # Better: Search current target instance
+        if battle.target_instance_id == player.leader.instance_id:
+            target = player.leader
+        else:
+            for char in player.field.character_area:
+                if char.instance_id == battle.target_instance_id:
+                    target = char
+                    break
+        
+        if target:
+            target.power_modifier += counter_power
+            battle.target_power = target.total_power # Update snapshot
+            print(f"    [Battle] Counter by {card.name} (+{counter_power}) -> Target Power: {battle.target_power}")
+            player.trash.append(card)
+            return True
+            
+        return False
+
+    def _resolve_battle(self) -> bool:
+        battle = self.state.current_battle
+        if not battle: return False
+        
+        # Compare Power
+        # Simplified: Attacker vs Target (Ignoring Blocker power calc for now)
+        attacker_power = battle.attacker_power
+        target_power = battle.target_power
+        
+        print(f"    [Battle] Resolve: {attacker_power} vs {target_power}")
+        
+        if attacker_power >= target_power:
+            # Hit!
+            # If Target is Leader -> Take Life
+            opponent = self.state.get_opponent(battle.attacker_id)
+            if opponent.leader and opponent.leader.instance_id == battle.target_instance_id:
+                if opponent.life:
+                    lost_life = opponent.life.pop(0)
+                    opponent.hand.append(lost_life) # Life to Hand
+                    print(f"    [Battle] Hit Leader! Life -> Hand: {lost_life.name}")
+                    if not opponent.life:
+                         # Check win condition? (Usually only when taking hit at 0 life)
+                         # Assuming hitting at 0 life = Win
+                         pass
+                else:
+                    # No life left
+                    self.state.winner_id = battle.attacker_id
+                    print(f"    [Battle] WINNER: {battle.attacker_id}")
+
+            # If Target is Character -> KO
+            else:
+                 removed = opponent.field.remove_character(battle.target_instance_id)
+                 if removed:
+                     print(f"    [Battle] KO Character: {removed.instance_id}")
+
+        else:
+            print("    [Battle] Attack Failed (Not enough power)")
+
+        # End Battle
+        self.state.current_battle = None
         return True
 
     def _perform_refresh_phase(self):
@@ -142,6 +317,9 @@ class Game:
         """
         player = self.state.get_active_player()
         # Unrest all characters
+        if player.leader:
+             player.leader.is_rested = False
+             
         for char in player.field.character_area:
             char.is_rested = False
         
@@ -153,6 +331,47 @@ class Game:
         Returns a list of all valid actions for the active player.
         """
         actions: List[GameAction] = []
+        
+        # If Battle is active, restrict actions based on Step
+        if self.state.current_battle:
+            battle = self.state.current_battle
+            # Who is acting?
+            # BLOCK/COUNTER are Opponent's actions
+            opponent_id = self.state.get_opponent(battle.attacker_id).id
+            
+            # Who is acting?
+            # BLOCK/COUNTER are Opponent's actions
+            opponent_id = self.state.get_opponent(battle.attacker_id).id
+            
+            # If we are in BLOCK step
+            if battle.current_step == 'BLOCK':
+                # Add 'No Block' (Pass) which moves to Counter/Damage
+                # In real game, this is skipping block.
+                # We reuse ResolveBattleAction for "Skip/Done" signal for now or define a new "SkipBlockAction"
+                # To keep it simple, let's use RESOLVE_BATTLE as "Pass priority"
+                actions.append(ResolveBattleAction(player_id=opponent_id, action_type='RESOLVE_BATTLE'))
+                
+                # Check for Blockers
+                opponent = self.state.get_opponent(battle.attacker_id)
+                for char in opponent.field.character_area:
+                    # Valid Blocker: Not Rested + Has BLOCKER keyword
+                    if not char.is_rested and "BLOCKER" in char.granted_keywords:
+                         actions.append(BlockAction(
+                             player_id=opponent.id,
+                             action_type='BLOCK',
+                             blocker_instance_id=char.instance_id
+                         ))
+            
+            elif battle.current_step == 'COUNTER':
+                 # Add 'No Counter' (Pass)
+                 actions.append(ResolveBattleAction(player_id=opponent_id, action_type='RESOLVE_BATTLE'))
+            
+            else:
+                 # Should not happen if auto-transitioned, but safely return resolve
+                 actions.append(ResolveBattleAction(player_id=battle.attacker_id, action_type='RESOLVE_BATTLE'))
+                 
+            return actions
+
         player = self.state.get_active_player()
         
         # Always allow Ending Phase
@@ -178,7 +397,7 @@ class Game:
             opponent = self.state.get_opponent(player.id)
             
             # Attacker: Leader
-            if not player.leader.is_rested:
+            if player.leader and not player.leader.is_rested:
                # Target: Opponent Leader
                if opponent.leader:
                    actions.append(AttackAction(

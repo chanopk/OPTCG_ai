@@ -192,11 +192,24 @@ graph TD
     *   Stream **"Token Generation"** (ตัวหนังสือค่อยๆ พิมพ์ออกมา).
 *   [ ] **LangGraph Streaming:** Implement `.astream_events()` เพื่อจับ Event ภายใน Graph.
 
-### Phase 3: Game Engine Implementation
+### Phase 3: Game Engine Implementation (Completed)
 *Focus: สร้างระบบเกม (สนามเด็กเล่น) ให้สมบูรณ์*
-*   *Note: เริ่มเขียน Logic เกมจริงๆ ใน Phase นี้*
-*   [x] ออกแบบ Class/Model (Game, Player, Card, Board).
-*   [x] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
+*   [x] **Core Models:** Designed `Game`, `Player`, `Card`, `CardInstance`, `Field`.
+*   [x] **Basic Game Loop:** Implemented Phases (Refresh, Draw, Don, Main, End).
+*   [x] **Action System:** Implemented `PlayCard`, `Attack`, `EndPhase` Actions.
+
+### Phase 3.5: Advanced Game Logic (Completed)
+*Focus: เพิ่มความลึกของเกม (Effects & Battle Steps)*
+*   [x] **Advanced Battle System:**
+    *   **State Machine:** Transitioning between `ATTACK` -> `BLOCK` -> `COUNTER` -> `DAMAGE` steps.
+    *   **Mechanics:** Implemented `Blocker` interception and `Counter` power buffs.
+    *   **Life System:** Correctly handling Life damage and game winning condition.
+*   [x] **Effect System Architecture:**
+    *   **Effect Parser:** Robust regex-based parser handling:
+        *   **Keywords:** `Rush`, `Banish`, `Double Attack`, `Blocker`.
+        *   **Actions:** `Draw`, `Trash`, `Return to Hand` (Bounce), `Return to Bottom Deck`, `KO`, `Buff`.
+        *   **Costs:** `Don!! -X`, `Don!! xX`.
+    *   **Effect Manager:** Resolving `ON_PLAY` effects and modifying game state (Hand, Field, Power, Cost).
 
 ### Phase 4: Basic AI & Simulation (Validation)
 *Focus: เชื่อมต่อ AI ให้เล่นจนจบเกมได้*

@@ -1,5 +1,6 @@
 from typing import List, Optional, Literal
 from pydantic import BaseModel, Field
+from engine.models.effect import Effect
 
 # Constants for Card Types and Attributes
 CardType = Literal['LEADER', 'CHARACTER', 'EVENT', 'STAGE', 'DON']
@@ -31,7 +32,8 @@ class Card(BaseModel):
     attribute: Optional[CardAttribute] = None
     
     # Text interactions
-    effects: List[CardEffect] = Field(default_factory=list)
+    effects: List[CardEffect] = Field(default_factory=list) # Raw Text
+    effect_list: List[Effect] = Field(default_factory=list, description="Structured effects for Engine")
     tags: List[str] = Field(default_factory=list, description="Type tags e.g., 'Supernovas', 'Straw Hat Crew'")
     
     # Image (Optional)
@@ -54,7 +56,9 @@ class CardInstance(BaseModel):
     attached_don: int = 0
     
     # Temporary modifiers (e.g. from effects)
-    power_modifier: int = 0 
+    power_modifier: int = 0
+    cost_modifier: int = 0
+    granted_keywords: List[str] = Field(default_factory=list) # e.g. RUSH, BLOCKER
     
     @property
     def total_power(self) -> int:

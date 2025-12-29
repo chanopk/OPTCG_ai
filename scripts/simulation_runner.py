@@ -11,18 +11,31 @@ from engine.core.game import Game
 from agents.gameplay.random_agent import RandomAgent
 from agents.gameplay.rule_based_agent import SimpleRuleAgent
 
+from engine.models.effect import Effect, EffectType
+
 def create_dummy_deck() -> list[Card]:
     """Create a simple deck for testing"""
     deck = []
     # 40 Characters, 10 Events (Simplified)
     for i in range(50):
+        # Every 5th card has an On Play effect
+        effects = []
+        if i % 5 == 0:
+             effects.append(Effect(
+                 type=EffectType.ON_PLAY,
+                 action_code=EffectType.BUFF_POWER,
+                 action_power=1000,
+                 description="On Play: +1000 Power to Leader"
+             ))
+
         c = Card(
             id=f"OP01-{i:03d}", 
             name=f"Card {i}", 
             type="CHARACTER", 
             cost=2, 
             power=5000,
-            colors=["RED"]
+            colors=["RED"],
+            effect_list=effects
         )
         deck.append(c)
     return deck
@@ -60,11 +73,22 @@ def run_simulation(max_turns=20):
     agents = { "p1": agent1, "p2": agent2 }
     
     while game.state.turn_count <= max_turns:
-        current_player_id = game.state.active_player_id
-        active_agent = agents[current_player_id]
+        # Determine Acting Player
+        # Standard: Active Player
+        # Battle (Block/Counter): Defending Player (Opponent)
+        acting_player_id = game.state.active_player_id
+        
+        if game.state.current_battle:
+            battle = game.state.current_battle
+            if battle.current_step in ['BLOCK', 'COUNTER']:
+                acting_player_id = game.state.get_opponent(battle.attacker_id).id
+        
+        active_agent = agents[acting_player_id]
         
         print(f"\n--- Turn {game.state.turn_count} | Phase: {game.state.current_phase} | Player: {active_agent.name} ---")
-        
+        if game.state.current_battle:
+             print(f"    [Battle] Step: {game.state.current_battle.current_step} | Attacker: {game.state.current_battle.attacker_instance_id}")
+
         # 1. Check for winner
         if game.state.winner_id:
             print(f">>> WINNER: {game.state.winner_id} <<<")
@@ -73,6 +97,10 @@ def run_simulation(max_turns=20):
         # 2. Get Valid Actions from Engine
         valid_actions = game.get_valid_actions()
         print(f"Valid Actions ({len(valid_actions)}): {[a.action_type for a in valid_actions]}")
+        
+        if not valid_actions:
+             print("!!! No Valid Actions - Check Game Logic !!!")
+             break
         
         # 3. Agent Decides
         action = active_agent.take_action(game.state, valid_actions)
