@@ -3,6 +3,7 @@ from langchain_core.messages import HumanMessage
 from pydantic import BaseModel
 from langfuse.langchain import CallbackHandler
 import time
+import os
 
 from app.schemas import ChatRequest, ChatResponse, ChatMetadata
 # Import the graph from the agents module
@@ -21,9 +22,19 @@ async def chat(request: ChatRequest):
     try:
         inputs = {"messages": [HumanMessage(content=request.query)]}
         
-        # Initialize Langfuse CallbackHandler
-        # It automatically picks up credentials from os.environ
-        langfuse_handler = CallbackHandler()
+        # Helper to check boolean env vars
+        def is_enabled(key: str, default: bool = True) -> bool:
+            val = os.getenv(key, str(default)).lower()
+            return val in ("true", "1", "yes", "on")
+
+        # Initialize Langfuse CallbackHandler if enabled
+        langfuse_handler = None
+        callbacks = []
+        
+        if is_enabled("ENABLE_LANGFUSE", True):
+            # It automatically picks up credentials from os.environ
+            langfuse_handler = CallbackHandler()
+            callbacks.append(langfuse_handler)
         
         start_time = time.time()
         
@@ -31,7 +42,7 @@ async def chat(request: ChatRequest):
         # Using stream or invoke. Invoke is simpler for single response.
         result = await graph.ainvoke(
             inputs,
-            config={"callbacks": [langfuse_handler]}
+            config={"callbacks": callbacks}
         )
         
         execution_time = time.time() - start_time
@@ -45,14 +56,15 @@ async def chat(request: ChatRequest):
         
         trace_id = None
         # Try to safely get trace id if available
-        if hasattr(langfuse_handler, "trace") and langfuse_handler.trace:
-            trace_id = langfuse_handler.trace.id
-        elif hasattr(langfuse_handler, "get_trace_id"):
-             # Some versions might have this
-             try:
-                trace_id = langfuse_handler.get_trace_id()
-             except:
-                pass
+        if langfuse_handler:
+            if hasattr(langfuse_handler, "trace") and langfuse_handler.trace:
+                trace_id = langfuse_handler.trace.id
+            elif hasattr(langfuse_handler, "get_trace_id"):
+                 # Some versions might have this
+                 try:
+                    trace_id = langfuse_handler.get_trace_id()
+                 except:
+                    pass
         
         metadata = ChatMetadata(
             trace_id=trace_id,

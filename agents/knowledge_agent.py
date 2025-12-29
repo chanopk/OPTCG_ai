@@ -9,6 +9,7 @@ from typing import Annotated, Literal, TypedDict
 
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_ollama import ChatOllama
 from langgraph.graph import END, StateGraph, START
 from langgraph.graph.message import add_messages
 from langchain_core.tools import tool
@@ -70,8 +71,18 @@ If the user asks about a rule, answer confidently based on the text below.
 """
 
 def agent(state: AgentState):
+    # Ollama Configuration
+    # Ensure OLLAMA_MODEL and OLLAMA_BASE_URL are set in .env
+    llm = ChatOllama(
+        model=os.getenv("OLLAMA_MODEL", "llama3"),
+        base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
+        temperature=0
+    )
+
+    # Google Gemini Configuration (Commented out)
     # change model when limit token is too high
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
+    # llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
+
     llm_with_tools = llm.bind_tools(tools)
     
     # Prepend System Prompt
@@ -92,7 +103,15 @@ builder.add_node("local_output_guard", local_output_guard)
 builder.add_node("azure_output_guard", azure_output_guard)
 
 # Router Logic for Guardrails
-def select_input_guard(state: AgentState) -> Literal["local_input_guard", "azure_input_guard"]:
+# Router Logic for Guardrails
+def is_guardrails_enabled() -> bool:
+    val = os.getenv("ENABLE_GUARDRAILS", "true").lower()
+    return val in ("true", "1", "yes", "on")
+
+def select_input_guard(state: AgentState) -> Literal["local_input_guard", "azure_input_guard", "agent"]:
+    if not is_guardrails_enabled():
+        return "agent"
+        
     provider = os.getenv("GUARDRAILS_PROVIDER", "LOCAL").upper()
     if provider == "AZURE":
         return "azure_input_guard"
@@ -103,6 +122,10 @@ def select_output_guard_or_tools(state: AgentState):
     last_message = state["messages"][-1]
     if last_message.tool_calls:
         return "tools"
+    
+    # Check if guardrails are enabled
+    if not is_guardrails_enabled():
+        return END
     
     # Otherwise go to Output Guard
     provider = os.getenv("GUARDRAILS_PROVIDER", "LOCAL").upper()
@@ -147,8 +170,4 @@ async def run_agent(query: str):
 
 if __name__ == "__main__":
     # Test run
-    # Ensure GOOGLE_API_KEY is set in environment
-    if "GOOGLE_API_KEY" not in os.environ:
-        print("Please set GOOGLE_API_KEY environment variable.")
-    else:
-        asyncio.run(run_agent("What does Monkey D. Luffy Leader card do?"))
+    asyncio.run(run_agent("What does ST21 Monkey D. Luffy Leader card do?"))

@@ -52,7 +52,6 @@
 
 2.  **Game Engine (Phase 3)**: *Core Logic*
     *   เริ่มเขียน Code เกม (Model/Loop).
-    *   ฝัง Tracing/Guardrails ลงใน Engine ทันที.
 
 3.  **Basic Simulation (Phase 4)**: *Validation*
     *   เอา Agent มาวิ่งใน Engine ให้จบเกมได้.

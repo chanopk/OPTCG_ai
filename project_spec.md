@@ -18,6 +18,25 @@
 4.  **Simulation:** จำลองการต่อสู้ (Battle) ระหว่าง Deck เพื่อหา Win Rate
 5.  **Competitive Gameplay AI:** (Highlight) สร้าง AI ที่สามารถเล่นเกมได้จริง มีการตัดสินใจที่ถูกต้อง (Decision Making) เพื่อเอาชนะคู่ต่อสู้ได้ ไม่ใช่แค่สุ่มเล่น
 
+### Agent Services Breakdown
+เพื่อให้รองรับ Requirements ข้างต้น และง่ายต่อการขยายระบบ (Microservices capable) เราจะแบ่ง AI Agents ออกเป็น 3 ตัวหลัก ที่สามารถทำงานแยกกันได้ (Separate FastAPI Services):
+
+1.  **Card Knowledge Agent** (รับผิดชอบ Reqs ข้อ 1, 2)
+    *   **หน้าที่:** ผู้เชี่ยวชาญด้านข้อมูลการ์ดและกติกา
+    *   **Core Capabilities:** RAG, Vector Search, Rule Interpretation
+    *   **Input:** คำถามเกี่ยวกับ Text, Effect, Q&A
+    
+2.  **Deck & Meta Agent** (รับผิดชอบ Reqs ข้อ 3)
+    *   **หน้าที่:** นักวิเคราะห์ข้อมูล Comunity และ Meta Game
+    *   **Core Capabilities:** Data Analytics, Statistics Query, Trend Analysis
+    *   **Input:** Deck Lists, Win Rate Query, "แก้ทาง Deck นี้ยังไง"
+
+3.  **Gameplay & Simulation Agent** (รับผิดชอบ Reqs ข้อ 4, 5)
+    *   **หน้าที่:** ผู้เล่นมือโปร (Pro Player AI)
+    *   **Core Capabilities:** Game State Management, Decision Making, Minimax/Search Algorithms
+    *   **Input:** Game State ปัจจุบัน, Action ที่ต้องการตัดสินใจ
+
+
 ### Non-Functional Requirements
 1.  **Modularity:** แยกส่วนประกอบชัดเจน (API, Agent, Engine, Data) เพื่อการดูแลรักษา
 2.  **Extensibility:** รองรับฟีเจอร์ AIOps (Evaluation, Tracing) ในอนาคต
@@ -158,7 +177,7 @@ graph TD
 *   [x] **API UX Improvements:**
     *   **Graceful Error Handling:** ปรับ API ให้คืนค่า `200 OK` พร้อมข้อความแจ้งเตือนจาก Guardrails แทนการโยน `HTTP 400 Error` เพื่อให้ Frontend แสดงผลเป็นข้อความแชทได้ทันที.
 
-### Phase 2.5: POC Agent Architecture & Real-time Streaming & UX (Better Experience)
+### Phase 2.5: POC Agent Architecture & Real-time Streaming & UX (Better Experience) (Optional)
 
 *Focus: ลดความรู้สึกรอนานของผู้ใช้ และแสดงกระบวนการคิดของ AI*
 *   [ ] **Agent Architecture Implementation & Selection:**
@@ -178,8 +197,6 @@ graph TD
 *   *Note: เริ่มเขียน Logic เกมจริงๆ ใน Phase นี้*
 *   [ ] ออกแบบ Class/Model (Game, Player, Card, Board).
 *   [ ] เขียน Game Loop (Draw, Don!!, Main, Attack, End).
-*   [ ] ฝัง Tracing ลงใน Game Loop เพื่อส่งข้อมูลเข้า Langfuse.
-*   [ ] ฝัง Guardrails ตรวจสอบ State ของเกมป้อนกัน Illegal Moves.
 
 ### Phase 4: Basic AI & Simulation (Validation)
 *Focus: เชื่อมต่อ AI ให้เล่นจนจบเกมได้*
