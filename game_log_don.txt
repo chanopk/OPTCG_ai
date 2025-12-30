@@ -1,0 +1,696 @@
+Loading Card Database...
+Database Loaded: 2131 cards.
+Loading Player 1 Deck: engine/data/deck/OP11_luffy.json
+Loading Player 2 Deck: engine/data/deck/OP14_mihawk.json
+Warning: Card ID OP14-023 not found in DB. Skipping.
+Warning: Card ID OP14-029 not found in DB. Skipping.
+Warning: Card ID OP14-119 not found in DB. Skipping.
+Warning: Card ID OP14-039 not found in DB. Skipping.
+--------------------------------------------------
+P1 Leader: Monkey.D.Luffy (040) (Alternate Art) (OP11-040)
+P2 Leader: Dracule Mihawk (Alternate Art) (OP14-020)
+Games: 1
+--------------------------------------------------
+
+=== Game 1/1 ===
+
+[Turn 0] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471405248
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 1] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471401968
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 2] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471393248
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 3] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471391568
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471404688
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Dracule Mihawk (Alternate Art)
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='p1_leader' target_instance_id='p2_leader' attached_don=0
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+
+[Turn 3] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471405008
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Dracule Mihawk (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 3] Active: p1 | Life:5 Hand:5 Field:0 vs Life:5 Hand:5 Field:0
+[Sim Debug] P2 Life Before Action: 5 | ID: 4471401568
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Dracule Mihawk (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Dracule Mihawk (Alternate Art)
+
+[Turn 3] Active: p1 | Life:5 Hand:5 Field:0 vs Life:4 Hand:6 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471390528
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 4] Active: p1 | Life:5 Hand:5 Field:0 vs Life:4 Hand:6 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471406128
+    [Turn Start] p2 gains 2 DON!! (Total: 2)
+Action: player_id='p1' action_type='END_PHASE'
+    [Turn Start] p2 gains 2 DON!! (Total: 2)
+
+[Turn 5] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:7 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471405728
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 6] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:7 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471393408
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 7] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:7 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471391248
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 8] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:7 Field:0
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471400608
+[Sim Debug] P2 Life Before Action: 4 | ID: 4470525936
+    [Play] Kid & Killer (Cost: 2)
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471391088
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 4 | ID: 4470525936
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='PLAY_CARD' card_hand_index=3 target_area='CHARACTER'
+    [Play] Kid & Killer (Cost: 2)
+
+[Turn 8] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471390368
+[Sim Debug] P2 Life Before Action: 4 | ID: 4470527456
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471401008
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 9] Active: p2 | Life:5 Hand:5 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471406288
+    [Turn Start] p1 gains 2 DON!! (Total: 2)
+Action: player_id='p2' action_type='END_PHASE'
+    [Turn Start] p1 gains 2 DON!! (Total: 2)
+
+[Turn 10] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471390368
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 11] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471393088
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 12] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471404048
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 13] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471406128
+[Sim Debug] P2 Life Before Action: 4 | ID: 4470525936
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Roronoa Zoro (Alternate Art)
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='p1_leader' target_instance_id='p2_leader' attached_don=0
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+
+[Turn 13] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471401008
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Roronoa Zoro (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 13] Active: p1 | Life:5 Hand:6 Field:0 vs Life:4 Hand:6 Field:1
+[Sim Debug] P2 Life Before Action: 4 | ID: 4471406208
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Roronoa Zoro (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Roronoa Zoro (Alternate Art)
+
+[Turn 13] Active: p1 | Life:5 Hand:6 Field:0 vs Life:3 Hand:7 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471404608
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 14] Active: p1 | Life:5 Hand:6 Field:0 vs Life:3 Hand:7 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471392768
+    [Turn Start] p2 gains 2 DON!! (Total: 4)
+Action: player_id='p1' action_type='END_PHASE'
+    [Turn Start] p2 gains 2 DON!! (Total: 4)
+
+[Turn 15] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:8 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471405488
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 16] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:8 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471390368
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 17] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:8 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471393088
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 18] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:8 Field:1
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471395008
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470536016
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471401968
+    [Play] Roronoa Zoro (Alternate Art) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470527936
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471390448
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470537696
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='PLAY_CARD' card_hand_index=6 target_area='CHARACTER'
+    [Play] Roronoa Zoro (Alternate Art) (Cost: 4)
+
+[Turn 18] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471404608
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470532336
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471405008
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470536416
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 19] Active: p2 | Life:5 Hand:6 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471404608
+    [Turn Start] p1 gains 2 DON!! (Total: 4)
+Action: player_id='p2' action_type='END_PHASE'
+    [Turn Start] p1 gains 2 DON!! (Total: 4)
+
+[Turn 20] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471406288
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 21] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471405968
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 22] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471405328
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 23] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471391488
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470523056
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471391168
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 3 | ID: 4470536016
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game (Alternate Art)
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='p1_leader' target_instance_id='p2_leader' attached_don=0
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+
+[Turn 23] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471401968
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 23] Active: p1 | Life:5 Hand:7 Field:0 vs Life:3 Hand:7 Field:2
+[Sim Debug] P2 Life Before Action: 3 | ID: 4471395008
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Demon Aura Nine Sword Style Asura Blades Drawn Dead Man's Game (Alternate Art)
+
+[Turn 23] Active: p1 | Life:5 Hand:7 Field:0 vs Life:2 Hand:8 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401568
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470523376
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471393088
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+Action: player_id='p1' action_type='PLAY_CARD' card_hand_index=1 target_area='CHARACTER'
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+
+[Turn 23] Active: p1 | Life:5 Hand:6 Field:1 vs Life:2 Hand:8 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471406208
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470526256
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 24] Active: p1 | Life:5 Hand:6 Field:1 vs Life:2 Hand:8 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471404608
+    [Turn Start] p2 gains 2 DON!! (Total: 6)
+Action: player_id='p1' action_type='END_PHASE'
+    [Turn Start] p2 gains 2 DON!! (Total: 6)
+
+[Turn 25] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:9 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471403408
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 26] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:9 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401248
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 27] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:9 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401568
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 28] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:9 Field:2
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471390448
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470534176
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471392528
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470531936
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471395488
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470534976
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471393168
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470526976
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471405248
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470523056
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='PLAY_CARD' card_hand_index=0 target_area='CHARACTER'
+    [Play] Trafalgar Law (Cost: 6)
+
+[Turn 28] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401968
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470538016
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471395488
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470537936
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401008
+    [Engine] OP13-031_6_2 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Monkey.D.Luffy (119) (Alternate Art)
+Action: player_id='p2' action_type='ATTACK' attacker_instance_id='OP13-031_6_2' target_instance_id='p1_leader' attached_don=0
+    [Engine] OP13-031_6_2 attacks p1_leader! (Battle Started)
+
+[Turn 28] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471401968
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Monkey.D.Luffy (119) (Alternate Art)
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+
+[Turn 28] Active: p2 | Life:5 Hand:6 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471404288
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Monkey.D.Luffy (119) (Alternate Art)
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Monkey.D.Luffy (119) (Alternate Art)
+
+[Turn 28] Active: p2 | Life:4 Hand:7 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471400368
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470523296
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471404608
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470522016
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 29] Active: p2 | Life:4 Hand:7 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471400368
+    [Turn Start] p1 gains 2 DON!! (Total: 6)
+Action: player_id='p2' action_type='END_PHASE'
+    [Turn Start] p1 gains 2 DON!! (Total: 6)
+
+[Turn 30] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471393088
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 31] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471406208
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 32] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471395008
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 33] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471404368
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470523376
+    [Play] Nami (054) (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471406528
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4470524656
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Perona (Alternate Art)
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471405328
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='p1_leader' target_instance_id='p2_leader' attached_don=0
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+
+[Turn 33] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471405328
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Perona (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 33] Active: p1 | Life:4 Hand:8 Field:1 vs Life:2 Hand:8 Field:3
+[Sim Debug] P2 Life Before Action: 2 | ID: 4471392528
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Perona (Alternate Art)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Perona (Alternate Art)
+
+[Turn 33] Active: p1 | Life:4 Hand:8 Field:1 vs Life:1 Hand:9 Field:3
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471395008
+[Sim Debug] P2 Life Before Action: 1 | ID: 4470535616
+    [Play] Nami (054) (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471404608
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 1 | ID: 4470538016
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p1' action_type='PLAY_CARD' card_hand_index=0 target_area='CHARACTER'
+    [Play] Nami (054) (Alternate Art) (Cost: 5)
+
+[Turn 33] Active: p1 | Life:4 Hand:7 Field:2 vs Life:1 Hand:9 Field:3
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471406048
+[Sim Debug] P2 Life Before Action: 1 | ID: 4470522816
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471404688
+    [Engine] OP11-054_7_1 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Jewelry Bonney (Reprint)
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='OP11-054_7_1' target_instance_id='p2_leader' attached_don=0
+    [Engine] OP11-054_7_1 attacks p2_leader! (Battle Started)
+
+[Turn 33] Active: p1 | Life:4 Hand:7 Field:2 vs Life:1 Hand:9 Field:3
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471406128
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Jewelry Bonney (Reprint)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 33] Active: p1 | Life:4 Hand:7 Field:2 vs Life:1 Hand:9 Field:3
+[Sim Debug] P2 Life Before Action: 1 | ID: 4471404368
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Jewelry Bonney (Reprint)
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] Hit Leader! Life -> Hand: Jewelry Bonney (Reprint)
+
+[Turn 33] Active: p1 | Life:4 Hand:7 Field:2 vs Life:0 Hand:10 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471400608
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470524656
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 34] Active: p1 | Life:4 Hand:7 Field:2 vs Life:0 Hand:10 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406048
+    [Turn Start] p2 gains 2 DON!! (Total: 8)
+Action: player_id='p1' action_type='END_PHASE'
+    [Turn Start] p2 gains 2 DON!! (Total: 8)
+
+[Turn 35] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471395008
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 36] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471393248
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 37] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406448
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 38] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471401008
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470536016
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471394848
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470531216
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471390928
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470523056
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471399888
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470525376
+    [Play] Jewelry Bonney (Reprint) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471395488
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470522096
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405008
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470535536
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471390928
+    [Engine] OP13-031_6_2 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Gum-Gum Giant
+Action: player_id='p2' action_type='ATTACK' attacker_instance_id='OP13-031_6_2' target_instance_id='p1_leader' attached_don=0
+    [Engine] OP13-031_6_2 attacks p1_leader! (Battle Started)
+
+[Turn 38] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404528
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Gum-Gum Giant
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+
+[Turn 38] Active: p2 | Life:4 Hand:7 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404608
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Gum-Gum Giant
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: Gum-Gum Giant
+
+[Turn 38] Active: p2 | Life:3 Hand:8 Field:2 vs Life:0 Hand:11 Field:3
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405568
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470537696
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471400608
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470525856
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404688
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470529936
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406128
+    [Play] Perona (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470536656
+    [Play] Jewelry Bonney (Reprint) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405328
+    [Play] Trafalgar Law (Cost: 6)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470531536
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404528
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470531216
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='PLAY_CARD' card_hand_index=0 target_area='CHARACTER'
+    [Play] Perona (Alternate Art) (Cost: 5)
+
+[Turn 38] Active: p2 | Life:3 Hand:8 Field:2 vs Life:0 Hand:10 Field:4
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471401968
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470526896
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405248
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470529776
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405488
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470532336
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471393168
+    [Engine] OP14-033_8_3 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: It's to Die For
+Action: player_id='p2' action_type='ATTACK' attacker_instance_id='OP14-033_8_3' target_instance_id='p1_leader' attached_don=0
+    [Engine] OP14-033_8_3 attacks p1_leader! (Battle Started)
+
+[Turn 38] Active: p2 | Life:3 Hand:8 Field:2 vs Life:0 Hand:10 Field:4
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471400608
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: It's to Die For
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+
+[Turn 38] Active: p2 | Life:3 Hand:8 Field:2 vs Life:0 Hand:10 Field:4
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405488
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: It's to Die For
+Action: player_id='p1' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 6000
+    [Battle] Hit Leader! Life -> Hand: It's to Die For
+
+[Turn 38] Active: p2 | Life:2 Hand:9 Field:2 vs Life:0 Hand:10 Field:4
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404048
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470530256
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471395008
+    [Play] Perona (Alternate Art) (Cost: 1)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470531936
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471400608
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470538176
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='PLAY_CARD' card_hand_index=3 target_area='CHARACTER'
+    [Play] Perona (Alternate Art) (Cost: 1)
+
+[Turn 38] Active: p2 | Life:2 Hand:9 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471404528
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470532736
+    [Engine] p2_leader attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 5000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405008
+    [Engine] ST24-002_2_0 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470525536
+    [Engine] PRB02-006_4_1 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 4000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406528
+    [Engine] OP12-034_8_4 attacks p1_leader! (Battle Started)
+    [Battle] Resolve: 2000 vs 6000
+    [Battle] Attack Failed (Not enough power)
+Action: player_id='p2' action_type='END_PHASE'
+
+[Turn 39] Active: p2 | Life:2 Hand:9 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405488
+    [Turn Start] p1 gains 2 DON!! (Total: 8)
+Action: player_id='p2' action_type='END_PHASE'
+    [Turn Start] p1 gains 2 DON!! (Total: 8)
+
+[Turn 40] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406128
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 41] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405568
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 42] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471390368
+Action: player_id='p1' action_type='END_PHASE'
+
+[Turn 43] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471395488
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470536016
+    [Play] Gol.D.Roger (Cost: 8)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471391168
+    [Play] Mr.2.Bon.Kurei (Bentham) (Reprint) (Cost: 4)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470532416
+    [Play] Nami (054) (Alternate Art) (Cost: 5)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471390448
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] WINNER: p1
+[Sim Debug] P2 Life Before Action: 0 | ID: 4470529376
+    [Engine] EB01-061_5_0 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 1000 vs 5000
+    [Battle] Attack Failed (Not enough power)
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471405728
+    [Engine] OP11-054_7_1 attacks p2_leader! (Battle Started)
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] WINNER: p1
+Action: player_id='p1' action_type='ATTACK' attacker_instance_id='p1_leader' target_instance_id='p2_leader' attached_don=0
+    [Engine] p1_leader attacks p2_leader! (Battle Started)
+
+[Turn 43] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471406528
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] WINNER: p1
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+
+[Turn 43] Active: p1 | Life:2 Hand:10 Field:2 vs Life:0 Hand:9 Field:5
+[Sim Debug] P2 Life Before Action: 0 | ID: 4471393168
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] WINNER: p1
+Action: player_id='p2' action_type='RESOLVE_BATTLE'
+    [Battle] Resolve: 6000 vs 5000
+    [Battle] WINNER: p1
+  Result: p1 Wins!
+
+==================================================
+FINAL RESULTS: 1 Games
+Player 1 (OP11_luffy.json): 1 Wins (100.0%)
+Player 2 (OP14_mihawk.json): 0 Wins (0.0%)
+==================================================

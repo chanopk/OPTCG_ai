@@ -1,0 +1,21 @@
+{
+  "name": "OP14 Dracule Mihawk",
+  "leader": "OP14-020",
+  "cards": [
+    { "id": "OP14-020", "quantity": 1 },
+    { "id": "OP12-034", "quantity": 4 },
+    { "id": "OP14-023", "quantity": 4 },
+    { "id": "ST24-002", "quantity": 4 },
+    { "id": "PRB02-006", "quantity": 4 },
+    { "id": "OP07-026", "quantity": 4 },
+    { "id": "OP14-029", "quantity": 4 },
+    { "id": "OP14-033", "quantity": 4 },
+    { "id": "OP13-031", "quantity": 4 },
+    { "id": "OP14-119", "quantity": 3 },
+    { "id": "ST24-004", "quantity": 4 },
+    { "id": "OP12-037", "quantity": 4 },
+    { "id": "OP13-040", "quantity": 3 },
+    { "id": "OP14-039", "quantity": 4 }
+  ],
+  "total_cards": 51
+}

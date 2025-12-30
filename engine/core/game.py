@@ -113,6 +113,23 @@ class Game:
             # Perform Refresh Phase Logic (Activate Don, Cards)
             self._perform_refresh_phase()
             
+            # Start of Turn: Draw and Don Phase
+            active_player = self.state.get_active_player()
+            # 1. Draw Phase
+            active_player.draw_card()
+            
+            # 2. Don Phase
+            # Add 2 Don per turn, max 10
+            # Simplify: Don is just an int for now, not physical cards
+            current_total = active_player.active_don + active_player.rested_don + active_player.attached_don
+            don_to_add = 2
+            if current_total + don_to_add > 10:
+                don_to_add = 10 - current_total
+            
+            if don_to_add > 0:
+                active_player.active_don += don_to_add
+                print(f"    [Turn Start] {active_player.id} gains {don_to_add} DON!! (Total: {current_total + don_to_add})")
+            
         return True
         
     def _handle_play_card(self, action: PlayCardAction) -> bool:
@@ -123,8 +140,19 @@ class Game:
         if action.card_hand_index >= len(player.hand):
             return False
             
-        # Logic: Move from Hand to Field (Simplified)
-        card = player.hand.pop(action.card_hand_index)
+        card = player.hand[action.card_hand_index] # Peek first
+        
+        # Check Cost
+        if player.active_don < card.cost:
+            print(f"    [Action Failed] Not enough DON!! ({player.active_don}/{card.cost})")
+            return False
+            
+        # Deduct Cost
+        player.active_don -= card.cost
+        player.rested_don += card.cost
+        
+        # Remove from Hand
+        player.hand.pop(action.card_hand_index)
         
         # Create Instance
         instance = CardInstance(
@@ -146,10 +174,13 @@ class Game:
                      print(f"    [Effect] Triggering ON_PLAY for {card.name}")
                      self.effect_manager.resolve_effect(effect, instance.instance_id)
 
+            print(f"    [Play] {card.name} (Cost: {card.cost})")
             return True
         except ValueError:
             # Field full
             player.hand.insert(action.card_hand_index, card) # Return to hand
+            player.active_don += card.cost # Refund cost
+            player.rested_don -= card.cost
             return False
 
     def _handle_attack(self, action: AttackAction) -> bool:
@@ -323,8 +354,9 @@ class Game:
         for char in player.field.character_area:
             char.is_rested = False
         
-        # Unrest Don (TODO)
-        pass
+        # Unrest Don
+        player.active_don += player.rested_don
+        player.rested_don = 0
 
     def get_valid_actions(self) -> List[GameAction]:
         """
@@ -385,11 +417,13 @@ class Game:
                 # Check target limits etc (Simplified)
                 if card.type == 'CHARACTER':
                     if len(player.field.character_area) < 5:
-                        actions.append(PlayCardAction(
-                            player_id=player.id, 
-                            action_type='PLAY_CARD', 
-                            card_hand_index=i
-                        ))
+                        # Check Cost
+                        if player.active_don >= card.cost:
+                            actions.append(PlayCardAction(
+                                player_id=player.id, 
+                                action_type='PLAY_CARD', 
+                                card_hand_index=i
+                            ))
             
             # 2. Attack (Simplified)
             # Can attack with Active Characters/Leader

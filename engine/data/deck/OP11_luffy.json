@@ -1,0 +1,79 @@
+{
+  "name": "OP11 Monkey D. Luffy (Spider)",
+  "leader": "OP11-040",
+  "cards": [
+    {
+      "id": "OP11-040",
+      "quantity": 1
+    },
+    {
+      "id": "OP13-043",
+      "quantity": 4
+    },
+    {
+      "id": "ST18-001",
+      "quantity": 4
+    },
+    {
+      "id": "OP05-067",
+      "quantity": 4
+    },
+    {
+      "id": "EB01-061",
+      "quantity": 4
+    },
+    {
+      "id": "OP06-047",
+      "quantity": 1
+    },
+    {
+      "id": "PRB02-008",
+      "quantity": 1
+    },
+    {
+      "id": "OP11-053",
+      "quantity": 1
+    },
+    {
+      "id": "OP11-054",
+      "quantity": 4
+    },
+    {
+      "id": "P-107",
+      "quantity": 4
+    },
+    {
+      "id": "OP01-070",
+      "quantity": 2
+    },
+    {
+      "id": "OP06-119",
+      "quantity": 4
+    },
+    {
+      "id": "OP09-119",
+      "quantity": 2
+    },
+    {
+      "id": "OP03-072",
+      "quantity": 1
+    },
+    {
+      "id": "OP09-078",
+      "quantity": 4
+    },
+    {
+      "id": "OP11-080",
+      "quantity": 4
+    },
+    {
+      "id": "OP08-076",
+      "quantity": 3
+    },
+    {
+      "id": "OP04-056",
+      "quantity": 3
+    }
+  ],
+  "total_cards": 51
+}

@@ -218,12 +218,37 @@ graph TD
 *   [x] สร้าง **Rule-Based Agent (SimpleRuleAgent)** เพื่อทดสอบความฉลาดเบื้องต้น (Heuristic: Play Max Cost, Attack Leader).
 *   [x] ตรวจสอบผลการเล่นผ่าน Simulation Script (`scripts/simulation_runner.py`).
 
-### Phase 5: Competitive AI (The Goal)
+### Phase 5: Competitive AI (The Goal) (Completed)
 *Focus: สร้าง AI ที่เล่นเพื่อชัยชนะ*
-*   [ ] พัฒนา Strategy Agent (Minimax/Search).
-*   [ ] วัดผล Win Rate (Evaluation).
+*   [x] **Strategy Agent (Chopper):** Implemented Greedy Algorithm with 1-turn Lookahead Simulation.
+    *   **Simulation Thinking:** AI clones the game state and "plays out" actions to see real outcomes (Life damage, Board control).
+    *   **Battle Simulation:** Solved "Horizon Effect" by fast-forwarding battles (assuming no counters) to value attacks correctly.
+*   [x] **Evaluator Brain:** Implemented Scoring Function:
+    *   **Win Condition:** Priority #1 (Score: Infinity).
+    *   **Life Lead:** Priority #2.
+    *   **Hand Advantage & Board Power:** Secondary heuristics.
+*   [x] **Validation:** Validated via `scripts/simulation_runner.py` - Strategy Agent consistently defeats Random Agent (Turn 1/2 KO observed).
+*   [x] **Critical Bug Fix:** Fixed shared state memory leak in Player model enabling independent simulations.
 
-### Phase 6: Meta Analysis (Optional)
+### Phase 6: Tournament Mode (Paused)
+*Focus: ระบบแข่งขันจริงและการจำลองแมตช์ (พักการพัฒนาชั่วคราว)*
+
+**Status:** Functional but incomplete data/logic coverage.
+
+**Accomplished:**
+*   [x] **Tournament Runner:** `scripts/tournament_runner.py` capable of running N games between two deck JSONs.
+*   [x] **Deck Loader:** Utility to load decks from JSON and instantiate Card objects.
+*   [x] **DON!! System:** Implemented Turn-based Don accumulation (+2/turn), Cost checks, and Active/Rested state.
+*   [x] **Game Loop:** Full turn structure (Draw -> Main -> Attack/Play -> End) working for basic interactions.
+*   [x] **Strategy Agent:** Can make heuristic-based decisions (Win > Life > Board).
+
+**Pending / Known Limitations:**
+1.  **Complex Effects:** The current regex parser handles basic effects (Draw, KO) well, but complex conditional triggers (e.g., "If you have 3 characters, do X") are not fully implemented.
+2.  **Missing Card Data:** Database lacks full coverage for sets OP11-OP14, requiring manual entry (`cards_manual.json`) or mocks.
+3.  **Battle Steps:** Counter step logic is simplified; specific Counter Event cards are not yet fully playable.
+4.  **UI/Visualization:** No visual representation, only text logs (`parse_game_log.py`).
+
+### Phase 7: Meta Analysis (Optional/Future)
 *Focus: วิเคราะห์สถิติ*
 *   [ ] ระบบแนะนำ Deck.
 

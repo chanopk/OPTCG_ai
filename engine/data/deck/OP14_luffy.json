@@ -1,0 +1,22 @@
+{
+  "name": "ST29 Monkey D. Luffy",
+  "leader": "ST29-001",
+  "cards": [
+    { "id": "ST29-001", "quantity": 1 },
+    { "id": "OP07-099", "quantity": 4 },
+    { "id": "OP13-113", "quantity": 4 },
+    { "id": "ST29-009", "quantity": 4 },
+    { "id": "ST29-004", "quantity": 4 },
+    { "id": "OP06-104", "quantity": 4 },
+    { "id": "EB03-053", "quantity": 4 },
+    { "id": "ST29-005", "quantity": 4 },
+    { "id": "EB03-059", "quantity": 4 },
+    { "id": "OP12-119", "quantity": 4 },
+    { "id": "EB03-055", "quantity": 4 },
+    { "id": "OP10-112", "quantity": 2 },
+    { "id": "OP13-108", "quantity": 4 },
+    { "id": "OP07-116", "quantity": 2 },
+    { "id": "ST29-016", "quantity": 2 }
+  ],
+  "total_cards": 51
+}

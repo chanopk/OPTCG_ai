@@ -10,6 +10,7 @@ from engine.models.card import Card, CardInstance
 from engine.core.game import Game
 from agents.gameplay.random_agent import RandomAgent
 from agents.gameplay.rule_based_agent import SimpleRuleAgent
+from agents.gameplay.strategy_agent import StrategyAgent
 
 from engine.models.effect import Effect, EffectType
 
@@ -51,14 +52,16 @@ def create_dummy_leader(id: str, name: str) -> CardInstance:
     )
 
 def run_simulation(max_turns=20):
-    print("=== OPTCG Agent Simulation (Random vs RuleBased) ===\n")
+    print("=== OPTCG Agent Simulation (Strategy vs Random) ===\n")
     
     # 1. Setup Agents & Players
-    agent1 = RandomAgent(id="p1", name="Bot Luffy (Random)")
-    agent2 = SimpleRuleAgent(id="p2", name="Bot Kaido (RuleBased)")
+    # P1 = Strategy (Smart)
+    agent1 = StrategyAgent(id="p1", name="Bot Chopper (Strategy)")
+    # P2 = Random (Dummy)
+    agent2 = RandomAgent(id="p2", name="Bot Luffy (Random)")
     
-    p1 = Player(id="p1", name="Bot Luffy (Random)", deck=create_dummy_deck())
-    p2 = Player(id="p2", name="Bot Kaido (RuleBased)", deck=create_dummy_deck())
+    p1 = Player(id="p1", name="Bot Chopper (Strategy)", deck=create_dummy_deck())
+    p2 = Player(id="p2", name="Bot Luffy (Random)", deck=create_dummy_deck())
     
     # Assign Leaders
     p1.leader = create_dummy_leader("leader_luffy", "Monkey D. Luffy")

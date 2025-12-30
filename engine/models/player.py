@@ -11,9 +11,10 @@ class Player(BaseModel):
     name: str
     
     # Resources
-    life: List[Card] = Field(default_factory=list) # Life cards are taken from deck
+    # Note: explicit Field(default_factory=list) is required to avoid shared mutable defaults
+    life: List[Card] = Field(default_factory=list) 
     hand: List[Card] = Field(default_factory=list)
-    deck: List[Card] = Field(default_factory=list) # Top is index 0
+    deck: List[Card] = Field(default_factory=list) 
     trash: List[Card] = Field(default_factory=list)
     
     # Field State
