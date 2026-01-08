@@ -2,6 +2,12 @@
   "category_id": 68,
   "groups": [
     {
+      "groupId": 24575,
+      "name": "Starter Deck 29: Egghead",
+      "loaded": false,
+      "card_count": 0
+    },
+    {
       "groupId": 24545,
       "name": "Extra Booster: One Piece Heroines Edition",
       "loaded": true,

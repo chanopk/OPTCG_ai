@@ -4,10 +4,13 @@ import os
 import re
 
 # Define input and output directories
-# Adjusted paths since we are now in data/clean_data.py (or running from root)
+# Adjusted to use relative paths for cross-platform compatibility
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../"))
+
 # If running from root: data/raw_json
-INPUT_DIR = r"d:\ai project\OPTCG_ai\data\raw_json"
-OUTPUT_DIR = r"d:\ai project\OPTCG_ai\data\clean_json"
+INPUT_DIR = os.path.join(PROJECT_ROOT, "data", "raw_json")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "data", "clean_json")
 
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)

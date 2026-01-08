@@ -108,13 +108,18 @@ def main():
             with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(cards, f, indent=2, ensure_ascii=False)
             
-            # Update Config loaded status
-            group["loaded"] = True
-            group["card_count"] = len(cards)
-            updated_any = True
-            
-            # Save config incrementally (safer than waiting for end)
-            save_config(config) 
+            # Update Config loaded status ONLY if we found cards
+            if len(cards) > 0:
+                group["loaded"] = True
+                group["card_count"] = len(cards)
+                updated_any = True
+                
+                # Save config incrementally
+                save_config(config)
+            else:
+                print(f"[{gid}] Warning: 0 cards found (likely only sealed product). Keeping loaded=False for retry.")
+                # We do NOT set loaded=True, so it will be checked again next time.
+ 
 
             # Delay
             sleep_time = DELAY_SECONDS + random.uniform(-5, 5)

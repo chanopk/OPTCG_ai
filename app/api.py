@@ -42,7 +42,7 @@ async def chat(request: ChatRequest):
         # Using stream or invoke. Invoke is simpler for single response.
         result = await graph.ainvoke(
             inputs,
-            config={"callbacks": callbacks}
+            config={"callbacks": callbacks, "recursion_limit": 5}
         )
         
         execution_time = time.time() - start_time
