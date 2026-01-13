@@ -21,26 +21,26 @@ load_dotenv()
 # --- 1. State Definition ---
 class PlanExecuteState(TypedDict):
     input: str
-    plan: List[tuple[str, str]] # List of (tool_name, query)
+    plan: List[tuple[str, str, int]] # List of (tool_name, query, k)
     results: List[str]          # Execution results
     response: str               # Final answer
     token_usage: dict           # Token usage stats: {"total_tokens": 0, "planner_tokens": 0, "solver_tokens": 0}
-
 # --- 2. Tool Definitions (Simulated for Executor) ---
 # We reuse the logic from knowledge_agent but call service directly in Executor
 service = HybridSearchService()
 
-def run_search_card(query: str):
-    return service.retrieve_card_data(query)
+def run_search_card(query: str, k: int = 3):
+    return service.retrieve_card_data(query, k=k)
 
-def run_search_rules(query: str):
-    return service.retrieve_rules(query)
+def run_search_rules(query: str, k: int = 3):
+    return service.retrieve_rules(query, k=k)
 
 # --- 3. Planner Node ---
 # Output Structure for Planner
 class Step(BaseModel):
-    tool: Literal["search_card", "search_rules"] = Field(description="The tool to use: 'search_card' for card info, 'search_rules' for game rules.")
-    query: str = Field(description="The search query for the tool.")
+    tool: Literal["search_card", "search_rules", "ask_user"] = Field(description="The tool to use. Use 'ask_user' if clarification is needed.")
+    query: str = Field(description="The search query or the question to ask the user.")
+    k: int = Field(default=3, description="Number of results to retrieve. Default is 3. Use 1 for specific queries (e.g. ID, Full Name + Set), 3 for moderate specificity.")
 
 class Plan(BaseModel):
     steps: List[Step] = Field(description="List of steps to execute.")
@@ -62,15 +62,17 @@ def planner(state: PlanExecuteState):
     
     Available Tools:
     1. search_card: Use this to find Card Effects, Power, Type, Color, Traits availability.
-    2. search_rules: Use this to find Game Rules, Phase info, Keyword definitions (e.g., "Double Attack", "Blocker").
+    2. search_rules: Use this to find Game Rules, Phase info, Keyword definitions.
+    3. ask_user: Use this ONLY if the user's query is TOO BROAD or VAGUE (e.g. just "Luffy", "Kaido"). Do not guess. Ask for clarification.
     
-    Rules:
-    - **Ambiguity Handling**: If the user provides a name that could be a Leader or a Character (e.g., "Luffy", "Yamato") and DOES NOT specify the type:
-      - Generate a BROAD query to catch all variations (e.g., "Monkey D. Luffy").
-      - DO NOT guess or limit to just "Leader" or "Character" unless explicitly asked.
-    - If the user asks about a card's interaction with a rule, create TWO steps: one for the card, one for the rule.
-    - If the user asks to compare two cards, create TWO steps: one for each card.
-    - Generate specific, concise queries.
+    Efficiency Rules (Token Saving):
+    - **Very Specific Query** (Contains Card ID e.g., "ST01-001" OR Specific Role e.g. "Leader Luffy ST01"): Set `k=1`.
+    - **Specific Query** (Contains Name + Set/Type e.g., "Luffy ST01", "Katukuri Leader"): Set `k=3`.
+    - **Broad Query** (Name only, e.g. "Nami"): Use `ask_user` to ask for more details. DO NOT SEARCH.
+    
+    General Rules:
+    - If the user asks about a card's interaction with a rule, create steps for both.
+    - If the user asks to compare two cards, create steps for each.
     """
     
     output = planner_llm.invoke([
@@ -90,7 +92,8 @@ def planner(state: PlanExecuteState):
     
     
     # Convert Pydantic to simple list of tuples for state
-    plan_data = [(step.tool, step.query) for step in plan.steps]
+    # Added 'k' to the tuple structure for Executor
+    plan_data = [(step.tool, step.query, step.k) for step in plan.steps]
     print(f"Plan Generated: {plan_data}")
     
     return {"plan": plan_data, "token_usage": usage}
@@ -101,14 +104,24 @@ def executor(state: PlanExecuteState):
     plan = state["plan"]
     results = []
     
-    for tool_name, query in plan:
-        print(f"Executing: {tool_name}('{query}')")
+    for item in plan:
+        # Unpack based on length to support old format if needed, though we updated planner
+        if len(item) == 3:
+            tool_name, query, k = item
+        else:
+            tool_name, query = item
+            k = 3 # Default fallback
+
+        print(f"Executing: {tool_name}('{query}', k={k})")
+        
         if tool_name == "search_card":
-            res = run_search_card(query)
+            res = run_search_card(query, k=k)
             results.append(f"[Result from search_card('{query}')]:\n{res}")
         elif tool_name == "search_rules":
-            res = run_search_rules(query)
+            res = run_search_rules(query, k=k)
             results.append(f"[Result from search_rules('{query}')]:\n{res}")
+        elif tool_name == "ask_user":
+            results.append(f"[CLARIFICATION NEEDED]: {query}")
         else:
             results.append(f"Error: Unknown tool {tool_name}")
             
