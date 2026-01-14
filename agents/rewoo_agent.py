@@ -8,6 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 from pydantic import BaseModel, Field
 from langgraph.graph import StateGraph, START, END
@@ -50,7 +51,18 @@ def planner(state: PlanExecuteState):
     question = state["input"]
     
     # Initialize LLM
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
+
+    # Initialize LLM based on Provider
+    provider = os.getenv("AI_PROVIDER", "google_genai").lower()
+    if provider == "openrouter":
+         llm = ChatOpenAI(
+            api_key=os.getenv("OPENROUTER_API_KEY"),
+            base_url="https://openrouter.ai/api/v1",
+            model=os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini"),
+            temperature=0
+        )
+    else:
+        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
     
     # Force structured output
     # include_raw=True to capture token usage
@@ -73,6 +85,24 @@ def planner(state: PlanExecuteState):
     General Rules:
     - If the user asks about a card's interaction with a rule, create steps for both.
     - If the user asks to compare two cards, create steps for each.
+    
+    IMPORTANT: You must return the output STRICTLY as a JSON object matching the Plan schema. Do not output markdown code blocks or any other text.
+    
+    Response Format Example:
+    {
+      "steps": [
+        {
+          "tool": "search_card",
+          "query": "Luffy Leader ST01",
+          "k": 1
+        },
+        {
+          "tool": "ask_user",
+          "query": "Which version of Nami do you mean?",
+          "k": 3
+        }
+      ]
+    }
     """
     
     output = planner_llm.invoke([
@@ -137,7 +167,18 @@ def solver(state: PlanExecuteState):
     # Join results into a context block
     context = "\n\n".join(results)
     
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
+
+    # Initialize LLM based on Provider
+    provider = os.getenv("AI_PROVIDER", "google_genai").lower()
+    if provider == "openrouter":
+         llm = ChatOpenAI(
+            api_key=os.getenv("OPENROUTER_API_KEY"),
+            base_url="https://openrouter.ai/api/v1",
+            model=os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini"),
+            temperature=0
+        )
+    else:
+        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
     
     system_prompt = """
     You are a helpful assistant for the One Piece Card Game.

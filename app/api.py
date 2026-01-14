@@ -9,7 +9,8 @@ from app.schemas import ChatRequest, ChatResponse, ChatMetadata
 # Import the graph from the agents module
 # Check relative path: app/api.py -> agents/knowledge_agent.py
 # We can use absolute imports since project root is in path or installed package
-from agents.knowledge_agent import graph
+# from agents.knowledge_agent import graph
+from agents.rewoo_agent import graph
 # from app.services.guardrails import guardrails_service
 
 app = FastAPI(title="OPTCG AI Service")
@@ -20,7 +21,7 @@ async def chat(request: ChatRequest):
     Chat with the OPTCG Knowledge Agent.
     """
     try:
-        inputs = {"messages": [HumanMessage(content=request.query)]}
+        inputs = {"input": request.query}
         
         # Helper to check boolean env vars
         def is_enabled(key: str, default: bool = True) -> bool:
@@ -47,44 +48,35 @@ async def chat(request: ChatRequest):
         
         execution_time = time.time() - start_time
         
-        # Extract the last message content
-        messages = result["messages"]
-        last_message = messages[-1]
+        # Extract response matching ReWOO state
+        response_text = result.get("response", "No response generated.")
         
         # Construct Metadata
-        # langfuse_handler.flush() # Not always needed if background thread is used
-        
         trace_id = None
-        # Try to safely get trace id if available
         if langfuse_handler:
             if hasattr(langfuse_handler, "trace") and langfuse_handler.trace:
                 trace_id = langfuse_handler.trace.id
             elif hasattr(langfuse_handler, "get_trace_id"):
-                 # Some versions might have this
                  try:
                     trace_id = langfuse_handler.get_trace_id()
                  except:
                     pass
         
-        
-        # Extract Token Usage
-        total_tokens = None
-        if hasattr(last_message, "usage_metadata") and last_message.usage_metadata:
-             total_tokens = last_message.usage_metadata.get("total_tokens")
-        elif hasattr(last_message, "response_metadata") and last_message.response_metadata:
-             # Fallback
-             usage = last_message.response_metadata.get("usage_metadata") or last_message.response_metadata.get("token_usage")
-             if usage:
-                 total_tokens = usage.get("total_tokens")
+        # Extract Token Usage from ReWOO state
+        total_tokens = result.get("token_usage", {}).get("total_tokens")
+
+        # Extract Steps from ReWOO state (plan)
+        steps = result.get("plan")
 
         metadata = ChatMetadata(
             trace_id=trace_id,
             total_tokens=total_tokens,
             execution_time=execution_time,
+            steps=steps
         )
         
         return ChatResponse(
-            response=last_message.content,
+            response=response_text,
             metadata=metadata
         )
     except ValueError as ve:
