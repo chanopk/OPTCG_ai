@@ -8,6 +8,7 @@ from typing import Annotated, TypedDict
 
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import ChatOpenAI
 from langgraph.graph import END, StateGraph, START
 from langgraph.graph.message import add_messages
 from langchain_core.tools import tool
@@ -55,9 +56,29 @@ You are a helpful assistant for the One Piece Card Game.
 """
 
 def agent(state: AgentState):
-    # Google Gemini Configuration
-    # change model when limit token is too high
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
+    # LLM Configuration based on AI_PROVIDER
+    provider = os.getenv("AI_PROVIDER", "google_genai").lower()
+    
+    if provider == "openrouter":
+        api_key = os.getenv("OPENROUTER_API_KEY")
+        model = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini")
+        
+        # OpenRouter uses OpenAI-compatible API
+        llm = ChatOpenAI(
+            api_key=api_key,
+            base_url="https://openrouter.ai/api/v1",
+            model=model,
+            temperature=0
+        )
+    elif provider == "ollama":
+        # Fallback/Future support for Ollama if needed, currently reusing logic or importing ChatOllama
+        from langchain_ollama import ChatOllama
+        model = os.getenv("OLLAMA_MODEL", "llama3")
+        base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+        llm = ChatOllama(model=model, base_url=base_url, temperature=0)
+    else:
+        # Default to Google Gemini
+        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
 
     llm_with_tools = llm.bind_tools(tools)
     
@@ -87,7 +108,7 @@ async def run_agent(query: str):
     """
     print(f"User: {query}")
     inputs = {"messages": [HumanMessage(content=query)]}
-    async for chunk in graph.astream(inputs, stream_mode="values", config={"recursion_limit": 5}):
+    async for chunk in graph.astream(inputs, stream_mode="values", config={"recursion_limit": 20}):
         message = chunk["messages"][-1]
         if message.content:
             print(f"Agent: {message.content}")

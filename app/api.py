@@ -42,7 +42,7 @@ async def chat(request: ChatRequest):
         # Using stream or invoke. Invoke is simpler for single response.
         result = await graph.ainvoke(
             inputs,
-            config={"callbacks": callbacks, "recursion_limit": 5}
+            config={"callbacks": callbacks, "recursion_limit": 20}
         )
         
         execution_time = time.time() - start_time
@@ -66,8 +66,20 @@ async def chat(request: ChatRequest):
                  except:
                     pass
         
+        
+        # Extract Token Usage
+        total_tokens = None
+        if hasattr(last_message, "usage_metadata") and last_message.usage_metadata:
+             total_tokens = last_message.usage_metadata.get("total_tokens")
+        elif hasattr(last_message, "response_metadata") and last_message.response_metadata:
+             # Fallback
+             usage = last_message.response_metadata.get("usage_metadata") or last_message.response_metadata.get("token_usage")
+             if usage:
+                 total_tokens = usage.get("total_tokens")
+
         metadata = ChatMetadata(
             trace_id=trace_id,
+            total_tokens=total_tokens,
             execution_time=execution_time,
         )
         
