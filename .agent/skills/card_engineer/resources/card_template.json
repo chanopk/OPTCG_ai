@@ -1,0 +1,13 @@
+[
+  {
+    "id": "OPXX-XXX",
+    "name": "Card Name",
+    "type": "Character",
+    "color": "Red",
+    "cost": 0,
+    "power": 0,
+    "counter": 0,
+    "attribute": "Strike",
+    "effect": "[On Play] Effect text here."
+  }
+]
